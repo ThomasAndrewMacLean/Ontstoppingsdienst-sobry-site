@@ -30,6 +30,7 @@
     color: var(--white-text);
     padding: 10px 15px;
     cursor: pointer;
+    border-radius: var(--border-radius);
   }
 </style>
 

@@ -14,6 +14,11 @@ body {
     --dark-text: #374b5d;
     --white-text: #ffffff;
     --light-text: #e9eaec;
+
+    --accent-primary: #e43630;
+    --accent-secondary: #344d9c;
+
+    --border-radius: 5px;
 }
 
 h1,

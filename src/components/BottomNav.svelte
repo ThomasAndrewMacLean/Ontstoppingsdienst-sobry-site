@@ -44,8 +44,8 @@
   </nav>
   <div class="contact">
     <ul>
-      <li>{labels.telefoonnummer}: 0497/28.65.11</li>
-      <li>{labels.email}: thomas.maclean@gmail.com</li>
+      <li>{labels.telefoonnummerlabel}: {labels.telefoonnummer}</li>
+      <li>{labels.emaillabel}: {labels.email}</li>
     </ul>
   </div>
 </div>
