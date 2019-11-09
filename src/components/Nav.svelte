@@ -27,7 +27,10 @@
 <nav>
   <ul>
     <li>
-      <NavItem name="test" link={labels.ontstoppen} icon="ONTSTOPPEN.png" />
+      <NavItem
+        name={labels.ontstoppen}
+        link={labels.ontstoppen}
+        icon="ONTSTOPPEN.png" />
     </li>
     <li>
       <NavItem
