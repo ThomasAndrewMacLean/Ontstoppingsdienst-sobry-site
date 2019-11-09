@@ -31,6 +31,7 @@
         name={labels.ontstoppen}
         link={labels.ontstoppen}
         icon="ONTSTOPPEN.png" />
+
     </li>
     <li>
       <NavItem

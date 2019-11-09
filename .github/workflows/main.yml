@@ -15,4 +15,4 @@ jobs:
                   BRANCH: gh-pages # The branch the action should deploy to.
                   FOLDER: __sapper__/export # The folder the action should deploy.
                   BUILD_SCRIPT: npm install && npm run export # The build script the action should run prior to deploying.
-                  CNAME: ontstoppingsdienst-sobry.be
+                  CNAME: ontstoppingsdienst-sobry.be #CNAME
