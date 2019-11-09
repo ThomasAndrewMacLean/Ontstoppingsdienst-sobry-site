@@ -4,14 +4,14 @@ node_js:
 before_script:
     - npm install
 script:
-    - npm run build
+    - npm run export
 deploy:
     provider: pages
-    local_dir: dist
+    local_dir: __sapper__/export
     skip-cleanup: true
     repo: ThomasAndrewMacLean/Ontstoppingsdienst-sobry-site
     github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
     target_branch: gh-pages
-    fqdn: rekensommen.xyz
+    fqdn: ontstoppingsdienst-sobry.be
 on:
     branch: master
