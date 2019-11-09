@@ -30,37 +30,37 @@
       <NavItem
         name={labels.ontstoppen}
         link={labels.ontstoppen}
-        icon="./ONTSTOPPEN.png" />
+        icon="ONTSTOPPEN.png" />
     </li>
     <li>
       <NavItem
         name={labels.ontkalken}
         link={labels.ontkalken}
-        icon="./ONTKALKEN.png" />
+        icon="ONTKALKEN.png" />
     </li>
     <li>
       <NavItem
         name={labels.cameradetectie}
         link={labels.cameradetectie}
-        icon="./CAMERA.png" />
+        icon="CAMERA.png" />
     </li>
     <li>
       <NavItem
         name={labels.geurdetectie}
         link={labels.geurdetectie}
-        icon="./GEUR.png" />
+        icon="GEUR.png" />
     </li>
     <li>
       <NavItem
         name={labels.adviesaankoopwoning}
         link={labels.adviesaankoopwoning}
-        icon="./HUIZEN.png" />
+        icon="HUIZEN.png" />
     </li>
     <li>
       <NavItem
         name={labels.herstellingen}
         link={labels.herstellingen}
-        icon="./HERSTELLINGEN.png" />
+        icon="HERSTELLINGEN.png" />
     </li>
   </ul>
 </nav>
