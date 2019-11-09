@@ -32,6 +32,9 @@
     cursor: pointer;
     border-radius: var(--border-radius);
   }
+  h2 {
+    margin: 0;
+  }
 </style>
 
 <div class="dienst-blok">

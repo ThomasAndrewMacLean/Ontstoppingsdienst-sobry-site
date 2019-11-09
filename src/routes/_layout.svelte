@@ -9,14 +9,14 @@
   main {
     position: relative;
     max-width: 56em;
-    background-color: var(--white-background );
+    background-color: var(--white-background);
     padding: 0 2em;
     margin: 0 auto;
     box-sizing: border-box;
   }
 </style>
 
-<Nav {segment} />
+<Nav {segment} {labels} />
 
 <main>
   <slot />

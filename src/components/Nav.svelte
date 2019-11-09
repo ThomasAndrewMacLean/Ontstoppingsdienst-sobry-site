@@ -1,70 +1,66 @@
 <script>
+  import NavItem from "./NavItem.svelte";
   export let segment;
+  export let labels;
 </script>
 
 <style>
   nav {
-    font-weight: 300;
-    padding: 0 1em;
+    padding: 0;
   }
 
   ul {
     margin: 0;
     padding: 0;
-  }
-
-  /* clearfix */
-  ul::after {
-    content: "";
-    display: block;
-    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    height: 55px;
+    align-items: center;
   }
 
   li {
     display: block;
     float: left;
   }
-
-  .selected {
-    position: relative;
-    display: inline-block;
-  }
-
-  .selected::after {
-    position: absolute;
-    content: "";
-    width: calc(100% - 1em);
-    height: 4px;
-    background-color: var(--accent-primary);
-    display: block;
-    bottom: -1px;
-  }
-
-  a {
-    text-decoration: none;
-    padding: 1em 0.5em;
-    display: block;
-  }
 </style>
 
 <nav>
   <ul>
     <li>
-      <a class={segment === undefined ? 'selected' : ''} href=".">home</a>
+      <NavItem
+        name={labels.ontstoppen}
+        link={labels.ontstoppen}
+        icon="ONTSTOPPEN.png" />
     </li>
     <li>
-      <a class={segment === 'about' ? 'selected' : ''} href="about">about</a>
+      <NavItem
+        name={labels.ontkalken}
+        link={labels.ontkalken}
+        icon="ONTKALKEN.png" />
     </li>
-
-    <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
     <li>
-      <a
-        rel="prefetch"
-        class={segment === 'blog' ? 'selected' : ''}
-        href="blog">
-        blog
-      </a>
+      <NavItem
+        name={labels.cameradetectie}
+        link={labels.cameradetectie}
+        icon="CAMERA.png" />
+    </li>
+    <li>
+      <NavItem
+        name={labels.geurdetectie}
+        link={labels.geurdetectie}
+        icon="GEUR.png" />
+    </li>
+    <li>
+      <NavItem
+        name={labels.adviesaankoopwoning}
+        link={labels.adviesaankoopwoning}
+        icon="HUIZEN.png" />
+    </li>
+    <li>
+      <NavItem
+        name={labels.herstellingen}
+        link={labels.herstellingen}
+        icon="HERSTELLINGEN.png" />
     </li>
   </ul>
 </nav>
