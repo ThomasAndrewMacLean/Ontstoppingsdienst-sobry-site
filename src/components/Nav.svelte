@@ -14,13 +14,19 @@
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     height: 55px;
     align-items: center;
   }
 
-  li {
-    display: block;
-    float: left;
+  @media (max-width: 56em) {
+    ul {
+      height: 100px;
+    }
+    li {
+      width: 33%;
+      margin-right: -40px;
+    }
   }
 </style>
 
