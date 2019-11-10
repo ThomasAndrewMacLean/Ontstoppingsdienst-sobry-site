@@ -5,7 +5,7 @@
   export let labels;
 
   onMount(() => {
-    const obsOptions = { rootMargin: "-100px 0px 0px 0px" };
+    const obsOptions = { rootMargin: "-200px 0px 0px 0px" };
 
     const afspraakObserver = new IntersectionObserver(function(
       entries,
@@ -73,9 +73,9 @@
     flex-direction: column;
     /* width: 40vw; */
   }
-  .right {
-    width: 60vw;
-  }
+  /* .right {
+     width: 60vw; 
+  } */
 
   .afspraakOnder {
     background: var(--accent-secondary);
