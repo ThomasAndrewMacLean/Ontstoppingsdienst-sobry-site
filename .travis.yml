@@ -6,12 +6,18 @@ before_script:
 script:
     - npm run export
 deploy:
-    provider: pages
-    local_dir: __sapper__/export
-    skip-cleanup: true
-    repo: ThomasAndrewMacLean/Ontstoppingsdienst-sobry-site
-    github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
-    target_branch: gh-pages
-    fqdn: ontstoppingsdienst-sobry.be
-on:
-    branch: master
+    - provider: pages
+      local_dir: __sapper__/export
+      skip-cleanup: true
+      repo: ThomasAndrewMacLean/Ontstoppingsdienst-sobry-site
+      github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
+      target_branch: gh-pages
+      fqdn: ontstoppingsdienst-sobry.be
+      on:
+          branch: master
+    - provider: surge
+      project: './__sapper__/export/'
+      domain: https://ontstoppingsdienst-sobry.surge.sh
+      skip_cleanup: true
+      on:
+          branch: develop
