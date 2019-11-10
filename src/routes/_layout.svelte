@@ -16,9 +16,9 @@
   }
 </style>
 
-<Nav {segment} {labels} />
+<!-- <Nav {segment} {labels} /> -->
 
 <main>
   <slot />
 </main>
-<BottomNav {labels} {segment} />
+<!-- <BottomNav {labels} {segment} /> -->
