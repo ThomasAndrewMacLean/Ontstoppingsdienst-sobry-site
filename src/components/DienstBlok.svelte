@@ -39,7 +39,7 @@
 
 <div class="dienst-blok">
 
-  <img alt={title} src={image} />
+  <img alt={title} src={image} height="200px" width="300px" />
   <div class="text-blok">
     <h2>{title}</h2>
     <p>{text}</p>

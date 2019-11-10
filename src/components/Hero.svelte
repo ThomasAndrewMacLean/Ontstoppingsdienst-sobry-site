@@ -1,5 +1,28 @@
 <script>
+  import { onMount } from "svelte";
+  let afspraakHero;
+  let afspraakOnder;
   export let labels;
+
+  onMount(() => {
+    const obsOptions = {};
+
+    const afspraakObserver = new IntersectionObserver(function(
+      entries,
+      afspraakObserver
+    ) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+          afspraakOnder.style.bottom = "50px";
+        } else {
+          afspraakOnder.style.bottom = "-100px";
+        }
+      });
+    },
+    obsOptions);
+
+    afspraakObserver.observe(afspraakHero);
+  });
 </script>
 
 <style>
@@ -53,16 +76,28 @@
   .right {
     width: 60vw;
   }
+
+  .afspraakOnder {
+    position: fixed;
+    bottom: -100px;
+    right: 50px;
+    transition: bottom 200ms ease-in;
+  }
 </style>
 
 <div id="hero">
   <div class="center">
     <div class="left">
       <img class="logo" src="logo.png" alt="logo Sobry ontstoppingsdienst" />
-      <div class="afspraak">
+      <div class="afspraak" bind:this={afspraakHero}>
         <span>{labels.afspraak}</span>
         <span>{labels.telefoonnummer}</span>
       </div>
+      <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
+        <span>{labels.afspraak}</span>
+        <span>{labels.telefoonnummer}</span>
+      </div>
+
     </div>
     <div class="right">
       <img src="house.png" alt="image of a houseand a plumber" />
