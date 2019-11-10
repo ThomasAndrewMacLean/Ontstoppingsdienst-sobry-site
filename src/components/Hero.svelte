@@ -5,7 +5,7 @@
   export let labels;
 
   onMount(() => {
-    const obsOptions = {};
+    const obsOptions = { rootMargin: "-100px 0px 0px 0px" };
 
     const afspraakObserver = new IntersectionObserver(function(
       entries,
@@ -78,6 +78,7 @@
   }
 
   .afspraakOnder {
+    background: var(--accent-secondary);
     position: fixed;
     bottom: -100px;
     right: 50px;
