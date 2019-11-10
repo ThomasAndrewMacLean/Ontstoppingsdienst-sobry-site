@@ -16,7 +16,7 @@
 </style>
 
 <svelte:head>
-  <title>Ontstoppingsdienst Sobry</title>
+  <title>Ontstoppingsdienst Sobry.</title>
 </svelte:head>
 <main>
   <img src="logo.png" alt="logo ontstoppingsdienst sobry" />
