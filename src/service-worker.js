@@ -6,7 +6,7 @@ const ASSETS = `cache${timestamp}`;
 // `files` is an array of everything in the `static` directory
 const to_cache = shell.concat(files);
 const cached = new Set(to_cache);
-self.skipWaiting();
+//self.skipWaiting();
 self.addEventListener('install', event => {
     event.waitUntil(
         caches
