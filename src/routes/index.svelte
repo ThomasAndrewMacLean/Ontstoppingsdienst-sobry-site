@@ -10,6 +10,8 @@
     height: 100vh;
     width: 100vw;
     background: var(--light-background);
+    position: absolute;
+    left: 0;
   }
 </style>
 
