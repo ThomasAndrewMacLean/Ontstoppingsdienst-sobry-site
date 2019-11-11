@@ -2,6 +2,7 @@
     import DienstBlok from '../components/DienstBlok.svelte';
     import Reviews from '../components/Reviews.svelte';
     import Hero from '../components/Hero.svelte';
+    // import MovieHero from '../components/MovieHero.svelte';
     import labels from '../labels.js';
 </script>
 
@@ -16,6 +17,7 @@
 </svelte:head>
 
 <Hero {labels} />
+<!-- <MovieHero /> -->
 <div class="dienstblok-wrapper">
     <DienstBlok {labels} title={labels.ontstoppen} image="picture-drain.jpg" text={labels.ontstoppentext} />
     <DienstBlok {labels} title={labels.geurdetectie} image="picture-toilet.jpg" text={labels.ontstoppentext} />

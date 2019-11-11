@@ -1,9 +1,9 @@
 <script>
     import { onMount } from 'svelte';
+    import MovieHero from './MovieHero.svelte';
     let afspraakHero;
     let afspraakOnder;
     export let labels;
-
     onMount(() => {
         const obsOptions = { rootMargin: '-200px 0px 0px 0px' };
 
@@ -45,7 +45,7 @@
         box-sizing: border-box;
 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .afspraak {
         display: flex;
@@ -59,21 +59,25 @@
         /* border: 2px solid var(--accent-primary); */
         border-radius: var(--border-radius);
     }
-    img {
+    /* img {
         height: 100%;
-    }
+    } */
     .logo {
         padding: 1rem;
     }
     .left {
         display: flex;
         flex-direction: column;
-        /* width: 40vw; */
-        /* padding: 2rem; */
+        justify-content: center;
+        flex-grow: 1;
     }
-    /* .right {
-     width: 60vw; 
-  } */
+    .left-content {
+        display: grid;
+        justify-content: center;
+    }
+    .right {
+        display: flex;
+    }
 
     .afspraakOnder {
         background: var(--accent-secondary);
@@ -87,10 +91,12 @@
 <div id="hero">
     <div class="center">
         <div class="left">
-            <img class="logo" src="logo.png" alt="logo Sobry ontstoppingsdienst" />
-            <div class="afspraak" bind:this={afspraakHero}>
-                <span>{labels.afspraak}</span>
-                <span>{labels.telefoonnummer}</span>
+            <div class="left-content">
+                <img class="logo" src="logo.png" alt="logo Sobry ontstoppingsdienst" />
+                <div class="afspraak" bind:this={afspraakHero}>
+                    <span>{labels.afspraak}</span>
+                    <span>{labels.telefoonnummer}</span>
+                </div>
             </div>
             <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
                 <span>{labels.afspraak}</span>
@@ -99,7 +105,8 @@
 
         </div>
         <div class="right">
-            <img src="house.png" alt="image of a houseand a plumber" />
+            <MovieHero />
+            <!-- <img src="house.png" alt="image of a houseand a plumber" /> -->
         </div>
     </div>
 </div>

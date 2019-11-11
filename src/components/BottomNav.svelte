@@ -10,7 +10,7 @@
         display: flex;
         font-size: 14px;
         justify-content: space-between;
-        padding: 2rem 0;
+        padding: 2rem 0 4rem 0;
     }
     .contact {
         text-align: right;
