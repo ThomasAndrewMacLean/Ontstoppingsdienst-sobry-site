@@ -12,7 +12,7 @@
 </style>
 
 <svelte:head>
-    <title>Sapper project template</title>
+    <title>{labels.titel}</title>
 </svelte:head>
 
 <Hero {labels} />
