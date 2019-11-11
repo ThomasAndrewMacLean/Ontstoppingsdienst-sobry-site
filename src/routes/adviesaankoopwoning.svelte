@@ -9,6 +9,6 @@
 
 </style>
 
-<DienstPagina {labels} title={labels.ontstoppen} image="picture-drain.jpg" text={labels.ontstoppentext} />
+<DienstPagina {labels} title={labels.adviesaankoopwoning} image="picture-toilet.jpg" text={labels.adviesaankoopwoningtext} />
 <Reviews />
 <FloatingAfspraak {labels} />

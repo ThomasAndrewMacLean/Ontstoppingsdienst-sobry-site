@@ -1,3 +1,4 @@
+
 <script>
     import labels from '../labels.js';
     import Reviews from '../components/Reviews.svelte';
@@ -9,6 +10,6 @@
 
 </style>
 
-<DienstPagina {labels} title={labels.ontstoppen} image="picture-drain.jpg" text={labels.ontstoppentext} />
+<DienstPagina {labels} title={labels.geurdetectie} image="picture-toilet.jpg" text={labels.geurdetectietext} />
 <Reviews />
 <FloatingAfspraak {labels} />

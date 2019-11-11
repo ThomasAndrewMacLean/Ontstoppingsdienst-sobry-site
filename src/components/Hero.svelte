@@ -98,6 +98,7 @@
                     <span>{labels.telefoonnummer}</span>
                 </div>
             </div>
+
             <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
                 <span>{labels.afspraak}</span>
                 <span>{labels.telefoonnummer}</span>

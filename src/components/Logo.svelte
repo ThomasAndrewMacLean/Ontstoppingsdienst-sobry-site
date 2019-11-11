@@ -3,6 +3,9 @@
 </script>
 
 <style>
+    a {
+        display: block;
+    }
     img {
         height: 100%;
         cursor: pointer;
