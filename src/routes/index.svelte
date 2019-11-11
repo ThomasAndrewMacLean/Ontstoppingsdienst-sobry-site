@@ -8,7 +8,7 @@
 
 <style>
     .dienstblok-wrapper {
-        margin-top: 4rem;
+        margin: 4rem 0;
     }
 </style>
 
@@ -19,10 +19,42 @@
 <Hero {labels} />
 <!-- <MovieHero /> -->
 <div class="dienstblok-wrapper">
-    <DienstBlok {labels} title={labels.ontstoppen} image="picture-drain.jpg" text={labels.ontstoppentext} />
-    <DienstBlok {labels} title={labels.geurdetectie} image="picture-toilet.jpg" text={labels.ontstoppentext} />
-    <DienstBlok {labels} title={labels.herstellingen} image="picture-tap.jpg" text={labels.ontstoppentext} />
-    <DienstBlok {labels} title={labels.geurdetectie} image="picture-toilet.jpg" text={labels.ontstoppentext} />
+    <DienstBlok
+        {labels}
+        link="ontstoppen"
+        title={labels.ontstoppen}
+        image="picture-drain.jpg"
+        text={labels.ontstoppentext} />
+    <DienstBlok
+        {labels}
+        link="geurdetectie"
+        title={labels.geurdetectie}
+        image="picture-toilet.jpg"
+        text={labels.geurdetectietext} />
+    <DienstBlok
+        {labels}
+        link="herstellingen"
+        title={labels.herstellingen}
+        image="picture-tap.jpg"
+        text={labels.herstellingentext} />
+    <DienstBlok
+        {labels}
+        link="adviesaankoopwoning"
+        title={labels.adviesaankoopwoning}
+        image="picture-toilet.jpg"
+        text={labels.adviesaankoopwoningtext} />
+    <DienstBlok
+        {labels}
+        link="cameradetectie"
+        title={labels.cameradetectie}
+        image="picture-drain.jpg"
+        text={labels.cameradetectietext} />
+    <DienstBlok
+        {labels}
+        link="ontkalken"
+        title={labels.ontkalken}
+        image="picture-toilet.jpg"
+        text={labels.ontkalkentext} />
 
-    <Reviews />
 </div>
+<Reviews />

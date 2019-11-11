@@ -1,6 +1,7 @@
 <script>
     import Nav from '../components/Nav.svelte';
     import TopNav from '../components/TopNav.svelte';
+    import Logo from '../components/Logo.svelte';
     import BottomNav from '../components/BottomNav.svelte';
     import labels from '../labels.js';
     export let segment;
@@ -14,11 +15,54 @@
         padding: 0 2em;
         margin: 0 auto;
         box-sizing: border-box;
+        padding-top: 86px;
+    }
+
+    .sticky-nav {
+        position: fixed;
+        top: 0;
+        z-index: 9;
+        /* background: white; */
+        left: 0;
+        right: 0;
+        display: grid;
+        grid-template-columns: 75px auto;
+        box-shadow: 0px -3px 7px 1px #00000040;
+    }
+    .logo {
+        background: var(--light-background);
+        grid-column: 1;
+        grid-row: 1/3;
+        height: 86px;
+        display: flex;
+        justify-content: center;
+    }
+    .second {
+        grid-column: 2;
+    }
+
+    @media (max-width: 56em) {
+        main {
+            padding-top: 131px;
+        }
+        .logo {
+            height: 131px;
+        }
+        .sticky-nav {
+            grid-template-columns: 105px auto;
+        }
     }
 </style>
 
-<TopNav />
-<Nav {segment} {labels} />
+<div class="sticky-nav">
+    <div class="logo">
+        <Logo />
+    </div>
+    <div class="second">
+        <TopNav />
+        <Nav {segment} {labels} />
+    </div>
+</div>
 
 <main>
     <slot />

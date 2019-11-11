@@ -1,5 +1,8 @@
 <script>
-    // your script goes here
+    import labels from '../labels.js';
+    import Reviews from '../components/Reviews.svelte';
+
+    import DienstPagina from '../components/DienstPagina.svelte';
 </script>
 
 <style>
@@ -7,4 +10,5 @@
 </style>
 
 <!-- markup (zero or more items) goes here -->
-<h1>hello</h1>
+<DienstPagina {labels} title={labels.ontstoppen} image="picture-drain.jpg" text={labels.ontstoppentext} />
+<Reviews />

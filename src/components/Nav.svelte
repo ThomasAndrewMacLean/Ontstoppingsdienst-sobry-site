@@ -7,6 +7,7 @@
 <style>
     nav {
         padding: 0;
+        background: var(--white-background);
     }
 
     ul {
@@ -40,13 +41,13 @@
             <NavItem name={labels.ontkalken} link="ontkalken" icon="ONTKALKEN.png" />
         </li>
         <li>
-            <NavItem name={labels.cameradetectie} link="camera" icon="CAMERA.png" />
+            <NavItem name={labels.cameradetectie} link="cameradetectie" icon="CAMERA.png" />
         </li>
         <li>
-            <NavItem name={labels.geurdetectie} link="geur" icon="GEUR.png" />
+            <NavItem name={labels.geurdetectie} link="geurdetectie" icon="GEUR.png" />
         </li>
         <li>
-            <NavItem name={labels.adviesaankoopwoning} link="huizen" icon="HUIZEN.png" />
+            <NavItem name={labels.adviesaankoopwoning} link="adviesaankoopwoning" icon="HUIZEN.png" />
         </li>
         <li>
             <NavItem name={labels.herstellingen} link="herstellingen" icon="HERSTELLINGEN.png" />
