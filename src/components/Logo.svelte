@@ -4,7 +4,9 @@
 
 <style>
     a {
-        display: block;
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
     img {
         height: 100%;
