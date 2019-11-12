@@ -25,6 +25,10 @@
         cursor: pointer;
         border-radius: var(--border-radius);
     }
+    a:hover {
+        /* background: var(--accent-primary); */
+        box-shadow: 0px 0px 5px 1px var(--accent-secondary);
+    }
     h2 {
         margin: 0;
         color: var(--darker-text);
