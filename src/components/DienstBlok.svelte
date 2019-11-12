@@ -7,13 +7,6 @@
 </script>
 
 <style>
-    img {
-        width: 300px !important;
-        height: 200px;
-        margin: 0;
-        object-fit: cover;
-        object-position: bottom;
-    }
     .dienst-blok {
         margin: 2rem 0;
         display: flex;
@@ -36,11 +29,24 @@
         margin: 0;
         color: var(--darker-text);
     }
+    img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    .image-wrap {
+        width: 300px;
+        height: 200px;
+        display: inline-flex;
+    }
 </style>
 
 <div class="dienst-blok">
-
-    <img alt={title} src={image} height="200px" width="300px" />
+    <div class="image-wrap">
+        <img alt={title} src={image} />
+    </div>
     <div class="text-blok">
         <h2>{title}</h2>
         <p>{text}</p>
