@@ -10,7 +10,16 @@
         display: flex;
         font-size: 14px;
         justify-content: space-between;
-        padding: 2rem 0 4rem 0;
+        padding: 2rem 0 3rem 0;
+    }
+    .center {
+        width: 80%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid var(--white-background);
     }
     .contact {
         text-align: right;
@@ -19,32 +28,34 @@
 </style>
 
 <div id="bottom-nav">
-    <nav>
-        <ul>
-            <li>
-                <a rel="prefetch" href="ontstoppen">{labels.ontstoppen}</a>
-            </li>
-            <li>
-                <a rel="prefetch" href="ontkalken">{labels.ontkalken}</a>
-            </li>
-            <li>
-                <a rel="prefetch" href="cameradetectie">{labels.cameradetectie}</a>
-            </li>
-            <li>
-                <a rel="prefetch" href="geurdetectie">{labels.geurdetectie}</a>
-            </li>
-            <li>
-                <a rel="prefetch" href="adviesaankoopwoning">{labels.adviesaankoopwoning}</a>
-            </li>
-            <li>
-                <a rel="prefetch" href="herstellingen">{labels.herstellingen}</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="contact">
-        <ul>
-            <li>{labels.telefoonnummerlabel}: {labels.telefoonnummer}</li>
-            <li>{labels.emaillabel}: {labels.email}</li>
-        </ul>
+    <div class="center">
+        <div>
+            <ul>
+                <li>
+                    <a rel="prefetch" href="ontstoppen">{labels.ontstoppen}</a>
+                </li>
+                <li>
+                    <a rel="prefetch" href="ontkalken">{labels.ontkalken}</a>
+                </li>
+                <li>
+                    <a rel="prefetch" href="cameradetectie">{labels.cameradetectie}</a>
+                </li>
+                <li>
+                    <a rel="prefetch" href="geurdetectie">{labels.geurdetectie}</a>
+                </li>
+                <li>
+                    <a rel="prefetch" href="adviesaankoopwoning">{labels.adviesaankoopwoning}</a>
+                </li>
+                <li>
+                    <a rel="prefetch" href="herstellingen">{labels.herstellingen}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="contact">
+            <ul>
+                <li>{labels.telefoonnummerlabel}: {labels.telefoonnummer}</li>
+                <li>{labels.emaillabel}: {labels.email}</li>
+            </ul>
+        </div>
     </div>
 </div>

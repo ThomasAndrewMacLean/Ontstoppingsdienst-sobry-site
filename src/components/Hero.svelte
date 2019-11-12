@@ -51,13 +51,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: var(--dark-background);
+        background: var(--accent-secondary);
         padding: 1rem 0.5rem;
         margin: 1rem;
         color: var(--white-text);
         cursor: pointer;
         /* border: 2px solid var(--accent-primary); */
         border-radius: var(--border-radius);
+        /* transition: background-color 200ms ease-in; */
+    }
+    .afspraak:hover {
+        background: var(--accent-primary);
+        box-shadow: 0px 0px 8px 2px var(--accent-secondary);
     }
     /* img {
         height: 100%;
