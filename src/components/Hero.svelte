@@ -90,6 +90,7 @@
         bottom: -100px;
         right: 50px;
         transition: bottom 200ms ease-in;
+        
     }
 </style>
 

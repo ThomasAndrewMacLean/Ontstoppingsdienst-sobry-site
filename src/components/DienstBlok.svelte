@@ -8,7 +8,7 @@
 
 <style>
     .dienst-blok {
-        margin: 2rem 0;
+        margin: 2rem 0 3rem 0;
         display: flex;
         /* justify-content: space-between; */
     }
@@ -16,8 +16,18 @@
         padding: 0 2rem;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
 
+    .text-blok::after {
+        content: '';
+        position: absolute;
+        width: calc(100% - 2rem);
+        height: 1px;
+        background: var(--accent-primary);
+        bottom: 0;
+        left: 0;
+    }
     a {
         background: var(--dark-background);
         color: var(--white-text);
