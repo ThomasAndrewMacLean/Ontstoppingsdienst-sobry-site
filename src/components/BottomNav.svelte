@@ -22,22 +22,22 @@
     <nav>
         <ul>
             <li>
-                <a href="ontstoppen">{labels.ontstoppen}</a>
+                <a rel="prefetch" href="ontstoppen">{labels.ontstoppen}</a>
             </li>
             <li>
-                <a href="ontkalken">{labels.ontkalken}</a>
+                <a rel="prefetch" href="ontkalken">{labels.ontkalken}</a>
             </li>
             <li>
-                <a href="cameradetectie">{labels.cameradetectie}</a>
+                <a rel="prefetch" href="cameradetectie">{labels.cameradetectie}</a>
             </li>
             <li>
-                <a href="geurdetectie">{labels.geurdetectie}</a>
+                <a rel="prefetch" href="geurdetectie">{labels.geurdetectie}</a>
             </li>
             <li>
-                <a href="adviesaankoopwoning">{labels.adviesaankoopwoning}</a>
+                <a rel="prefetch" href="adviesaankoopwoning">{labels.adviesaankoopwoning}</a>
             </li>
             <li>
-                <a href="herstellingen">{labels.herstellingen}</a>
+                <a rel="prefetch" href="herstellingen">{labels.herstellingen}</a>
             </li>
         </ul>
     </nav>

@@ -36,7 +36,7 @@
 
 <!-- markup (zero or more items) goes here -->
 <div>
-    <a href={link}>
+    <a rel="prefetch" href={link}>
         <img src={icon} alt={name} />
         <h4>{name}</h4>
     </a>

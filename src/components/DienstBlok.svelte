@@ -51,7 +51,7 @@
         <h2>{title}</h2>
         <p>{text}</p>
         <div>
-            <a href={link}>{labels.leesmeer}</a>
+            <a rel="prefetch" href={link}>{labels.leesmeer}</a>
         </div>
     </div>
 </div>
