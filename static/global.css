@@ -5,12 +5,13 @@ body {
     line-height: 1.5;
     color: var(--dark-text);
     overflow-x: hidden;
+    background: var(--white-background);
 }
 
 :root {
     /* --dark-background: #374b5d; */
     --dark-background: #333333;
-    --white-background: #ffffff;
+    --white-background: #f8f8f8;
     --light-background: #e9eaec;
 
     --dark-text: #666666;
