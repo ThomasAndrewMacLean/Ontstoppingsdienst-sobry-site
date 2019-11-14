@@ -51,10 +51,13 @@
         height: 75px;
         width: 75px;
         border-radius: 50%;
+        margin-top: 2rem;
     }
     p {
         font-size: 14px;
         height: 100px;
+        padding: 2rem;
+        text-align: center;
     }
     .counter {
         display: flex;
