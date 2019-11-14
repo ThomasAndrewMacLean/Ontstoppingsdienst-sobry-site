@@ -7,7 +7,7 @@
         background: var(--dark-background);
         margin: 0;
         font-size: 14px;
-        padding: 5px;
+        padding: 10px;
         color: var(--white-text);
     }
     ul {
