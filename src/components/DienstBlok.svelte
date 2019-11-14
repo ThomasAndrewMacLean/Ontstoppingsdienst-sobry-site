@@ -24,7 +24,7 @@
         position: absolute;
         width: calc(100% - 2rem);
         height: 1px;
-        background: var(--accent-primary);
+        background: var(--light-text);
         bottom: 0;
         left: 0;
     }
