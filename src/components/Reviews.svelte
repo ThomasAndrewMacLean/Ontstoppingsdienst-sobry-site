@@ -43,7 +43,9 @@
     }
     .quote {
         position: absolute;
-        font-size: 3rem;
+        font-size: 7rem;
+        color: var(--darker-text);
+        font-family: auto;
         left: 0;
         transform: translateY(-10px);
     }
@@ -71,7 +73,7 @@
         cursor: pointer;
     }
     .selected {
-        background: var(--dark-background);
+        background: var(--dark-text);
     }
     @media (max-width: 56em) {
         #reviews {
@@ -84,7 +86,7 @@
     <div class="review">
         <img src={images[selected]} alt="social" />
 
-        <div class="quote">&quot;</div>
+        <div class="quote">“</div>
         <p>{text[selected]}</p>
         <div class="counter">
 
