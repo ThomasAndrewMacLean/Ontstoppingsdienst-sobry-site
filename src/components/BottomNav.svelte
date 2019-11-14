@@ -10,7 +10,7 @@
         display: flex;
         font-size: 14px;
         justify-content: space-between;
-        padding: 2rem 0 3rem 0;
+        padding: 3rem 0 4rem 0;
     }
     .center {
         width: 80%;
@@ -19,7 +19,7 @@
         justify-content: space-between;
         margin: auto;
         padding-bottom: 1rem;
-        border-bottom: 2px solid var(--white-background);
+        border-bottom: 1px solid var(--white-background);
     }
     .contact {
         text-align: right;
