@@ -43,7 +43,7 @@
     }
     .quote {
         position: absolute;
-        font-size: 7rem;
+        font-size: 9rem;
         color: var(--darker-text);
         font-family: auto;
         left: 0;
@@ -86,7 +86,7 @@
     <div class="review">
         <img src={images[selected]} alt="social" />
 
-        <div class="quote">“</div>
+        <div class="quote">&rdquo;</div>
         <p>{text[selected]}</p>
         <div class="counter">
 
