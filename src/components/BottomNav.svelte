@@ -11,6 +11,7 @@
         font-size: 14px;
         justify-content: space-between;
         padding: 3rem 0 4rem 0;
+        width: 101vw;
     }
     .center {
         width: 80%;

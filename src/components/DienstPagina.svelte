@@ -8,13 +8,11 @@
 
 <style>
     img {
-        /* width: 100%; */
         height: 200px;
         margin: 0;
         object-fit: cover;
         object-position: bottom;
-        width: 100vw;
-        /* position: absolute; */
+        width: 102vw;
         margin-left: calc(-50vw + 26em);
     }
     @media (max-width: 56em) {

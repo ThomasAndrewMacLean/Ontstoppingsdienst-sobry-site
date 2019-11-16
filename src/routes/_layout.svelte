@@ -6,11 +6,9 @@
     import BottomNav from '../components/BottomNav.svelte';
     import labels from '../labels.js';
     export let segment;
- 
 </script>
 
 <style>
-   
     main {
         position: relative;
         max-width: 56em;
@@ -18,7 +16,7 @@
         padding: 0 2em;
         margin: 0 auto;
         box-sizing: border-box;
-        padding-top: 86px;
+        padding-top: 26px;
     }
 
     .sticky-nav {
@@ -36,7 +34,7 @@
         background: var(--light-background);
         grid-column: 1;
         grid-row: 1/3;
-        height: 86px;
+        height: 96px;
         display: flex;
         justify-content: center;
     }
@@ -63,10 +61,8 @@
             padding-top: 0em;
             margin-top: 2em;
         }
-       
     }
 </style>
-
 
 <MobileNav {segment} {labels} />
 <div class="sticky-nav">

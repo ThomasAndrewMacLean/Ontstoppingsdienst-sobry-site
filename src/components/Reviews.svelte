@@ -21,12 +21,9 @@
 <style>
     #reviews {
         background: var(--light-background);
-        width: 100vw;
-        /* position: absolute; */
+        width: 102vw;
         margin-left: calc(-50vw + 26em);
         margin-top: 2rem;
-        /* left: 0;
-    right: 0; */
     }
 
     .review {
@@ -57,7 +54,7 @@
     }
     p {
         font-size: 14px;
-        height: 100px;
+        height: 200px;
         padding: 2rem;
         text-align: center;
     }

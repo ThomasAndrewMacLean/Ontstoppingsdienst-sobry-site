@@ -29,7 +29,7 @@
     }
     #hero {
         background: var(--light-background);
-        width: 100vw;
+        width: 102vw;
         /* position: absolute; */
         margin-left: calc(-50vw + 26em);
 
