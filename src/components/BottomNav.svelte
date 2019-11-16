@@ -25,6 +25,15 @@
         text-align: right;
         margin-right: 40px;
     }
+    @media (max-width: 800px) {
+        .center {
+            flex-direction: column;
+        }
+        .contact {
+            text-align: left;
+            margin-right: 0;
+        }
+    }
 </style>
 
 <div id="bottom-nav">

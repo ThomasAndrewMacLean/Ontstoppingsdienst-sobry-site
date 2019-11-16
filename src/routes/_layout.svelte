@@ -1,13 +1,16 @@
 <script>
     import Nav from '../components/Nav.svelte';
+    import MobileNav from '../components/MobileNav.svelte';
     import TopNav from '../components/TopNav.svelte';
     import Logo from '../components/Logo.svelte';
     import BottomNav from '../components/BottomNav.svelte';
     import labels from '../labels.js';
     export let segment;
+ 
 </script>
 
 <style>
+   
     main {
         position: relative;
         max-width: 56em;
@@ -52,8 +55,20 @@
             grid-template-columns: 105px auto;
         }
     }
+    @media (max-width: 800px) {
+        .sticky-nav {
+            display: none !important;
+        }
+        main {
+            padding-top: 0em;
+            margin-top: 2em;
+        }
+       
+    }
 </style>
 
+
+<MobileNav {segment} {labels} />
 <div class="sticky-nav">
     <div class="logo">
         <Logo />

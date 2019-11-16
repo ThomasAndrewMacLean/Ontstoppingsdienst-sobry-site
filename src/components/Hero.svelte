@@ -22,6 +22,11 @@
 </script>
 
 <style>
+    @media (max-width: 800px) {
+        .right {
+            display: none !important;
+        }
+    }
     #hero {
         background: var(--light-background);
         width: 100vw;
@@ -90,7 +95,6 @@
         bottom: -100px;
         right: 50px;
         transition: bottom 200ms ease-in;
-        
     }
 </style>
 
