@@ -87,8 +87,12 @@
         margin: 0;
     }
     li {
-        padding: 1rem;
+        padding: 0.5rem;
         padding-left: 2rem;
+    }
+    a {
+        padding: 0.5rem;
+        display: block;
     }
     .diensten-lijst {
         margin: 10px;
