@@ -6,7 +6,7 @@
 <style>
     #bottom-nav {
         background: var(--dark-background);
-        color: var(--white-text);
+        color: var(--white-text, red);
         display: flex;
         font-size: 14px;
         justify-content: space-between;
@@ -34,6 +34,16 @@
             text-align: left;
             margin-right: 0;
         }
+    }
+    .feather-facebook {
+        background: #4267b2;
+        border-radius: 100%;
+        padding: 3px;
+    }
+    .feather-linkedin {
+        background: #2673b1;
+        border-radius: 25%;
+        padding: 3px;
     }
 </style>
 
@@ -65,6 +75,38 @@
             <ul>
                 <li>{labels.telefoonnummerlabel}: {labels.telefoonnummer}</li>
                 <li>{labels.emaillabel}: {labels.email}</li>
+                <li>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect x="2" y="9" width="4" height="12" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </li>
             </ul>
         </div>
     </div>
