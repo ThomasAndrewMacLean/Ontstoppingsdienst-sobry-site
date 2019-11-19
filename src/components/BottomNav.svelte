@@ -10,7 +10,7 @@
         display: flex;
         font-size: 14px;
         justify-content: space-between;
-        padding: 3rem 0 4rem 0;
+        padding: 3rem 0 7rem 0;
         width: 101vw;
     }
     .center {
@@ -24,7 +24,13 @@
     }
     .contact {
         text-align: right;
-        margin-right: 40px;
+        /* margin-right: 40px; */
+    }
+    li {
+        padding: 0.1rem 0;
+    }
+    ul {
+        padding: 0;
     }
     @media (max-width: 800px) {
         .center {

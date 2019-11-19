@@ -44,10 +44,10 @@
 
     @media (max-width: 56em) {
         main {
-            padding-top: 131px;
+            padding-top: 72px;
         }
         .logo {
-            height: 131px;
+            height: 141px;
         }
         .sticky-nav {
             grid-template-columns: 105px auto;
