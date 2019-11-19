@@ -26,16 +26,16 @@
             <a href="/">Home</a>
         </li>
         <li>
-            <a href="/">Over mij</a>
+            <a href="/overmij">Over mij</a>
         </li>
         <li>
-            <a href="/">Prijzen</a>
+            <a href="/prijzen">Prijzen</a>
         </li>
         <li>
-            <a href="/">Tips</a>
+            <a href="/tips">Tips</a>
         </li>
         <li>
-            <a href="/">Contact</a>
+            <a href="/contact">Contact</a>
         </li>
     </ul>
 </nav>
