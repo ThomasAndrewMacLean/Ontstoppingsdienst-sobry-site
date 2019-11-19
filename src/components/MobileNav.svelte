@@ -36,7 +36,8 @@
         z-index: 1;
         background: var(--white-background);
         border-radius: 50%;
-        height: 55px;
+        border: 5px solid var(--dark-background);
+        height: 65px;
     }
     .hamburger-nav > span {
         height: 4px;
@@ -91,6 +92,7 @@
     ul {
         padding: 0;
         margin: 0;
+        margin-top: 85px;
     }
     li {
         padding: 0.5rem;
