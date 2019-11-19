@@ -32,6 +32,11 @@
         padding: 15px;
         display: inline-block;
         cursor: pointer;
+        position: fixed;
+        z-index: 1;
+        background: var(--white-background);
+        border-radius: 50%;
+        height: 55px;
     }
     .hamburger-nav > span {
         height: 4px;
@@ -40,6 +45,7 @@
         background: var(--dark-background);
         display: block;
         position: relative;
+        transform: translateY(10px);
     }
     .hamburger-nav > span.close {
         height: 0px;
