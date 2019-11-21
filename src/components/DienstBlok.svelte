@@ -56,6 +56,7 @@
         width: 100%;
         height: auto;
         margin: 0;
+        z-index: 0;
         object-fit: cover;
         object-position: bottom;
     }

@@ -26,6 +26,27 @@
         .right {
             display: none !important;
         }
+
+        .askew {
+            background: var(--accent-primary);
+            height: 80px;
+            z-index: 0;
+            transform: skew(0deg, -25deg) translateY(80px);
+            transform-origin: left;
+        }
+        .askew-white {
+            position: absolute;
+            background: var(--white-background);
+            height: 50vw;
+            width: 120vw;
+            z-index: 0;
+            transform: skew(0deg, -25deg) translateY(80px);
+            transform-origin: left;
+        }
+        #hero {
+            padding-top: 3rem;
+            padding-bottom: 80px;
+        }
     }
     #hero {
         background: var(--light-background);
@@ -48,7 +69,7 @@
         /* padding: 2em; */
         margin: 0 auto;
         box-sizing: border-box;
-
+        z-index: 1;
         display: flex;
         justify-content: space-between;
     }
@@ -120,4 +141,6 @@
             <!-- <img src="house.png" alt="image of a houseand a plumber" /> -->
         </div>
     </div>
+    <div class="askew" />
+    <div class="askew-white" />
 </div>

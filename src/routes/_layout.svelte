@@ -16,7 +16,7 @@
         padding: 0 2em;
         margin: 0 auto;
         box-sizing: border-box;
-        padding-top: 26px;
+        padding-top: 140px;
     }
 
     .sticky-nav {
@@ -44,7 +44,7 @@
 
     @media (max-width: 56em) {
         main {
-            padding-top: 72px;
+            padding-top: 175px;
         }
         .logo {
             height: 141px;

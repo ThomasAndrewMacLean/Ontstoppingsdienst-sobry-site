@@ -33,7 +33,7 @@
         display: inline-block;
         cursor: pointer;
         position: fixed;
-        z-index: 1;
+        z-index: 999;
         background: var(--white-background);
         border-radius: 50%;
         border: 5px solid var(--dark-background);
@@ -112,7 +112,7 @@
 </style>
 
 {#if showMobileNav}
-    <div class="backdrop" />
+    <div class="backdrop" on:click={toggleNav}/>
 {/if}
 <div class="hamburger-nav" on:click={toggleNav}>
     <span />
