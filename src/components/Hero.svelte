@@ -38,12 +38,13 @@
             position: absolute;
             background: var(--white-background);
             height: 50vw;
-            width: 120vw;
+            width: 102%;
             z-index: 0;
             transform: skew(0deg, -25deg) translateY(80px);
             transform-origin: left;
         }
         #hero {
+            overflow: hidden;
             padding-top: 3rem;
             padding-bottom: 80px;
         }
