@@ -22,7 +22,7 @@
     .sticky-nav {
         position: fixed;
         top: 0;
-        z-index: 9;
+        z-index: 1000;
         /* background: white; */
         left: 0;
         right: 0;
