@@ -30,6 +30,7 @@
 
 <nav>
     <div class="wide-wrapper">
+        <!-- <img src="logo-small-filled.png" alt="" /> -->
         <ul>
             <li>
 

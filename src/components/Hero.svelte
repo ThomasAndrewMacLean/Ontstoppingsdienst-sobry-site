@@ -118,6 +118,12 @@
         right: -1rem;
         transition: bottom 200ms ease-in;
     }
+
+    @media (min-width: 800px) {
+        .afspraak-hero {
+            display: none;
+        }
+    }
 </style>
 
 <div id="hero">
@@ -126,7 +132,7 @@
             <div class="left">
                 <div class="left-content">
                     <img class="logo" src="logo.png" alt="logo Sobry ontstoppingsdienst" />
-                    <div class="afspraak" bind:this={afspraakHero}>
+                    <div class="afspraak afspraak-hero" bind:this={afspraakHero}>
                         <span>{labels.afspraak}</span>
                         <span>{labels.telefoonnummer}</span>
                     </div>
