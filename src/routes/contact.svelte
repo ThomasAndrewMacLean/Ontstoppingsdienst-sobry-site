@@ -7,13 +7,10 @@
         padding-bottom: 8rem;
     }
     form {
-        /* border: 2px solid var(--dark-background); */
-        display: inline-flex;
-        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
     }
-    .form-item {
-        padding-right: 1rem;
-    }
+
     input,
     textarea {
         font-size: inherit;
@@ -29,6 +26,11 @@
     }
     .double {
         display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .double > .form-item {
+        width: 48%;
     }
     label {
         display: block;
@@ -39,6 +41,14 @@
         padding: 10px 15px;
         cursor: pointer;
         border-radius: var(--border-radius);
+    }
+    @media (max-width: 800px) {
+        .page {
+            padding-top: 6em;
+        }
+        .double > .form-item {
+            width: 100%;
+        }
     }
 </style>
 
