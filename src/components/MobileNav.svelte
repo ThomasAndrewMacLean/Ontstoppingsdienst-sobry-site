@@ -112,7 +112,7 @@
 </style>
 
 {#if showMobileNav}
-    <div class="backdrop" on:click={toggleNav}/>
+    <div class="backdrop" on:click={toggleNav} />
 {/if}
 <div class="hamburger-nav" on:click={toggleNav}>
     <span />
@@ -126,16 +126,16 @@
             <a on:click={toggleNav} href="/">Home</a>
         </li>
         <li>
-            <a on:click={toggleNav} href="/">Over mij</a>
+            <a on:click={toggleNav} href="/overmij">Over mij</a>
         </li>
         <li>
-            <a on:click={toggleNav} href="/">Prijzen</a>
+            <a on:click={toggleNav} href="/prijzen">Prijzen</a>
         </li>
         <li>
-            <a on:click={toggleNav} href="/">Tips</a>
+            <a on:click={toggleNav} href="/tips">Tips</a>
         </li>
         <li>
-            <a on:click={toggleNav} href="/">Contact</a>
+            <a on:click={toggleNav} href="/contact">Contact</a>
         </li>
         <li class="diensten-item">
             <a on:click={toggleNav} href="/">Diensten</a>

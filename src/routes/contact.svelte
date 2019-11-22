@@ -1,14 +1,25 @@
 <script>
-    // your script goes here
+    import labels from '../labels.js';
 </script>
 
 <style>
     .page {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-bottom: 8rem;
     }
-    form {
+    h1 {
+        margin-bottom: 0;
+    }
+    form,
+    p {
         width: 100%;
         max-width: 500px;
+    }
+    p {
+        text-align: center;
     }
 
     input,
@@ -53,8 +64,10 @@
 </style>
 
 <div class="page">
-    <h1>Contact</h1>
-
+    <h1>{labels.contacttitle}</h1>
+    <p>
+        {labels.contacttekst}
+    </p>
     <form action="">
         <div class="double">
             <div class="form-item">
