@@ -26,7 +26,8 @@
         }
         li {
             width: 33%;
-            margin-right: -40px;
+            display: flex;
+            justify-content: center;
         }
     }
 </style>

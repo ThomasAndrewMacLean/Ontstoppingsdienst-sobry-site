@@ -31,12 +31,13 @@
     .text-blok::after {
         content: '';
         position: absolute;
-        width: calc(100% - 2rem);
+        width: calc(100% - 6rem);
         height: 1px;
         background: var(--light-text);
         bottom: 0;
-        left: 0;
+        left: 2rem;
     }
+
     /* a {
         background: var(--dark-background);
         color: var(--white-text);

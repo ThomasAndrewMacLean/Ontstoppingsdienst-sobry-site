@@ -57,10 +57,7 @@ ul {
     padding-left: 0;
 } */
 
-.dienst-blok:nth-child(2n) .text-blok::after {
-    /* background: red; */
-    left: 2rem;
-}
+
 
 .afspraakOnder {
     z-index: 99;
