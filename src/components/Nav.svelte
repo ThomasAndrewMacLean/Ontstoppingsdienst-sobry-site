@@ -6,7 +6,7 @@
 
 <style>
     nav {
-        padding: 0;
+        padding: 0 2.5rem;
         background: var(--white-background);
     }
 
@@ -14,7 +14,7 @@
         margin: 0;
         padding: 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-wrap: wrap;
         height: 55px;
         align-items: center;

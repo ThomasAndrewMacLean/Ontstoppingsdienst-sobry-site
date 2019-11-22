@@ -10,10 +10,11 @@
         padding: 1.5rem;
         color: var(--white-text);
     }
+
     ul {
         margin: 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
     }
     li {
         margin-right: 1rem;
@@ -30,6 +31,7 @@
 <nav>
     <ul>
         <li>
+
             <a href="/">Home</a>
         </li>
         <li>
