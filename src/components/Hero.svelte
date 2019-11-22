@@ -121,27 +121,30 @@
 </style>
 
 <div id="hero">
-    <div class="center">
-        <div class="left">
-            <div class="left-content">
-                <img class="logo" src="logo.png" alt="logo Sobry ontstoppingsdienst" />
-                <div class="afspraak" bind:this={afspraakHero}>
+    <div class="wide-wrapper">
+        <div class="center">
+            <div class="left">
+                <div class="left-content">
+                    <img class="logo" src="logo.png" alt="logo Sobry ontstoppingsdienst" />
+                    <div class="afspraak" bind:this={afspraakHero}>
+                        <span>{labels.afspraak}</span>
+                        <span>{labels.telefoonnummer}</span>
+                    </div>
+                </div>
+
+                <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
                     <span>{labels.afspraak}</span>
                     <span>{labels.telefoonnummer}</span>
                 </div>
-            </div>
 
-            <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
-                <span>{labels.afspraak}</span>
-                <span>{labels.telefoonnummer}</span>
             </div>
-
+            <div class="right">
+                <MovieHero />
+                <!-- <img src="house.png" alt="image of a houseand a plumber" /> -->
+            </div>
         </div>
-        <div class="right">
-            <MovieHero />
-            <!-- <img src="house.png" alt="image of a houseand a plumber" /> -->
-        </div>
+        <div class="askew" />
+        <div class="askew-white" />
     </div>
-    <div class="askew" />
-    <div class="askew-white" />
+
 </div>

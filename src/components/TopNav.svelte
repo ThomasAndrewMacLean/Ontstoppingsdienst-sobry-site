@@ -17,7 +17,7 @@
         justify-content: flex-end;
     }
     li {
-        margin-right: 1rem;
+        margin-left: 1rem;
     }
     a {
         border-bottom: 2px solid var(--dark-background);
@@ -29,24 +29,24 @@
 </style>
 
 <nav>
+    <div class="wide-wrapper">
+        <ul>
+            <li>
 
-    <ul>
-        <li>
-
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/overmij">Over mij</a>
-        </li>
-        <li>
-            <a href="/prijzen">Prijzen</a>
-        </li>
-        <li>
-            <a href="/tips">Tips</a>
-        </li>
-        <li>
-            <a href="/contact">Contact</a>
-        </li>
-    </ul>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/overmij">Over mij</a>
+            </li>
+            <li>
+                <a href="/prijzen">Prijzen</a>
+            </li>
+            <li>
+                <a href="/tips">Tips</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
 </nav>
-<!-- markup (zero or more items) goes here -->
