@@ -9,6 +9,6 @@
 
 </style>
 
-<DienstPagina {labels} title={labels.ontstoppen} image="picture-drain.jpg" text={labels.ontstoppentext} />
+<DienstPagina {labels} title={labels.ontstoppen} image="picture-ontstop.jpg" text={labels.ontstoppentext} />
 <Reviews />
 <FloatingAfspraak {labels} />

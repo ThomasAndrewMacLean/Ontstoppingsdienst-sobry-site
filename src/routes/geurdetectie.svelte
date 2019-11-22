@@ -10,6 +10,6 @@
 
 </style>
 
-<DienstPagina {labels} title={labels.geurdetectie} image="picture-toilet.jpg" text={labels.geurdetectietext} />
+<DienstPagina {labels} title={labels.geurdetectie} image="picture-buizen.jpg" text={labels.geurdetectietext} />
 <Reviews />
 <FloatingAfspraak {labels} />

@@ -30,13 +30,13 @@
         {labels}
         link="ontstoppen"
         title={labels.ontstoppen}
-        image="picture-drain.jpg"
+        image="picture-ontstop.jpg"
         text={labels.ontstoppentext} />
     <DienstBlok
         {labels}
         link="geurdetectie"
         title={labels.geurdetectie}
-        image="picture-toilet.jpg"
+        image="picture-buizen.jpg"
         text={labels.geurdetectietext} />
     <DienstBlok
         {labels}
@@ -60,7 +60,7 @@
         {labels}
         link="ontkalken"
         title={labels.ontkalken}
-        image="picture-toilet.jpg"
+        image="picture-urinoirs.jpg"
         text={labels.ontkalkentext} />
 
 </div>

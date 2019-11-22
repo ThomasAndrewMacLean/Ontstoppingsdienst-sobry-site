@@ -9,6 +9,6 @@
 
 </style>
 
-<DienstPagina {labels} title={labels.ontkalken} image="picture-toilet.jpg" text={labels.ontkalkentext} />
+<DienstPagina {labels} title={labels.ontkalken} image="picture-urinoirs.jpg" text={labels.ontkalkentext} />
 <Reviews />
 <FloatingAfspraak {labels} />
