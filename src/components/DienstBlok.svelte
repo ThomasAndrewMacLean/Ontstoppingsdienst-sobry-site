@@ -63,6 +63,9 @@
         .image-wrap {
             width: 100%;
         }
+        .text-blok {
+            padding: 0;
+        }
         .text-blok::after {
             display: none;
         }

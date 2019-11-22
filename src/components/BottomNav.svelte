@@ -10,7 +10,7 @@
         display: flex;
         font-size: 14px;
         justify-content: space-between;
-        padding: 3rem 0 7rem 0;
+        padding: 3rem 0 4rem 0;
         width: 101vw;
     }
     .center {
@@ -42,14 +42,22 @@
         }
     }
     .feather-facebook {
-        background: #4267b2;
+        background: #92a2c382;
         border-radius: 100%;
         padding: 3px;
+        transition: background-color 200ms ease-in;
+    }
+    .feather-facebook:hover {
+        background: #4267b2;
     }
     .feather-linkedin {
-        background: #2673b1;
+        background: #92a2c382;
         border-radius: 25%;
         padding: 3px;
+        transition: background-color 200ms ease-in;
+    }
+    .feather-linkedin:hover {
+        background: #2673b1;
     }
 </style>
 
