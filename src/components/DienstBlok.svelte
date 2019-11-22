@@ -38,17 +38,6 @@
         left: 2rem;
     }
 
-    /* a {
-        background: var(--dark-background);
-        color: var(--white-text);
-        padding: 10px 15px;
-        cursor: pointer;
-        border-radius: var(--border-radius);
-    }
-    a:hover {
-     
-        box-shadow: 0px 0px 5px 1px var(--accent-secondary);
-    } */
     h2 {
         margin: 0;
         color: var(--darker-text);
@@ -65,6 +54,18 @@
         width: 300px;
         height: 200px;
         display: inline-flex;
+    }
+    @media (min-width: 800px) {
+        .dienst-blok {
+            width: 30%;
+            display: inline-block;
+        }
+        .image-wrap {
+            width: 100%;
+        }
+        .text-blok::after {
+            display: none;
+        }
     }
 </style>
 

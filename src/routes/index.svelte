@@ -10,6 +10,13 @@
     .dienstblok-wrapper {
         margin: 4rem 0;
     }
+    @media (min-width: 800px) {
+        .dienstblok-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
 </style>
 
 <svelte:head>
