@@ -48,14 +48,14 @@ ul {
     list-style: none;
 }
 
-
+/* 
 .dienst-blok:nth-child(2n+1) {
     flex-direction: row-reverse;
 }
 
 .dienst-blok:nth-child(2n+1) .text-blok {
     padding-left: 0;
-}
+} */
 
 .dienst-blok:nth-child(2n) .text-blok::after {
     /* background: red; */
@@ -73,6 +73,22 @@ code {
     background-color: #f0f0f0;
     padding: 0.2em 0.4em;
     border-radius: 2px;
+}
+
+.button-dark {
+    border: 2px solid var(--dark-background);
+    background: none;
+    color: var(--darker-text);
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    transition: background-color 100ms ease-in, color 100ms ease-in;
+}
+
+.button-dark:hover {
+    background: var(--dark-background);
+    color: var(--white-text);
+    /* box-shadow: 0px 0px 2px 1px var(--accent-secondary); */
 }
 
 @media (min-width: 400px) {

@@ -6,17 +6,24 @@
     nav {
         background: var(--dark-background);
         margin: 0;
-        font-size: 14px;
-        padding: 10px;
+        font-size: 16px;
+        padding: 1.5rem;
         color: var(--white-text);
     }
     ul {
         margin: 0;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-around;
     }
     li {
         margin-right: 1rem;
+    }
+    a {
+        border-bottom: 2px solid var(--dark-background);
+        transition: border-color 200ms ease-in;
+    }
+    a:hover {
+        border-bottom: 2px solid var(--light-background);
     }
 </style>
 

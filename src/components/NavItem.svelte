@@ -9,25 +9,29 @@
         height: 25px;
     }
     h4 {
-        margin: 0 0 0 8px;
-        padding-left: 8px;
-        border-left: 4px dotted var(--accent-secondary);
+        margin: 0;
+        padding-left: 2px;
+
+        /* border-left: 4px dotted var(--accent-secondary); */
         font-weight: 100;
         font-size: 14px;
         position: relative;
     }
+    h4:hover {
+        color: var(--darker-text);
+    }
     h4::after {
-        transition: 300ms background-color ease-in-out;
+        transition: 200ms background-color ease-in-out;
         content: '';
         position: absolute;
         /* background: var(--accent-primary); */
-        width: calc(100% - 8px);
-        height: 3px;
-        left: 8px;
+        width: 100%;
+        height: 1px;
+        left: 2px;
         bottom: 0;
     }
     h4:hover::after {
-        background: var(--accent-primary);
+        background: var(--dark-text);
     }
     a {
         display: flex;

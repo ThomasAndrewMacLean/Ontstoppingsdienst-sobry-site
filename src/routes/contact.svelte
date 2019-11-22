@@ -12,6 +12,7 @@
     }
     h1 {
         margin-bottom: 0;
+        color: var(--darker-text);
     }
     form,
     p {
@@ -46,13 +47,7 @@
     label {
         display: block;
     }
-    #submit {
-        background: var(--dark-background);
-        color: var(--white-text);
-        padding: 10px 15px;
-        cursor: pointer;
-        border-radius: var(--border-radius);
-    }
+
     @media (max-width: 800px) {
         .page {
             padding-top: 6em;
@@ -65,9 +60,7 @@
 
 <div class="page">
     <h1>{labels.contacttitle}</h1>
-    <p>
-        {labels.contacttekst}
-    </p>
+    <p>{labels.contacttekst}</p>
     <form action="">
         <div class="double">
             <div class="form-item">
@@ -89,7 +82,7 @@
             <textarea name="message" id="message" type="text" required />
         </div>
         <div class="form-item">
-            <input id="submit" type="submit" value="Verstuur" />
+            <input class="button-dark" id="submit" type="submit" value="Verstuur" />
         </div>
     </form>
 </div>

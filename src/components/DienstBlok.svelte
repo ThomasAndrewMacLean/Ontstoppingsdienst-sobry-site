@@ -37,7 +37,7 @@
         bottom: 0;
         left: 0;
     }
-    a {
+    /* a {
         background: var(--dark-background);
         color: var(--white-text);
         padding: 10px 15px;
@@ -45,9 +45,9 @@
         border-radius: var(--border-radius);
     }
     a:hover {
-        /* background: var(--accent-primary); */
+     
         box-shadow: 0px 0px 5px 1px var(--accent-secondary);
-    }
+    } */
     h2 {
         margin: 0;
         color: var(--darker-text);
@@ -75,7 +75,7 @@
         <h2>{title}</h2>
         <p>{text}</p>
         <div>
-            <a rel="prefetch" href={link}>{labels.leesmeer}</a>
+            <a class="button-dark" rel="prefetch" href={link}>{labels.leesmeer}</a>
         </div>
     </div>
 </div>

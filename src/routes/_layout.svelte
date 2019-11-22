@@ -16,7 +16,7 @@
         padding: 0 2em;
         margin: 0 auto;
         box-sizing: border-box;
-        padding-top: 140px;
+        padding-top: 127px;
     }
 
     .sticky-nav {
@@ -26,29 +26,16 @@
         /* background: white; */
         left: 0;
         right: 0;
-        display: grid;
+        /* display: grid; */
         grid-template-columns: 75px auto;
         box-shadow: 0px -3px 7px 1px #00000040;
-    }
-    .logo {
-        background: var(--light-background);
-        grid-column: 1;
-        grid-row: 1/3;
-        height: 96px;
-        display: flex;
-        justify-content: center;
-    }
-    .second {
-        grid-column: 2;
     }
 
     @media (max-width: 56em) {
         main {
-            padding-top: 175px;
+            padding-top: 172px;
         }
-        .logo {
-            height: 141px;
-        }
+
         .sticky-nav {
             grid-template-columns: 105px auto;
         }
@@ -66,13 +53,8 @@
 
 <MobileNav {segment} {labels} />
 <div class="sticky-nav">
-    <div class="logo">
-        <Logo />
-    </div>
-    <div class="second">
-        <TopNav />
-        <Nav {segment} {labels} />
-    </div>
+    <TopNav />
+    <Nav {segment} {labels} />
 </div>
 
 <main>
