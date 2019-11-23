@@ -19,8 +19,8 @@
     .afspraakOnder {
         background: var(--accent-secondary);
         position: fixed;
-        bottom: 50px;
-        right: 50px;
+        bottom: var(--afspraak-height);
+        right: -1rem;
         transition: bottom 200ms ease-in;
     }
 </style>

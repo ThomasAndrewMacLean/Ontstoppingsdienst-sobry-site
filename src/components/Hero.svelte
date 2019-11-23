@@ -10,7 +10,9 @@
         const afspraakObserver = new IntersectionObserver(function(entries, afspraakObserver) {
             entries.forEach(entry => {
                 if (!entry.isIntersecting) {
-                    afspraakOnder.style.bottom = '30vh';
+                    afspraakOnder.style.bottom = getComputedStyle(document.documentElement).getPropertyValue(
+                        '--afspraak-height',
+                    );
                 } else {
                     afspraakOnder.style.bottom = '-100px';
                 }
