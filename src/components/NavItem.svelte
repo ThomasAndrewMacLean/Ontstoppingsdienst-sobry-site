@@ -11,15 +11,15 @@
     h4 {
         margin: 0;
         padding-left: 2px;
-
+        color: var(--darker-text);
         /* border-left: 4px dotted var(--accent-secondary); */
         font-weight: 100;
         font-size: 14px;
         position: relative;
     }
-    h4:hover {
+    /* h4:hover {
         color: var(--darker-text);
-    }
+    } */
     h4::after {
         transition: 200ms width ease-in-out;
         content: '';
