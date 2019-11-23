@@ -21,17 +21,18 @@
         color: var(--darker-text);
     }
     h4::after {
-        transition: 200ms background-color ease-in-out;
+        transition: 200ms width ease-in-out;
         content: '';
         position: absolute;
         /* background: var(--accent-primary); */
-        width: 100%;
+        background: var(--dark-text);
+        width: 0;
         height: 1px;
         left: 2px;
         bottom: 0;
     }
     h4:hover::after {
-        background: var(--dark-text);
+        width: 100%;
     }
     a {
         display: flex;

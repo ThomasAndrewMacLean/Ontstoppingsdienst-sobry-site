@@ -47,6 +47,7 @@
         border-radius: 100%;
         padding: 3px;
         transition: background-color 200ms ease-in;
+        cursor: pointer;
     }
     .feather-facebook:hover {
         background: #4267b2;
@@ -56,6 +57,21 @@
         border-radius: 25%;
         padding: 3px;
         transition: background-color 200ms ease-in;
+        cursor: pointer;
+    }
+    a {
+        position: relative;
+    }
+    a:hover::before {
+        content: '';
+        height: 6px;
+        width: 6px;
+        border-radius: 6px;
+        display: block;
+        background: var(--white-background-opaque);
+        position: absolute;
+        left: -13px;
+        top: 6px;
     }
     .feather-linkedin:hover {
         background: #2673b1;

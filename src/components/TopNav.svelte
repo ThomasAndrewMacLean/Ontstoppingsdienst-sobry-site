@@ -20,11 +20,29 @@
         margin-left: 1rem;
     }
     a {
+        display: block;
+        position: relative;
+    }
+    /* a {
         border-bottom: 2px solid var(--dark-background);
         transition: border-color 200ms ease-in;
     }
     a:hover {
         border-bottom: 2px solid var(--light-background);
+    } */
+    .nav-item::after {
+        transition: 200ms width ease-in-out;
+        content: '';
+        position: absolute;
+        /* background: var(--accent-primary); */
+        background: var(--light-background);
+        width: 0;
+        height: 1px;
+        left: 0;
+        bottom: 0;
+    }
+    .nav-item:hover::after {
+        width: 100%;
     }
 </style>
 
@@ -34,19 +52,19 @@
         <ul>
             <li>
 
-                <a href="/">Home</a>
+                <a class="nav-item" href="/">Home</a>
             </li>
             <li>
-                <a href="/overmij">Over mij</a>
+                <a class="nav-item" href="/overmij">Over mij</a>
             </li>
             <li>
-                <a href="/prijzen">Prijzen</a>
+                <a class="nav-item" href="/prijzen">Prijzen</a>
             </li>
             <li>
-                <a href="/tips">Tips</a>
+                <a class="nav-item" href="/tips">Tips</a>
             </li>
             <li>
-                <a href="/contact">Contact</a>
+                <a class="nav-item" href="/contact">Contact</a>
             </li>
         </ul>
     </div>
