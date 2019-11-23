@@ -11,47 +11,49 @@
 
     setInterval(() => {
         selected = (selected + 1) % 3;
-    }, 5000);
+    }, 7500);
 </script>
 
 <style>
     #reviews {
         background: var(--light-background);
         width: 102vw;
-        margin-left: calc(-50vw + 26em);
+        margin-left: calc(-50vw + 485px);
         margin-top: 2rem;
     }
 
     .review {
         /* background: lightcoral; */
-        width: 90%;
-        max-width: 350px;
+        width: 75%;
+        max-width: 750px;
         margin: auto;
         display: flex;
-        justify-content: center;
+        height: 500px;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        padding: 2rem;
+        padding: 4rem 0;
         position: relative;
     }
     .quote {
         position: absolute;
         font-size: 9rem;
+        opacity: 0.4;
         color: var(--darker-text);
         font-family: auto;
         left: 0;
-        transform: translateY(-10px);
+        transform: translateY(50px);
     }
     img {
         height: 75px;
         width: 75px;
         border-radius: 50%;
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
     }
     p {
         font-size: 14px;
-        height: 200px;
-        padding: 2rem;
+        /* height: 200px; */
+        /* padding-top: 2rem; */
         text-align: center;
     }
     .counter {
@@ -68,9 +70,12 @@
     .selected {
         background: var(--dark-text);
     }
-    @media (max-width: 56em) {
+    @media (max-width: 1000px) {
         #reviews {
-            margin-left: -32px;
+            margin-left: -3%;
+        }
+        .review {
+            /* width: 75%; */
         }
     }
 </style>

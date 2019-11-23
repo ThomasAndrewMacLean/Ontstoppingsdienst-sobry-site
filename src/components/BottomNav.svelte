@@ -12,6 +12,7 @@
         justify-content: space-between;
         padding: 3rem 0 4rem 0;
         width: 101vw;
+        border-bottom: 1rem solid var(--accent-secondary);
     }
     .center {
         width: 80%;
@@ -20,7 +21,7 @@
         justify-content: space-between;
         margin: auto;
         padding-bottom: 1rem;
-        border-bottom: 1px solid var(--white-background);
+        border-bottom: 1px solid var(--white-background-opaque);
     }
     .contact {
         text-align: right;
@@ -103,8 +104,7 @@
                         class="feather feather-facebook">
                         <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                     </svg>
-                </li>
-                <li>
+
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"

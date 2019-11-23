@@ -38,7 +38,7 @@
             position: absolute;
             background: var(--white-background);
             height: 50vw;
-            width: 102%;
+            width: 106%;
             z-index: 0;
             transform: skew(0deg, -25deg) translateY(80px);
             transform-origin: left;
@@ -53,15 +53,16 @@
         background: var(--light-background);
         width: 102vw;
         /* position: absolute; */
-        margin-left: calc(-50vw + 26em);
+        margin-left: calc(-50vw + 485px);
 
         left: 0;
         right: 0;
     }
 
-    @media (max-width: 56em) {
+    @media (max-width: 1000px) {
         #hero {
-            margin-left: -32px;
+            margin-left: -3%;
+            width: 106%;
         }
     }
     .center {
@@ -122,6 +123,11 @@
     @media (min-width: 800px) {
         .afspraak-hero {
             display: none;
+        }
+    }
+    @media (max-width: 800px) {
+        .wide-wrapper {
+            width: 102%;
         }
     }
 </style>

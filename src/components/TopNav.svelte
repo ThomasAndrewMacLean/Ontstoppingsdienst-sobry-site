@@ -7,7 +7,7 @@
         background: var(--dark-background);
         margin: 0;
         font-size: 16px;
-        padding: 1.5rem;
+        padding: 1.5rem 0;
         color: var(--white-text);
     }
 

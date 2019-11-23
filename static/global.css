@@ -12,12 +12,16 @@ body {
     background: var(--white-background);
 }
 
+html {
+    background: var(--dark-background);
+}
+
 :root {
     /* --dark-background: #374b5d; */
     --dark-background: #333333;
     --white-background: #f8f8f8;
     --light-background: #e9eaec;
-
+    --white-background-opaque: #F8F8F833;
     --dark-text: #666666;
     --darker-text: #333333;
     --white-text: #ffffff;
@@ -89,7 +93,7 @@ code {
 }
 
 .wide-wrapper {
-    width: 100%;
+    width: 95%;
     max-width: 1000px;
     margin: auto;
 }

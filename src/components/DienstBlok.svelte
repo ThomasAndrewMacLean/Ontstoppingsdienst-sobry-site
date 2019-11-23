@@ -13,7 +13,7 @@
         /* justify-content: space-between; */
     }
     .text-blok {
-        padding: 0 2rem;
+        padding: 0 0 0 2rem;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -31,7 +31,7 @@
     .text-blok::after {
         content: '';
         position: absolute;
-        width: calc(100% - 6rem);
+        width: calc(100% - 3rem);
         height: 1px;
         background: var(--light-text);
         bottom: 0;
@@ -49,11 +49,18 @@
         z-index: 0;
         object-fit: cover;
         object-position: bottom;
+        filter: brightness(0.9);
+        transition: transform 200ms ease-in, filter 200ms ease-in;
+    }
+    img:hover {
+        filter: brightness(1);
+        transform: scale(1.1);
     }
     .image-wrap {
         width: 300px;
         height: 200px;
         display: inline-flex;
+        overflow: hidden;
     }
     @media (min-width: 800px) {
         .dienst-blok {
@@ -72,7 +79,7 @@
     }
 </style>
 
-<div class="dienst-blok">
+<a href={link} class="dienst-blok">
     <div class="image-wrap">
         <img alt={title} src={image} />
     </div>
@@ -83,4 +90,4 @@
             <a class="button-dark" rel="prefetch" href={link}>{labels.leesmeer}</a>
         </div>
     </div>
-</div>
+</a>

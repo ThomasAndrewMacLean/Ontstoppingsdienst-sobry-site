@@ -14,7 +14,7 @@
         .dienstblok-wrapper {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: space-between;
         }
     }
 </style>
