@@ -98,6 +98,7 @@
         height: 100%;
     } */
     .logo {
+        height: 250px;
         padding: 1rem;
     }
     .left {
@@ -139,7 +140,7 @@
         <div class="center">
             <div class="left">
                 <div class="left-content">
-                    <img class="logo" src="logo.png" alt="logo Sobry ontstoppingsdienst" />
+                    <img class="logo" src="logo_transparant.png" alt="logo Sobry ontstoppingsdienst" />
                     <div class="afspraak afspraak-hero" bind:this={afspraakHero}>
                         <span>{labels.afspraak}</span>
                         <span>{labels.telefoonnummer}</span>

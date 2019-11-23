@@ -74,9 +74,9 @@
         #reviews {
             margin-left: -3%;
         }
-        .review {
-            /* width: 75%; */
-        }
+        /* .review {
+         
+        } */
     }
 </style>
 
