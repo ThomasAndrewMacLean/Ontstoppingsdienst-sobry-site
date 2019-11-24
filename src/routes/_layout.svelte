@@ -55,7 +55,7 @@
 
 <MobileNav {segment} {labels} />
 <div class="sticky-nav">
-    <TopNav />
+    <TopNav {segment} />
     <Nav {segment} {labels} />
 </div>
 
