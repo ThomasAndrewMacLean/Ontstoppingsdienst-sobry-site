@@ -23,7 +23,9 @@
         right: -1rem;
         transition: bottom 200ms ease-in;
     }
+  
 </style>
+
 
 <div class="afspraak afspraakOnder">
     <span>{labels.afspraak}</span>

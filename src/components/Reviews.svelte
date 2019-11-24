@@ -18,7 +18,7 @@
     #reviews {
         background: var(--light-background);
         width: 102vw;
-        margin-left: calc(-50vw + 485px);
+        margin-left: calc(-50vw + 478px);
         margin-top: 2rem;
     }
 

@@ -55,7 +55,7 @@
         background: var(--light-background);
         width: 102vw;
         /* position: absolute; */
-        margin-left: calc(-50vw + 485px);
+        margin-left: calc(-50vw + 478px);
 
         left: 0;
         right: 0;

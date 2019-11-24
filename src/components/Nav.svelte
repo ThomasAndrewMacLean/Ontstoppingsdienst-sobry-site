@@ -20,7 +20,7 @@
         align-items: center;
     }
 
-    @media (max-width: 56em) {
+    @media (max-width: 900px) {
         ul {
             height: 100px;
         }

@@ -1,5 +1,6 @@
 <script>
     import Nav from '../components/Nav.svelte';
+    import Acties from '../components/Acties.svelte';
     import MobileNav from '../components/MobileNav.svelte';
     import TopNav from '../components/TopNav.svelte';
     import Logo from '../components/Logo.svelte';
@@ -61,4 +62,5 @@
 <main>
     <slot />
 </main>
+<Acties />
 <BottomNav {labels} {segment} />

@@ -14,7 +14,7 @@
         object-fit: cover;
         object-position: bottom;
         width: 102vw;
-        margin-left: calc(-50vw + 485px);
+        margin-left: calc(-50vw + 478px);
     }
     .image-wrap {
         position: relative;
@@ -61,10 +61,10 @@
     b {
         color: var(--darker-text);
     }
-    b{
+    b {
         font-weight: 700;
     }
-    ul{
+    ul {
         list-style: disc;
     }
     @media (max-width: 600px) {
