@@ -15,7 +15,7 @@ const labels = {
         'Bij aankoop van een bestaande/nieuwbouw woning is het rioolnetwerk niet zichtbaar. Doormiddel van camera onderzoek kunnen we het netwerk in kaart brengen, kijken in welke staat uw riolering is en eventueel zwakke punten te melden en aan te pakken. Mooi voorbeeld zijn verdoken putten, verzakkingen,etc… Dit kan belangrijk zijn bij renovatiewerken, zo voorkomt u  onaangename verassingen.',
     ontkalken: 'Ontkalken',
     ontkalkentext:
-        'Is er kalk in uw leiding of zijn er wortels in uw rioolnetwerk gekomen,dan kunnen wij zonder breken deze verwijderen doormiddel van onze geadvanceerd materiaal. Bijvoorbeeld aan de hand van een camera inspectie. Voorkom problemen door twee maal per jaar uw leidingen te laten controleren',
+        'Is er kalk in uw leiding of zijn er wortels in uw rioolnetwerk gekomen,dan kunnen wij zonder breken deze verwijderen doormiddel van onze geadvanceerd materiaal. Bijvoorbeeld aan de hand van een camera inspectie. Voorkom problemen door twee maal per jaar uw leidingen te laten controleren',
     herstellingen: 'Herstellingen',
     herstellingentext:
         'Een lek in uw riolering, afvoer of put? Je merkt het meestal aan de typische rioolgeur en een trager werkende afvoer. Dit kan op twee manieren opgelost worden: je kan de leiding in kwestie laten vervangen of je kan deze laten herstellen. Doorgaans wordt er gekozen voor een reparatie, bij een rioolrenovatie en/ of leidingwerk kunt u het lek in de riolering immers dichten zonder opgraafwerk. ',
