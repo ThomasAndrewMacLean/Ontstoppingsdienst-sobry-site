@@ -12,7 +12,7 @@
 <style>
     .acties {
         position: fixed;
-        top: 275px;
+        top: 295px;
         left: -100px;
         color: var(--white-text);
         background: var(--accent-primary);
