@@ -10,6 +10,7 @@
     .dienstblok-wrapper {
         margin: 4rem 0;
     }
+    /* TURN ON FOR 3 COLUMNS */
     @media (min-width: 800px) {
         .dienstblok-wrapper {
             display: flex;

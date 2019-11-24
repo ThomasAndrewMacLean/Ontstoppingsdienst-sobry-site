@@ -48,6 +48,8 @@
         padding: 3px;
         transition: background-color 200ms ease-in;
         cursor: pointer;
+        margin-top: 5px;
+        margin-right: 5px;
     }
     .feather-facebook:hover {
         background: #4267b2;
@@ -58,6 +60,7 @@
         padding: 3px;
         transition: background-color 200ms ease-in;
         cursor: pointer;
+        margin-top: 5px;
     }
     a {
         position: relative;
