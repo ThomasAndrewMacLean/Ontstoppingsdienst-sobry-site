@@ -1,4 +1,6 @@
 <script>
+    import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
+
     import labels from '../labels.js';
 </script>
 
@@ -86,4 +88,5 @@
             <input class="button-dark" id="submit" type="submit" value="Verstuur" />
         </div>
     </form>
-</div>
+</div><FloatingAfspraak {labels} />
+

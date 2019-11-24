@@ -16,7 +16,7 @@
         left: -100px;
         color: var(--white-text);
         background: var(--accent-primary);
-        padding: 1rem 2rem;
+        padding: 0.5rem 2rem;
         transform: rotate(-90deg) translateY(50%);
         transform-origin: left;
         transition: left 200ms ease-in;
