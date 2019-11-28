@@ -1,6 +1,7 @@
 <script>
     export let link;
     export let icon;
+    export let segment;
     export let name;
 </script>
 
@@ -26,7 +27,7 @@
         content: '';
         position: absolute;
         /* background: var(--accent-primary); */
-        background:  #666666;
+        background: #666666;
         background: var(--dark-text);
         width: 0;
         height: 1px;
@@ -34,6 +35,9 @@
         bottom: 0;
     }
     h4:hover::after {
+        width: 100%;
+    }
+    h4.active-link::after {
         width: 100%;
     }
     a {
@@ -45,6 +49,6 @@
 <div>
     <a rel="prefetch" href={link}>
         <img src={icon} alt={name} />
-        <h4>{name}</h4>
+        <h4 class={segment === link ? 'active-link' : ''}>{name}</h4>
     </a>
 </div>
