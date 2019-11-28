@@ -5,8 +5,10 @@
 
 <style>
     #bottom-nav {
+        background:#333333;
         background: var(--dark-background);
-        color: var(--white-text, red);
+        color: #ffffff;
+        color: var(--white-text);
         display: flex;
         font-size: 14px;
         justify-content: space-between;

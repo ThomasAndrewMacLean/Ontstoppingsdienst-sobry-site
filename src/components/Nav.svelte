@@ -7,6 +7,7 @@
 <style>
     nav {
         /* padding: 0 2.5rem; */
+        background: #f8f8f8;
         background: var(--white-background);
     }
 

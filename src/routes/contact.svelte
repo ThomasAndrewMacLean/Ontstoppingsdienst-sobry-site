@@ -15,6 +15,7 @@
     }
     h1 {
         margin-bottom: 0;
+        color: #333333;
         color: var(--darker-text);
     }
     form,
@@ -33,6 +34,7 @@
         line-height: 1.5;
         padding-left: 5px;
         width: 100%;
+        border: 1px solid #666666;
         border: 1px solid var(--dark-text);
         margin-bottom: 0.6rem;
     }

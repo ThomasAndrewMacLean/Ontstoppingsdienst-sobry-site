@@ -7,10 +7,12 @@
 
 <style>
     nav {
+        background:#333333;
         background: var(--dark-background);
         margin: 0;
         font-size: 16px;
         padding: 1.5rem 0;
+        color: #ffffff;
         color: var(--white-text);
     }
 
@@ -38,6 +40,7 @@
         content: '';
         position: absolute;
         /* background: var(--accent-primary); */
+        background: #e9eaec;
         background: var(--light-background);
         width: 0;
         height: 1px;

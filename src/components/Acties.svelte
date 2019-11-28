@@ -14,7 +14,9 @@
         position: fixed;
         top: 295px;
         left: -100px;
+        color: #ffffff;
         color: var(--white-text);
+        background: #e43630;
         background: var(--accent-primary);
         padding: 0.5rem 2rem;
         transform: rotate(-90deg) translateY(50%);

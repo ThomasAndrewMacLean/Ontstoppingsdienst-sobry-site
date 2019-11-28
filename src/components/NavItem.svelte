@@ -11,6 +11,7 @@
     h4 {
         margin: 0;
         padding-left: 2px;
+        color: #333333;
         color: var(--darker-text);
         /* border-left: 4px dotted var(--accent-secondary); */
         font-weight: 100;
@@ -25,6 +26,7 @@
         content: '';
         position: absolute;
         /* background: var(--accent-primary); */
+        background:  #666666;
         background: var(--dark-text);
         width: 0;
         height: 1px;

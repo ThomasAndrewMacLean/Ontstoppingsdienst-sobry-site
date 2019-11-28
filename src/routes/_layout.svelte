@@ -14,6 +14,7 @@
         position: relative;
         width: 95%;
         max-width: 1000px;
+        background: #f8f8f8;
         background-color: var(--white-background);
         padding: 0;
         margin: 0 auto;

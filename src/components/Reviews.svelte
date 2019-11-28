@@ -16,6 +16,7 @@
 
 <style>
     #reviews {
+        background: #e9eaec;
         background: var(--light-background);
         width: 102vw;
         margin-left: calc(-50vw + 478px);
@@ -39,6 +40,7 @@
         position: absolute;
         font-size: 9rem;
         opacity: 0.4;
+        color: #333333;
         color: var(--darker-text);
         font-family: auto;
         left: 0;
@@ -64,10 +66,12 @@
         width: 8px;
         border-radius: 50%;
         margin: 3px;
+        border: 2px solid #666666;
         border: 2px solid var(--dark-text);
         cursor: pointer;
     }
     .selected {
+        background: #666666;
         background: var(--dark-text);
     }
     @media (max-width: 1000px) {

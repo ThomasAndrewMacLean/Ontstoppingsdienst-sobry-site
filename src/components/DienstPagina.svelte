@@ -59,6 +59,7 @@
     }
     em,
     b {
+        color: #333333;
         color: var(--darker-text);
     }
     b {

@@ -30,6 +30,7 @@
         }
 
         .askew {
+            background:  #e43630;
             background: var(--accent-primary);
             height: 80px;
             z-index: 0;
@@ -38,6 +39,7 @@
         }
         .askew-white {
             position: absolute;
+            background: #f8f8f8;
             background: var(--white-background);
             height: 50vw;
             width: 106%;
@@ -52,6 +54,7 @@
         }
     }
     #hero {
+        background: #e9eaec;
         background: var(--light-background);
         width: 102vw;
         /* position: absolute; */
@@ -81,9 +84,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        background: #e43630;
         background: var(--accent-secondary);
         padding: 1rem 0.5rem;
         margin: 1rem;
+        color:#ffffff;
         color: var(--white-text);
         cursor: pointer;
         /* border: 2px solid var(--accent-primary); */

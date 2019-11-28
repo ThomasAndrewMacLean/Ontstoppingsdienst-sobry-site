@@ -33,6 +33,7 @@
         position: absolute;
         width: calc(100% - 3rem);
         height: 1px;
+        background: #e9eaec;
         background: var(--light-text);
         bottom: 0;
         left: 2rem;
@@ -40,6 +41,7 @@
 
     h2 {
         margin: 0;
+        color: #333333;
         color: var(--darker-text);
     }
     img {
