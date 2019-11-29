@@ -11,6 +11,7 @@
 
 <style>
     main {
+        display: block;
         position: relative;
         width: 95%;
         max-width: 1000px;
