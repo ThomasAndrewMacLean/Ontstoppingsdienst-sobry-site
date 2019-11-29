@@ -96,7 +96,9 @@
         /* transition: background-color 200ms ease-in; */
     }
     .afspraak:hover {
+        background: #e43630;
         background: var(--accent-primary);
+        box-shadow: 0px 0px 8px 2px #344d9c;;
         box-shadow: 0px 0px 8px 2px var(--accent-secondary);
     }
     /* img {
@@ -121,12 +123,20 @@
     }
 
     .afspraakOnder {
+        background:#344d9c;
         background: var(--accent-secondary);
         position: fixed;
         bottom: -100px;
         right: -1rem;
         transition: bottom 200ms ease-in;
     }
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .afspraakOnder {
+            bottom: 30vh;
+        }
+    }
+
 
     @media (min-width: 800px) {
         .afspraak-hero {

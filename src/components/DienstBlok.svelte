@@ -18,14 +18,14 @@
         flex-direction: column;
         position: relative;
     }
-    .text-blok > p {
+    .text-blok p {
         height: 4.5em;
         overflow: hidden;
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
     }
-    .text-blok > div {
+    .text-blok div {
         margin-top: 1rem;
     }
     .text-blok::after {
