@@ -51,7 +51,7 @@
         z-index: 0;
         object-fit: cover;
         object-position: bottom;
-        filter: brightness(0.9);
+        filter: brightness(0.9) grayscale(1);
         transition: transform 200ms ease-in, filter 200ms ease-in;
     }
     img:hover {
@@ -82,14 +82,16 @@
 </style>
 
 <a href={link} class="dienst-blok">
-    <div class="image-wrap">
-        <img alt={title} src={image} />
-    </div>
-    <div class="text-blok">
-        <h2>{title}</h2>
-        <p>{text}</p>
-        <div>
-            <a class="button-dark" rel="prefetch" href={link}>{labels.leesmeer}</a>
+    <div>
+        <div class="image-wrap">
+            <img alt={title} src={image} />
+        </div>
+        <div class="text-blok">
+            <h2>{title}</h2>
+            <p>{text}</p>
+            <div>
+                <a class="button-dark" rel="prefetch" href={link}>{labels.leesmeer}</a>
+            </div>
         </div>
     </div>
 </a>
