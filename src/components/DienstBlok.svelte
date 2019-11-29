@@ -25,6 +25,20 @@
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
     }
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .text-blok p  {
+            position: relative;
+        }
+         .text-blok p::before  {
+            content:'...';
+            position: absolute;
+            bottom:0;
+            right:0;
+            display: block;
+        }
+    }
+
     .text-blok div {
         margin-top: 1rem;
     }
