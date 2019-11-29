@@ -54,8 +54,7 @@
     }
     p {
         font-size: 14px;
-        /* height: 200px; */
-        /* padding-top: 2rem; */
+        width:100%;
         text-align: center;
     }
     .counter {
@@ -74,6 +73,13 @@
         background: #666666;
         background: var(--dark-text);
     }
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .quote {
+        transform: translateY(-50px);
+        }
+    }
+
     @media (max-width: 1000px) {
         #reviews {
             margin-left: -3%;

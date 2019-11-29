@@ -81,8 +81,9 @@
     }
 </style>
 
-<a href={link} class="dienst-blok">
-    <div>
+<div class="dienst-blok">
+<a href={link}>
+  
         <div class="image-wrap">
             <img alt={title} src={image} />
         </div>
@@ -93,5 +94,6 @@
                 <a class="button-dark" rel="prefetch" href={link}>{labels.leesmeer}</a>
             </div>
         </div>
-    </div>
+  
 </a>
+</div>

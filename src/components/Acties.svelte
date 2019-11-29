@@ -24,6 +24,12 @@
         transition: left 200ms ease-in;
     }
 
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .acties {
+            transform-origin: center;
+        }
+    }
+
     @media (max-width: 900px) {
         .acties {
             top: 333px;

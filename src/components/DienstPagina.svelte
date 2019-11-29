@@ -19,6 +19,17 @@
     .image-wrap {
         position: relative;
     }
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .full-width-picture {
+            height:auto;
+        }
+        .image-wrap {
+            height: 450px;
+            overflow:hidden;
+        }
+    }
+
     .logo {
         position: absolute;
         top: 5%;
@@ -54,6 +65,7 @@
     }
     h2 {
         margin: 0;
+        color: #333333;
         color: var(--darker-text);
         padding-bottom: 2rem;
     }
@@ -82,7 +94,8 @@
 </style>
 
 <div class="image-wrap">
-    <img class="full-width-picture" alt={title} src={image} />
+   <img class="full-width-picture" alt={title} src={image} />
+
     <img class="logo" src="logo_transparant.png" alt="sobry logo overlay" />
 </div>
 <div class="text-blok">
