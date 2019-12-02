@@ -52,8 +52,19 @@ a {
     text-decoration: none;
 }
 
+
+em,
+b {
+    color: #333333;
+    color: var(--darker-text);
+}
+
+b {
+    font-weight: 700;
+}
+
 ul {
-    list-style: none;
+    list-style: disc;
 }
 
 /* 

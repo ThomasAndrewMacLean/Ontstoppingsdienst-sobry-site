@@ -13,8 +13,8 @@
         margin: 0;
         object-fit: cover;
         object-position: bottom;
-        width: 102vw;
-        margin-left: calc(-50vw + 478px);
+        width: 100vw;
+        margin-left: calc(-50vw + 500px);
     }
     .image-wrap {
         position: relative;
@@ -22,11 +22,11 @@
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         .full-width-picture {
-            height:auto;
+            height: auto;
         }
         .image-wrap {
             height: 450px;
-            overflow:hidden;
+            overflow: hidden;
         }
     }
 
@@ -37,12 +37,7 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    @media (max-width: 1000px) {
-        .full-width-picture {
-            margin-left: -3%;
-            width: 106%;
-        }
-    }
+
     .text-quote-wrapper {
         display: flex;
     }
@@ -69,16 +64,15 @@
         color: var(--darker-text);
         padding-bottom: 2rem;
     }
-    em,
-    b {
-        color: #333333;
-        color: var(--darker-text);
-    }
-    b {
-        font-weight: 700;
-    }
-    ul {
-        list-style: disc;
+   
+    @media (max-width: 1000px) {
+        .full-width-picture {
+            margin-left: 0;
+            width: 100%;
+        }
+        .text-blok {
+            padding: 3rem;
+        }
     }
     @media (max-width: 600px) {
         .quote {
@@ -86,6 +80,7 @@
         }
         .text {
             width: 100%;
+            padding-right: 0;
         }
         .text-blok {
             padding: 2rem;
@@ -94,7 +89,7 @@
 </style>
 
 <div class="image-wrap">
-   <img class="full-width-picture" alt={title} src={image} />
+    <img class="full-width-picture" alt={title} src={image} />
 
     <img class="logo" src="logo_transparant.png" alt="sobry logo overlay" />
 </div>

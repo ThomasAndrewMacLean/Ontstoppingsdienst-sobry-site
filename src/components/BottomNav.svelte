@@ -81,6 +81,10 @@
     .feather-linkedin:hover {
         background: #2673b1;
     }
+
+    ul {
+        list-style: none;
+    }
 </style>
 
 <div id="bottom-nav">

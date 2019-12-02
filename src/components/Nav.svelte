@@ -31,6 +31,9 @@
             justify-content: center;
         }
     }
+    ul {
+        list-style: none;
+    }
 </style>
 
 <nav>

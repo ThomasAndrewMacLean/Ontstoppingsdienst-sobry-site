@@ -7,7 +7,7 @@
 
 <style>
     nav {
-        background:#333333;
+        background: #333333;
         background: var(--dark-background);
         margin: 0;
         font-size: 16px;
@@ -56,6 +56,10 @@
     }
     .nav-item.active::after {
         width: 100%;
+    }
+
+    ul {
+        list-style: none;
     }
 </style>
 

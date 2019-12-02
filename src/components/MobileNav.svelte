@@ -109,6 +109,10 @@
     .diensten-item {
         background: var(--light-background);
     }
+
+    ul {
+        list-style: none;
+    }
 </style>
 
 {#if showMobileNav}
