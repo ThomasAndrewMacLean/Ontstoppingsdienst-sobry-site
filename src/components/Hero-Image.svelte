@@ -10,6 +10,7 @@
         object-position: bottom;
         width: 100vw;
         margin-left: calc(-50vw + 500px);
+        filter: grayscale(0.9);
     }
     .image-wrap {
         position: relative;

@@ -11,17 +11,7 @@
         padding-bottom: 8rem;
         z-index: 1;
     }
-    img {
-        height: 500px;
-        margin: 0;
-        z-index: 0;
-        object-fit: cover;
-        /* position: absolute; */
-        object-position: bottom;
-        width: 100vw;
-        margin-left: calc(-50vw + 500px);
-        top: 0;
-    }
+   
     p {
         margin-top: 0;
     }
@@ -40,9 +30,7 @@
         .page {
             padding: 3rem;
         }
-        img {
-            margin-left: 0;
-        }
+       
     }
     @media (max-width: 800px) {
         .page {

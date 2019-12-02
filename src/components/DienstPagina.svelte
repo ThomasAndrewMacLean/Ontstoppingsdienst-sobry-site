@@ -1,4 +1,6 @@
 <script>
+    import HeroImage from './Hero-Image.svelte';
+
     export let title;
     export let text;
     export let quote;
@@ -8,36 +10,6 @@
 </script>
 
 <style>
-    .full-width-picture {
-        height: 450px;
-        margin: 0;
-        object-fit: cover;
-        object-position: bottom;
-        width: 100vw;
-        margin-left: calc(-50vw + 500px);
-    }
-    .image-wrap {
-        position: relative;
-    }
-
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-        .full-width-picture {
-            height: auto;
-        }
-        .image-wrap {
-            height: 450px;
-            overflow: hidden;
-        }
-    }
-
-    .logo {
-        position: absolute;
-        top: 5%;
-        height: 80%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
     .text-quote-wrapper {
         display: flex;
     }
@@ -64,12 +36,8 @@
         color: var(--darker-text);
         padding-bottom: 2rem;
     }
-   
+
     @media (max-width: 1000px) {
-        .full-width-picture {
-            margin-left: 0;
-            width: 100%;
-        }
         .text-blok {
             padding: 3rem;
         }
@@ -88,11 +56,7 @@
     }
 </style>
 
-<div class="image-wrap">
-    <img class="full-width-picture" alt={title} src={image} />
-
-    <img class="logo" src="logo_transparant.png" alt="sobry logo overlay" />
-</div>
+<HeroImage {image} />
 <div class="text-blok">
     <h2>{title}</h2>
     <div class="text-quote-wrapper">
