@@ -1,5 +1,5 @@
 <script>
-    // your script goes here
+    import HeroImage from '../components/Hero-Image.svelte';
 </script>
 
 <style>
@@ -51,7 +51,7 @@
     }
 </style>
 
-<img src="picture-drain.jpg" alt="" />
+<HeroImage image="picture-urinoirs.jpg" />
 <div class="page">
     <h1>Prijzen</h1>
     <h2>
