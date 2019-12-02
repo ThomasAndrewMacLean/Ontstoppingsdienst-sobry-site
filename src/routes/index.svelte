@@ -23,6 +23,7 @@
             justify-content: space-between;
         }
     }
+    
 </style>
 
 <svelte:head>
@@ -67,7 +68,8 @@
         link="ontkalken"
         title={labels.ontkalken}
         image="picture-urinoirs.jpg"
-        text={labels.ontkalkentext} />
+        text={labels.ontkalkentext}
+        last />
 
 </div>
 <Reviews />

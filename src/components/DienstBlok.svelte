@@ -4,6 +4,7 @@
     export let link;
     export let image;
     export let labels;
+    export let last;
 </script>
 
 <style>
@@ -51,7 +52,9 @@
         background: var(--light-text);
         bottom: -25px;
     }
-
+    .text-blok.last::after {
+        width: 0;
+    }
     h2 {
         margin: 0;
         color: #333333;
@@ -113,7 +116,7 @@
         <div class="image-wrap">
             <img alt={title} src={image} />
         </div>
-        <div class="text-blok">
+        <div class={last ? 'last text-blok' : 'text-blok'}>
             <h2>{title}</h2>
             <p>{text}</p>
             <div>
