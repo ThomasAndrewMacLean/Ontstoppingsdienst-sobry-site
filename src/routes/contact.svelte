@@ -1,5 +1,6 @@
 <script>
     import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
+    import HeroImage from '../components/Hero-Image.svelte';
 
     import labels from '../labels.js';
 </script>
@@ -64,6 +65,7 @@
     }
 </style>
 
+<HeroImage image="picture-ontstop.jpg" />
 <div class="page">
     <h1>{labels.contacttitle}</h1>
     <p>{labels.contacttekst}</p>

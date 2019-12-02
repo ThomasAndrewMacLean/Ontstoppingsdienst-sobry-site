@@ -5,7 +5,6 @@
     let navMenu;
     let showMobileNav = false;
     const toggleNav = () => {
-        console.log('nav');
         showMobileNav = !showMobileNav;
 
         navMenu.style.left = showMobileNav ? '0px' : '-100%';
