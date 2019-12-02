@@ -21,6 +21,7 @@
     form,
     p {
         width: 100%;
+        padding-top: 3rem;
         max-width: 500px;
     }
     p {
@@ -31,7 +32,7 @@
     textarea {
         font-size: inherit;
         font-family: inherit;
-        line-height: 1.5;
+        line-height: 2;
         padding-left: 5px;
         width: 100%;
         border: 1px solid #666666;
@@ -90,5 +91,5 @@
             <input class="button-dark" id="submit" type="submit" value="Verstuur" />
         </div>
     </form>
-</div><FloatingAfspraak {labels} />
-
+</div>
+<FloatingAfspraak {labels} />
