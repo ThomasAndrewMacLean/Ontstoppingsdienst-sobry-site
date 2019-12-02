@@ -5,7 +5,7 @@
 
 <style>
     #bottom-nav {
-        background:#333333;
+        background: #333333;
         background: var(--dark-background);
         color: #ffffff;
         color: var(--white-text);
@@ -13,7 +13,7 @@
         font-size: 14px;
         justify-content: space-between;
         padding: 3rem 0 4rem 0;
-        width: 101vw;
+        width: 100vw;
         border-bottom: 1rem solid var(--accent-secondary);
     }
     .center {

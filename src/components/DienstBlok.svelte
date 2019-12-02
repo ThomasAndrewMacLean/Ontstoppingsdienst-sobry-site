@@ -27,14 +27,14 @@
     }
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-        .text-blok p  {
+        .text-blok p {
             position: relative;
         }
-         .text-blok p::before  {
-            content:'...';
+        .text-blok p::before {
+            content: '...';
             position: absolute;
-            bottom:0;
-            right:0;
+            bottom: 0;
+            right: 0;
             display: block;
         }
     }
@@ -45,12 +45,11 @@
     .text-blok::after {
         content: '';
         position: absolute;
-        width: calc(100% - 3rem);
+        width: 100%;
         height: 1px;
         background: #e9eaec;
         background: var(--light-text);
-        bottom: 0;
-        left: 2rem;
+        bottom: -25px;
     }
 
     h2 {
@@ -78,6 +77,19 @@
         display: inline-flex;
         overflow: hidden;
     }
+    @media (max-width: 800px) {
+        .dienst-blok > a {
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+        .image-wrap {
+            width: 100%;
+        }
+        .text-blok {
+            flex-shrink: 2;
+            padding: 0;
+        }
+    }
     @media (min-width: 800px) {
         .dienst-blok {
             width: 30%;
@@ -96,8 +108,8 @@
 </style>
 
 <div class="dienst-blok">
-<a href={link}>
-  
+    <a href={link}>
+
         <div class="image-wrap">
             <img alt={title} src={image} />
         </div>
@@ -108,6 +120,6 @@
                 <a class="button-dark" rel="prefetch" href={link}>{labels.leesmeer}</a>
             </div>
         </div>
-  
-</a>
+
+    </a>
 </div>

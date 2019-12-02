@@ -18,7 +18,7 @@
     #reviews {
         background: #e9eaec;
         background: var(--light-background);
-        width: 102vw;
+        width: 100vw;
         margin-left: calc(-50vw + 478px);
         margin-top: 2rem;
     }
@@ -54,7 +54,7 @@
     }
     p {
         font-size: 14px;
-        width:100%;
+        width: 100%;
         text-align: center;
     }
     .counter {
@@ -75,8 +75,8 @@
     }
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-      .quote {
-        transform: translateY(-50px);
+        .quote {
+            transform: translateY(-50px);
         }
     }
 
