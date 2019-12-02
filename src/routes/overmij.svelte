@@ -25,7 +25,7 @@
     h1 {
         color: var(--light-texts);
     }
-    @media (max-width: 56em) {
+    @media (max-width: 1000px) {
         img {
             margin-left: -32px;
         }

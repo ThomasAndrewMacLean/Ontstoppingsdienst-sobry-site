@@ -10,6 +10,11 @@
     .dienstblok-wrapper {
         margin: 4rem 0;
     }
+    @media (max-width: 1000px) {
+        .dienstblok-wrapper {
+            margin: 4rem 1rem;
+        }
+    }
     /* TURN ON FOR 3 COLUMNS */
     @media (min-width: 800px) {
         .dienstblok-wrapper {

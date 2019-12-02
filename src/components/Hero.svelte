@@ -30,7 +30,7 @@
         }
 
         .askew {
-            background:  #e43630;
+            background: #e43630;
             background: var(--accent-primary);
             height: 80px;
             z-index: 0;
@@ -42,7 +42,7 @@
             background: #f8f8f8;
             background: var(--white-background);
             height: 50vw;
-            width: 106%;
+            width: 105%;
             z-index: 0;
             transform: skew(0deg, -25deg) translateY(80px);
             transform-origin: left;
@@ -56,9 +56,9 @@
     #hero {
         background: #e9eaec;
         background: var(--light-background);
-        width: 102vw;
+        width: 100vw;
         /* position: absolute; */
-        margin-left: calc(-50vw + 478px);
+        margin-left: calc(-50vw + 500px);
 
         left: 0;
         right: 0;
@@ -66,8 +66,9 @@
 
     @media (max-width: 1000px) {
         #hero {
-            margin-left: -3%;
-            width: 106%;
+            margin-left: 0;
+            width: 100%;
+            overflow: hidden;
         }
     }
     .center {
@@ -88,7 +89,7 @@
         background: var(--accent-secondary);
         padding: 1rem 0.5rem;
         margin: 1rem;
-        color:#ffffff;
+        color: #ffffff;
         color: var(--white-text);
         cursor: pointer;
         /* border: 2px solid var(--accent-primary); */
@@ -98,7 +99,7 @@
     .afspraak:hover {
         background: #e43630;
         background: var(--accent-primary);
-        box-shadow: 0px 0px 8px 2px #344d9c;;
+        box-shadow: 0px 0px 8px 2px #344d9c;
         box-shadow: 0px 0px 8px 2px var(--accent-secondary);
     }
     /* img {
@@ -123,7 +124,7 @@
     }
 
     .afspraakOnder {
-        background:#344d9c;
+        background: #344d9c;
         background: var(--accent-secondary);
         position: fixed;
         bottom: -100px;
@@ -136,7 +137,6 @@
             bottom: 30vh;
         }
     }
-
 
     @media (min-width: 800px) {
         .afspraak-hero {

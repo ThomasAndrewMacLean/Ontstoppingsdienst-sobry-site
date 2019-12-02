@@ -19,7 +19,7 @@
         background: #e9eaec;
         background: var(--light-background);
         width: 100vw;
-        margin-left: calc(-50vw + 478px);
+        margin-left: calc(-50vw + 500px);
         margin-top: 2rem;
     }
 
@@ -82,7 +82,7 @@
 
     @media (max-width: 1000px) {
         #reviews {
-            margin-left: -3%;
+            margin-left: 0;
         }
         /* .review {
          

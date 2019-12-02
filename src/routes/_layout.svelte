@@ -12,8 +12,10 @@
 <style>
     main {
         display: block;
+
         position: relative;
-        width: 95%;
+        width: 100%;
+
         max-width: 1000px;
         background: #f8f8f8;
         background-color: var(--white-background);
@@ -27,7 +29,7 @@
         position: fixed;
         top: 0;
         z-index: 1000;
-        /* background: white; */
+        width: 100vw;
         left: 0;
         right: 0;
         /* display: grid; */
@@ -35,7 +37,8 @@
         box-shadow: 0px -3px 7px 1px #00000040;
     }
 
-    @media (max-width: 56em) {
+    /* at 900px we put top nav in two rows */
+    @media (max-width: 900px) {
         main {
             padding-top: 172px;
         }
@@ -50,6 +53,7 @@
         }
         main {
             padding-top: 0em;
+            overflow: hidden;
             /* margin-top: 2em; */
         }
     }
