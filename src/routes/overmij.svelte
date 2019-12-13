@@ -1,4 +1,7 @@
 <script>
+    import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
+    import labels from '../labels.js';
+
     import HeroImage from '../components/Hero-Image.svelte';
 </script>
 
@@ -87,3 +90,4 @@
         </p>
     </div>
 </div>
+<FloatingAfspraak {labels} />

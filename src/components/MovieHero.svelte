@@ -6,6 +6,8 @@
     video {
         width: auto;
         height: 450px;
+        /* background-color: var(--dark-background); */
+        background-image: url(picture-buizen.jpg);
         /* margin-left: calc(-50vw + 26em); */
     }
 

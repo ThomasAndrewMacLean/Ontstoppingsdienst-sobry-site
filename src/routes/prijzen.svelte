@@ -1,4 +1,7 @@
 <script>
+    import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
+    import labels from '../labels.js';
+
     import HeroImage from '../components/Hero-Image.svelte';
 </script>
 
@@ -11,7 +14,7 @@
         padding-bottom: 8rem;
         z-index: 1;
     }
-   
+
     p {
         margin-top: 0;
     }
@@ -30,7 +33,6 @@
         .page {
             padding: 3rem;
         }
-       
     }
     @media (max-width: 800px) {
         .page {
@@ -107,3 +109,4 @@
         </p>
     </div>
 </div>
+<FloatingAfspraak {labels} />
