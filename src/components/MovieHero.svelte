@@ -4,19 +4,14 @@
 
 <style>
     video {
-        width: auto;
-        height: 450px;
-        /* background-color: var(--dark-background); */
-        background-image: url(picture-buizen.jpg);
-        /* margin-left: calc(-50vw + 26em); */
+        background-image: url('../fallback.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
     }
-
-    /* @media (max-width: 56em) {
-        video {
-            width: 100%;
-            margin-left: -32px;
-        }
-    } */
 </style>
 
-<video id="videoHome" src={movieUrl} playsinline autoplay muted loop />
+<video id="videoHome" playsinline autoplay muted loop>
+    <source src={movieUrl} type="video/mp4" />
+</video>

@@ -54,8 +54,8 @@
         }
     }
     #hero {
-        background: #e9eaec;
-        background: var(--light-background);
+        background: #ffffff;
+        /* background: var(--white-background); */
         width: 100vw;
         /* position: absolute; */
         margin-left: calc(-50vw + 500px);
@@ -120,6 +120,7 @@
         justify-content: center;
     }
     .right {
+        width: 100%;
         display: flex;
     }
 
@@ -139,7 +140,7 @@
     }
 
     @media (min-width: 800px) {
-        .afspraak-hero {
+        .left {
             display: none;
         }
     }
