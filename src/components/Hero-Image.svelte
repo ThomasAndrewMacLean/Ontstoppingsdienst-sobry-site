@@ -63,6 +63,8 @@
 </style>
 
 <div class="image-wrap">
-    <div class="full-width-picture" style="background-image:url({image})" />
+    {#if image}
+        <div class="full-width-picture" style="background-image:url({image})" />
+    {/if}
     <img class="logo" src="logo_transparant.png" alt="sobry logo overlay" />
 </div>

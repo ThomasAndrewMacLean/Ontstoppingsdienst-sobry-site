@@ -16,11 +16,16 @@
         left: -100px;
         color: #ffffff;
         color: var(--white-text);
-        background: #e43630;
-        background: var(--accent-primary);
+        background: #344d9c;
+        background: var(--accent-secondary);
         padding: 0.5rem 2rem;
-        transform: rotate(-90deg) translateY(50%);
-        transform-origin: left;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
         transition: left 200ms ease-in;
     }
 
@@ -43,4 +48,8 @@
     }
 </style>
 
-<div bind:this={discount} class="acties hide">Nu -10% KORTING</div>
+<div bind:this={discount} class="acties hide">
+    Winteractie!
+    <br />
+    -10% Korting
+</div>

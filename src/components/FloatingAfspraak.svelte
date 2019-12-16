@@ -19,8 +19,8 @@
         border-radius: var(--border-radius);
     }
     .afspraakOnder {
-        background: #344d9c;
-        background: var(--accent-secondary);
+        background: #e43630;
+        background: var(--accent-primary);
         position: fixed;
         bottom: 30vh;
         bottom: var(--afspraak-height);
@@ -30,6 +30,5 @@
 </style>
 
 <div class="afspraak afspraakOnder">
-    <span>{labels.afspraak}</span>
     <span>{labels.telefoonnummer}</span>
 </div>

@@ -17,7 +17,7 @@
 <style>
     #reviews {
         background: #e9eaec;
-        background: var(--light-background);
+        background: var(--white-background);
         width: 100vw;
         margin-left: calc(-50vw + 500px);
         margin-top: 2rem;
@@ -74,6 +74,21 @@
         background: var(--dark-text);
     }
 
+    hr {
+        border: none;
+        height: 20px;
+        width: 50%;
+        height: 50px;
+        margin-top: 0;
+        position: relative;
+        box-shadow: 0 20px 20px -20px #333;
+        margin: -50px auto 10px;
+    }
+    hr::after {
+        content: '';
+        position: absolute;
+        box-shadow: 0 20px 20px -20px #333;
+    }
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         .quote {
             transform: translateY(-50px);
@@ -91,6 +106,7 @@
 </style>
 
 <div id="reviews">
+    <hr />
     <div class="review">
         <img src={images[selected]} alt="social" />
 
