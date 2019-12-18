@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "GothicHeader";
+    src: url("./gothic.ttf");
+    src: url("./gothic.woff") format("woff"),
+        url("./gothic.woff2") format("woff2");
+}
+
 body {
     margin: 0;
     font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -44,7 +51,9 @@ h1 {
 h1,
 h2,
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: GothicHeader, 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 100;
 }
 
 a {

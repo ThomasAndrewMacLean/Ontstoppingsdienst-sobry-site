@@ -70,6 +70,5 @@
         image="picture-urinoirs.jpg"
         text={labels.ontkalkentext}
         last />
-
 </div>
 <Reviews />

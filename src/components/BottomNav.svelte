@@ -60,6 +60,10 @@
         flex-direction: column;
     }
     .blue-links {
+        font-family: GothicHeader, 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 1.2rem;
         background: var(--accent-secondary);
         text-transform: uppercase;
 

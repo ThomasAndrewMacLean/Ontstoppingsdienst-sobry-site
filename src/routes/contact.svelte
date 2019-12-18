@@ -12,6 +12,30 @@
             ready = true;
         };
     }
+
+    const cloudFunctionUrl = 'https://europe-west1-nomadic-buffer-204610.cloudfunctions.net/sobry-form';
+
+    const submitForm = e => {
+        e.preventDefault();
+
+        fetch(cloudFunctionUrl, {
+            method: 'POST',
+            headers: {
+                Accept: 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                subject: 'Nieuw bericht van ' + e.target.name.value,
+                text: `naam: ${e.target.name.value} <br/>email: ${e.target.email.value} <br/>telefoon: ${e.target.telephone.value} <br/>bericht: ${e.target.message.value} <br/>`,
+                name: e.target.name.value,
+                email: e.target.email.value,
+                telephone: e.target.telephone.value,
+                message: e.target.message.value,
+            }),
+        })
+            .then(x => x.json())
+            .then(y => console.log(y));
+    };
 </script>
 
 <style>
@@ -88,11 +112,6 @@
 </style>
 
 <svelte:head>
-    <script>
-        // window.initMap = () => {
-        //     console.log('start');
-        // };
-    </script>
     <script
         defer
         async
@@ -100,7 +119,6 @@
 
     </script>
 </svelte:head>
-
 {#if ready}
     <Map />
 {/if}
@@ -110,7 +128,7 @@
 <div class="page">
     <h1>{labels.contacttitle}</h1>
     <p>{labels.contacttekst}</p>
-    <form action="">
+    <form on:submit={submitForm} action="">
         <div class="double">
 
             <div class="form-item">
