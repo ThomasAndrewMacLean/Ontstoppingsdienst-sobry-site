@@ -30,8 +30,9 @@
         display: flex;
         flex-direction: column;
     }
-    h2 {
+    h1 {
         margin: 0;
+        font-size: 3rem;
         color: #333333;
         color: var(--darker-text);
         padding-bottom: 2rem;
@@ -58,7 +59,7 @@
 
 <HeroImage {image} />
 <div class="text-blok">
-    <h2>{title}</h2>
+    <h1>{title}</h1>
     <div class="text-quote-wrapper">
         <div class="text">
             {@html text}
