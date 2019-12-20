@@ -109,6 +109,12 @@
     ul {
         list-style: none;
     }
+    li {
+        padding: 6px 0;
+    }
+    .provincie {
+        text-decoration: underline;
+    }
     @media (max-width: 800px) {
         form,
         p,
@@ -182,7 +188,7 @@
                     showOostVl = !showOostVl;
                 }}
                 class="pointer">
-                Oost-Vlaanderen
+                <span class="provincie">Oost-Vlaanderen</span>
                 {#if showOostVl}
                     <p>
                         Gent, Mariakerke, Drongen, Wondelgem, Sint-amandsberg, Oostakker, Desteldonk, Mendonk,
@@ -231,7 +237,7 @@
                     showWestVl = !showWestVl;
                 }}
                 class="pointer">
-                West-Vlaanderen
+                <span class="provincie">West-Vlaanderen</span>
                 {#if showWestVl}
                     <p>
                         Brugge, Koolkerke, Oostkamp, Hertsberge, Ruddervoorde, Waardamme, Sint-michiels, Sint-andries,
@@ -272,7 +278,7 @@
                     showVlaamsBrabant = !showVlaamsBrabant;
                 }}
                 class="pointer">
-                Vlaams-Brabant
+                <span class="provincie">Vlaams-Brabant</span>
                 {#if showVlaamsBrabant}
                     <p>
                         Halle, Buizingen, Lembeek, Herfelingen, Herne, Sint-pieters-kapelle, Bever, Hoeilaart,
@@ -297,7 +303,7 @@
                     showAntwerpen = !showAntwerpen;
                 }}
                 class="pointer">
-                Antwerpen
+                <span class="provincie">Antwerpen</span>
                 {#if showAntwerpen}
                     <p>
                         Burcht, Zwijndrecht, Willebroek, Tisselt, Heindonk, Blaasveld, Reet, Terhagen, Rumst, Niel,
