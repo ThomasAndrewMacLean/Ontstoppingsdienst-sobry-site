@@ -103,12 +103,20 @@
          
         } */
     }
+    .show {
+        display: block;
+    }
+    .hide {
+        display: none;
+    }
 </style>
 
 <div id="reviews">
     <hr />
     <div class="review">
-        <img src={images[selected]} alt="social" />
+        <img class={selected === 0 ? 'show' : 'hide'} src={images[0]} alt="social" />
+        <img class={selected === 1 ? 'show' : 'hide'} src={images[1]} alt="social" />
+        <img class={selected === 2 ? 'show' : 'hide'} src={images[2]} alt="social" />
 
         <div class="quote">&rdquo;</div>
         <p>{text[selected]}</p>
