@@ -126,14 +126,14 @@
         display: flex;
     }
 
-    .afspraakOnder {
+    /* .afspraakOnder {
         background: #e43630;
         background: var(--accent-primary);
         position: fixed;
         bottom: -100px;
         right: -1rem;
         transition: bottom 200ms ease-in;
-    }
+    } */
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         .afspraakOnder {
@@ -177,9 +177,9 @@
                 <!-- <img src="house.png" alt="image of a houseand a plumber" /> -->
             </div>
         </div>
-        <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
+        <!-- <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
             <span>{labels.telefoonnummer}</span>
-        </div>
+        </div> -->
         <!-- <div class="askew" />
         <div class="askew-white" /> -->
     </div>

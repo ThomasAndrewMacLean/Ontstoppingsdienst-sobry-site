@@ -46,6 +46,7 @@
         align-items: center;
         padding-top: 4rem;
         padding-bottom: 8rem;
+        background: #e9eaeb;
     }
     h1 {
         margin-bottom: 0;
@@ -118,6 +119,11 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgvHuij3rX9Ulc5ho0bN3fNLczsX_QbqY&callback=initMap">
 
     </script>
+    <style>
+        body {
+            background: #e9eaeb !important;
+        }
+    </style>
 </svelte:head>
 {#if ready}
     <Map />
@@ -125,9 +131,12 @@
 {#if !ready}
     <HeroImage />
 {/if}
+
 <div class="page">
     <h1>{labels.contacttitle}</h1>
-    <p>{labels.contacttekst}</p>
+
+    <img src="logo-contact.png" alt="sobry logo" class="logo-img" />
+
     <form on:submit={submitForm} action="">
         <div class="double">
 
@@ -152,5 +161,11 @@
             <input class="button-dark" id="submit" type="submit" value="Verstuur" />
         </div>
     </form>
+
+    <h2>Werkgebied</h2>
+    <ul>
+        <li>Oost-Vlaanderen</li>
+        <li>West-Vlaanderen</li>
+    </ul>
 </div>
 <FloatingAfspraak {labels} />

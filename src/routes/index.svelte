@@ -2,6 +2,8 @@
     import DienstBlok from '../components/DienstBlok.svelte';
     import Reviews from '../components/Reviews.svelte';
     import Hero from '../components/Hero.svelte';
+    import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
+
     // import MovieHero from '../components/MovieHero.svelte';
     import labels from '../labels.js';
 </script>
@@ -23,7 +25,6 @@
             justify-content: space-between;
         }
     }
-    
 </style>
 
 <svelte:head>
@@ -72,3 +73,4 @@
         last />
 </div>
 <Reviews />
+<FloatingAfspraak {labels} />
