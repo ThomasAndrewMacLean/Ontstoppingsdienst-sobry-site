@@ -60,7 +60,7 @@
     }
     @media (max-width: 800px) {
         .tips-page {
-            padding-top: 6em;
+            padding: 1rem;
         }
     }
 </style>

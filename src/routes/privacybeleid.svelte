@@ -43,7 +43,7 @@
 
     <p>
         In het kader van de uitvoering van haar bedrijfsactiviteiten beheert, verzamelt en gebruikt Ontstoppingsdienst
-        Sobry, Hillarestraat 275, 9160 Lokeren (btwnummer volgt nog) persoonsgebonden gegevens: naam, voornaam,
+        Sobry, Hillarestraat 275, 9160 Lokeren (btw: 0630.666.383) persoonsgebonden gegevens: naam, voornaam,
         geslacht, adres, telefoon/GSM – nummers en mailadressen.
     </p>
     <p>

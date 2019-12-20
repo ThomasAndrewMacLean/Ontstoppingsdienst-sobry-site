@@ -149,13 +149,13 @@
 
                 </li>
                 <li>
-                    <a on:click={toggleNav} href="/ontkalken">{labels.ontkalken}</a>
-                </li>
-                <li>
                     <a on:click={toggleNav} href="/cameradetectie">{labels.cameradetectie}</a>
                 </li>
                 <li>
                     <a on:click={toggleNav} href="/geurdetectie">{labels.geurdetectie}</a>
+                </li>
+                <li>
+                    <a on:click={toggleNav} href="/ontkalken">{labels.ontkalken}</a>
                 </li>
                 <li>
                     <a on:click={toggleNav} href="/adviesaankoopwoning">{labels.adviesaankoopwoning}</a>

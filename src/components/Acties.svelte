@@ -12,7 +12,7 @@
 <style>
     .acties {
         position: absolute;
-        top: 70vh;
+        top: 55vh;
         left: -150px;
         color: #ffffff;
         color: var(--white-text);
@@ -44,7 +44,7 @@
     @media (max-width: 800px) {
         .acties {
             position: absolute;
-            top: 45vh;
+            top: 50vh;
             left: 0 !important;
             height: 100px;
             width: 100px;
