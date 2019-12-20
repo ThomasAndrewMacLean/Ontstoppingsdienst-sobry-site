@@ -76,6 +76,14 @@ ul {
     list-style: disc;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex !important;
+}
+
 /* 
 .dienst-blok:nth-child(2n+1) {
     flex-direction: row-reverse;

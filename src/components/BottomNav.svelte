@@ -83,7 +83,7 @@
     }
     .logo-img {
         margin-right: 2rem;
-        width: 75px;
+        width: 90px;
     }
     @media (max-width: 800px) {
         .wide-wrapper {
@@ -97,7 +97,7 @@
 <div id="bottom-nav">
     <div class="wide-wrapper ptb">
         <div class="logo">
-            <img src="logo-small-filled.png" alt="sobry logo" class="logo-img" />
+            <img src="logo-border.png" alt="sobry logo" class="logo-img" />
             <ul>
                 <li>Ontstoppingsdienst Sobry</li>
                 <!-- <li>Hillarestraat 175, 9160 Lokeren</li> -->

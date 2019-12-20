@@ -11,7 +11,7 @@
         background: var(--dark-background);
         margin: 0;
         font-size: 16px;
-        padding: 1.5rem 0;
+        padding: 12.5px 0;
         color: #ffffff;
         color: var(--white-text);
     }
@@ -61,15 +61,24 @@
     ul {
         list-style: none;
     }
+
+    .wide-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 </style>
 
 <nav>
     <div class="wide-wrapper">
         <!-- <img src="logo-small-filled.png" alt="" /> -->
+        <a class="pointer flex" href="/">
+            <img src="logo-header.png" alt="sobry logo" class="logo-img" />
+        </a>
         <ul>
-            <li>
+            <!-- <li>
                 <a class={segment === undefined ? 'nav-item active' : 'nav-item'} href="/">Home</a>
-            </li>
+            </li> -->
             <li>
                 <a class={segment === 'overmij' ? 'nav-item active' : 'nav-item'} href="/overmij">Over mij</a>
             </li>
