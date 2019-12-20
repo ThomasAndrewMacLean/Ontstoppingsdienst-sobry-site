@@ -1,8 +1,8 @@
 <script>
     import { onMount } from 'svelte';
     import MovieHero from './MovieHero.svelte';
-    let afspraakHero;
-    let afspraakOnder;
+    //let afspraakHero;
+    //let afspraakOnder;
     export let labels;
     onMount(() => {
         // const obsOptions = { rootMargin: '-200px 0px 0px 0px' };
@@ -21,7 +21,7 @@
 
         // afspraakObserver.observe(afspraakHero);
 
-        afspraakOnder.style.bottom = getComputedStyle(document.documentElement).getPropertyValue('--afspraak-height');
+        //afspraakOnder.style.bottom = getComputedStyle(document.documentElement).getPropertyValue('--afspraak-height');
     });
 </script>
 
@@ -83,7 +83,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .afspraak {
+    /* .afspraak {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -94,16 +94,14 @@
         color: #ffffff;
         color: var(--white-text);
         cursor: pointer;
-        /* border: 2px solid var(--accent-primary); */
         border-radius: var(--border-radius);
-        /* transition: background-color 200ms ease-in; */
-    }
-    .afspraak:hover {
+    } */
+    /* .afspraak:hover {
         background: #e43630;
         background: var(--accent-primary);
         box-shadow: 0px 0px 8px 2px #344d9c;
         box-shadow: 0px 0px 8px 2px var(--accent-secondary);
-    }
+    } */
     /* img {
         height: 100%;
     } */
@@ -135,11 +133,11 @@
         transition: bottom 200ms ease-in;
     } */
 
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         .afspraakOnder {
             bottom: 30vh;
         }
-    }
+    } */
 
     @media (min-width: 800px) {
         .left {
