@@ -100,8 +100,10 @@
             <img src="logo-small-filled.png" alt="sobry logo" class="logo-img" />
             <ul>
                 <li>Ontstoppingsdienst Sobry</li>
-                <li>Hillarestraat 175, 9160 Lokeren</li>
+                <!-- <li>Hillarestraat 175, 9160 Lokeren</li> -->
+                <li>{labels.telefoonnummer}</li>
                 <li>info@ontstoppingsdienst-sobry.be</li>
+                <li>BTW:0630.666.383</li>
                 <li>
                     <a class="privacylink" rel="prefetch" href="privacybeleid">privacybeleid</a>
 
@@ -150,13 +152,13 @@
                 <a class="hoverball" rel="prefetch" href="ontstoppen">{labels.ontstoppen}</a>
             </li>
             <li>
-                <a class="hoverball" rel="prefetch" href="ontkalken">{labels.ontkalken}</a>
-            </li>
-            <li>
                 <a class="hoverball" rel="prefetch" href="cameradetectie">{labels.cameradetectie}</a>
             </li>
             <li>
                 <a class="hoverball" rel="prefetch" href="geurdetectie">{labels.geurdetectie}</a>
+            </li>
+            <li>
+                <a class="hoverball" rel="prefetch" href="ontkalken">{labels.ontkalken}</a>
             </li>
             <li>
                 <a class="hoverball" rel="prefetch" href="adviesaankoopwoning">{labels.adviesaankoopwoning}</a>

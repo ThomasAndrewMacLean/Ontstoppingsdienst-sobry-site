@@ -4,16 +4,16 @@
 
     onMount(() => {
         setTimeout(() => {
-            discount.style.left = '0';
+            discount.style.left = '100px';
         }, 200);
     });
 </script>
 
 <style>
     .acties {
-        position: fixed;
-        top: 295px;
-        left: -100px;
+        position: absolute;
+        top: 70vh;
+        left: -150px;
         color: #ffffff;
         color: var(--white-text);
         background: #344d9c;
@@ -27,6 +27,7 @@
         align-items: center;
         text-transform: uppercase;
         transition: left 200ms ease-in;
+        z-index: 1;
     }
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -37,13 +38,17 @@
 
     @media (max-width: 900px) {
         .acties {
-            top: 333px;
+            /* top: 333px; */
         }
     }
     @media (max-width: 800px) {
         .acties {
             position: absolute;
-            top: 40vh;
+            top: 45vh;
+            left: 0 !important;
+            height: 100px;
+            width: 100px;
+            font-size: 0.8rem;
         }
     }
 </style>

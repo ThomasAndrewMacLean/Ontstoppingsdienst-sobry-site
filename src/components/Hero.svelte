@@ -5,21 +5,23 @@
     let afspraakOnder;
     export let labels;
     onMount(() => {
-        const obsOptions = { rootMargin: '-200px 0px 0px 0px' };
+        // const obsOptions = { rootMargin: '-200px 0px 0px 0px' };
 
-        const afspraakObserver = new IntersectionObserver(function(entries, afspraakObserver) {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting) {
-                    afspraakOnder.style.bottom = getComputedStyle(document.documentElement).getPropertyValue(
-                        '--afspraak-height',
-                    );
-                } else {
-                    afspraakOnder.style.bottom = '-100px';
-                }
-            });
-        }, obsOptions);
+        // const afspraakObserver = new IntersectionObserver(function(entries, afspraakObserver) {
+        //     entries.forEach(entry => {
+        //         if (!entry.isIntersecting) {
+        //             afspraakOnder.style.bottom = getComputedStyle(document.documentElement).getPropertyValue(
+        //                 '--afspraak-height',
+        //             );
+        //         } else {
+        //             afspraakOnder.style.bottom = '-100px';
+        //         }
+        //     });
+        // }, obsOptions);
 
-        afspraakObserver.observe(afspraakHero);
+        // afspraakObserver.observe(afspraakHero);
+
+        afspraakOnder.style.bottom = getComputedStyle(document.documentElement).getPropertyValue('--afspraak-height');
     });
 </script>
 
@@ -29,7 +31,7 @@
             display: none !important;
         }
 
-        .askew {
+        /* .askew {
             background: #e43630;
             background: var(--accent-primary);
             height: 80px;
@@ -46,11 +48,11 @@
             z-index: 0;
             transform: skew(0deg, -25deg) translateY(80px);
             transform-origin: left;
-        }
+        } */
         #hero {
             overflow: hidden;
             padding-top: 3rem;
-            padding-bottom: 80px;
+            /* padding-bottom: 80px; */
         }
     }
     #hero {
@@ -125,8 +127,8 @@
     }
 
     .afspraakOnder {
-        background: #344d9c;
-        background: var(--accent-secondary);
+        background: #e43630;
+        background: var(--accent-primary);
         position: fixed;
         bottom: -100px;
         right: -1rem;
@@ -149,6 +151,12 @@
             width: 102%;
         }
     }
+
+    /* @media (max-width: 400px) {
+        .afspraak-hero {
+            transform: translateX(30px);
+        }
+    } */
 </style>
 
 <div id="hero">
@@ -157,15 +165,10 @@
             <div class="left">
                 <div class="left-content">
                     <img class="logo" src="logo_transparant.png" alt="logo Sobry ontstoppingsdienst" />
-                    <div class="afspraak afspraak-hero" bind:this={afspraakHero}>
+                    <!-- <div class="afspraak afspraak-hero" bind:this={afspraakHero}>
                         <span>{labels.afspraak}</span>
                         <span>{labels.telefoonnummer}</span>
-                    </div>
-                </div>
-
-                <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
-                    <span>{labels.afspraak}</span>
-                    <span>{labels.telefoonnummer}</span>
+                    </div> -->
                 </div>
 
             </div>
@@ -174,8 +177,11 @@
                 <!-- <img src="house.png" alt="image of a houseand a plumber" /> -->
             </div>
         </div>
-        <div class="askew" />
-        <div class="askew-white" />
+        <div class="afspraak afspraakOnder" bind:this={afspraakOnder}>
+            <span>{labels.telefoonnummer}</span>
+        </div>
+        <!-- <div class="askew" />
+        <div class="askew-white" /> -->
     </div>
 
 </div>

@@ -18,7 +18,7 @@
         left: -100%;
         height: 100%;
         bottom: 0;
-
+        overflow: scroll;
         z-index: 999;
         background: var(--white-background);
         transition: 300ms left cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -31,7 +31,7 @@
         padding: 15px;
         display: inline-block;
         cursor: pointer;
-        position: fixed;
+        position: absolute;
         z-index: 999;
         background: var(--white-background);
         border-radius: 50%;

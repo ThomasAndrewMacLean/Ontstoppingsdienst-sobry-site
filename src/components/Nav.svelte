@@ -41,16 +41,15 @@
         <ul>
             <li>
                 <NavItem name={labels.ontstoppen} {segment} link="ontstoppen" icon="ONTSTOPPEN.png" />
-
-            </li>
-            <li>
-                <NavItem name={labels.ontkalken} {segment} link="ontkalken" icon="ONTKALKEN.png" />
             </li>
             <li>
                 <NavItem name={labels.cameradetectie} {segment} link="cameradetectie" icon="CAMERA.png" />
             </li>
             <li>
                 <NavItem name={labels.geurdetectie} {segment} link="geurdetectie" icon="GEUR.png" />
+            </li>
+            <li>
+                <NavItem name={labels.ontkalken} {segment} link="ontkalken" icon="ONTKALKEN.png" />
             </li>
             <li>
                 <NavItem name={labels.adviesaankoopwoning} {segment} link="adviesaankoopwoning" icon="HUIZEN.png" />

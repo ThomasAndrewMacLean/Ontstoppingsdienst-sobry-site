@@ -82,8 +82,8 @@
     }
     @media (max-width: 800px) {
         .dienst-blok > a {
-            display: inline-flex;
-            flex-wrap: wrap;
+            /* display: inline-flex;
+            flex-wrap: wrap; */
         }
         .image-wrap {
             width: 100%;
