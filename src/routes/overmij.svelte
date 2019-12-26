@@ -49,7 +49,7 @@
     }
 </style>
 
-<HeroImage image="picture-drain.jpg" />
+<HeroImage image="auto.jpg" />
 <div class="page">
     <h1>Over mij</h1>
 

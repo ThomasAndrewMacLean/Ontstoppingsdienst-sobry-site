@@ -1,10 +1,10 @@
 <script>
-    let images = ['review1.jpg', 'review2.jpg', 'https://randomuser.me/api/portraits/lego/6.jpg'];
+    let images = ['review1.jpg', 'review2.jpg', 'review3.png'];
 
     let text = [
         'Onlangs deed ik beroep op firma Sobry betreffende een steeds terugkerende verstopping. De snelle en professionele aanpak van Sobry zorgde ervoor dat de oorzaak van mijn probleem grondig werd onderzocht en definitief van de baan is. Dank u',
         'Heel tevreden van snelle service, stipte uitvoering. Een tevreden klant!',
-        'deserunt? simus omnis ipsa officia deleniti fugiat totam natus inventosimus omnis ipsa officia deleniti fugiat totam natus invento',
+        'Bij de aankoop van ons nieuwe huis heeft Ontstoppingsdienst- Sobry ons super goed begeleid voor de renovatie van ons rioolnetwerk.Bedankt!!!',
     ];
     let bollen = ['', '', ''];
     let selected = 0;
