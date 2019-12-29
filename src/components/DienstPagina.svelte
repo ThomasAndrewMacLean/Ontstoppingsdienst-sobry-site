@@ -38,6 +38,8 @@
         padding-bottom: 2rem;
     }
 
+  
+
     @media (max-width: 1000px) {
         .text-blok {
             padding: 3rem;

@@ -20,32 +20,24 @@
         padding: 0;
     }
 
-    .feather-facebook {
-        background: #92a2c382;
-        border-radius: 100%;
-        padding: 3px;
-        transition: background-color 200ms ease-in;
-        cursor: pointer;
-        margin-top: 5px;
-        margin-right: 5px;
+    .social-media-icon {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        z-index: 1;
     }
-    .feather-facebook:hover {
-        background: #4267b2;
-    }
-    .feather-linkedin {
-        background: #92a2c382;
-        border-radius: 25%;
-        padding: 3px;
-        transition: background-color 200ms ease-in;
-        cursor: pointer;
-        margin-top: 5px;
-    }
-    .privacylink {
-        text-decoration: underline;
+    .social-media-background {
+        position: absolute;
+        width: 35px;
+        border-radius: 50%;
+        transform: translate(-38px, 2px);
+        height: 35px;
+        background: white;
+        z-index: 0;
     }
 
-    .feather-linkedin:hover {
-        background: #2673b1;
+    .privacylink {
+        text-decoration: underline;
     }
 
     ul {
@@ -111,37 +103,17 @@
             </ul>
         </div>
         <div class="social-media">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-facebook">
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                </svg>
+            <a class="social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img class="social-media-icon" src="facebook_footer.png" alt="" />
+                <span class="social-media-background" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-linkedin">
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                    <rect x="2" y="9" width="4" height="12" />
-                    <circle cx="4" cy="4" r="2" />
-                </svg>
+            <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img class="social-media-icon" src="instagram_footer.png" alt="" />
+                <span class="social-media-background" />
+            </a>
+            <a class="social-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                <img class="social-media-icon" src="youtube_footer.png" alt="" />
+                <span class="social-media-background" />
             </a>
         </div>
     </div>

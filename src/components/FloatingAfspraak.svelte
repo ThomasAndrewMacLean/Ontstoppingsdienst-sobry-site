@@ -17,7 +17,7 @@
     }
     .afspraakOnder {
         position: fixed;
-        bottom: 30vh;
+        bottom: 35vh;
         bottom: var(--afspraak-height);
         right: -1rem;
         transition: bottom 200ms ease-in;

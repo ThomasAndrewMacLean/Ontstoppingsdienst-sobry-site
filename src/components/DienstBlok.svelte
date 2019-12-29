@@ -10,7 +10,7 @@
 <style>
     .dienst-blok {
         margin: 2rem 0 3rem 0;
-        display: flex;
+        /* display: flex; */
         /* justify-content: space-between; */
     }
     .text-blok {
