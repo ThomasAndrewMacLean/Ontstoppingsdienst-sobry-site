@@ -143,12 +143,14 @@
     </p>
     <h2>Wat zijn de voorzorgsmaatregelen die je neemt bij een ontstopping?</h2>
     <p>
-        Ontstoppingsdienst Sobry bvba kan niet aansprakelijk gesteld worden voor eventuele schade aan het putdeksel
-        indien wij dit in opdracht van de klant dienen te openen.
+        Ontstoppingsdienst Sobry kan niet verantwoordelijk gesteld worden voor eventuele schade/waterschade indien dit
+        in opdracht van de klant dienen uit te voeren.
         <br />
-        Indien de put niet langs buiten bereikbaar is en wij met de slangen door de woning moeten om deze te kunnen
-        ledigen, dient de klant de nodige voorzorgsmaatregelen te nemen om de vloer en eventueel delen van de woning te
-        beschermen totdat de werkzaamheden zijn beëindigd. De klant neemt hiervoor de volledige verantwoordelijkheid
+        Indien de werken niet langs buiten uitgevoerd kunnen worden en wij met slangen en materiaal door de woning
+        moeten,dient de klant de nodige voorzorgsmaatregelen te nemen om de vloer en andere delen van de woning te
+        beschermen totdat de werkzaamheden zijn beëindigd.
+        <br />
+        De klant neemt hier de volledige verantwoordelijkheid.
     </p>
 </div>
 <FloatingAfspraak {labels} />

@@ -49,7 +49,7 @@
     }
 </style>
 
-<HeroImage image="auto.jpg" image2="auto-groot.jpg" />
+<HeroImage hideLogo image="auto.jpg" image2="auto-groot.jpg" />
 <div class="page">
     <h1>Over mij</h1>
 

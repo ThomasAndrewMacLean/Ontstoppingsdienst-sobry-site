@@ -2,6 +2,7 @@
     import { onMount } from 'svelte';
     export let image;
     export let image2;
+    export let hideLogo = false;
     let showLargeImage = false;
     onMount(() => {
         let isMobile = false; //initiate as false
@@ -90,6 +91,7 @@
     {#if image2 && showLargeImage}
         <div class="full-width-picture" style="background-image:url({image2})" />
     {/if}
-
-    <img class="logo" src="logo_transparant.png" alt="sobry logo overlay" />
+    {#if !hideLogo}
+        <img class="logo" src="logo_transparant.png" alt="sobry logo overlay" />
+    {/if}
 </div>

@@ -76,9 +76,9 @@
             <img src="logo-header.png" alt="sobry logo" class="logo-img" />
         </a>
         <ul>
-            <!-- <li>
+            <li>
                 <a class={segment === undefined ? 'nav-item active' : 'nav-item'} href="/">Home</a>
-            </li> -->
+            </li>
             <li>
                 <a class={segment === 'overmij' ? 'nav-item active' : 'nav-item'} href="/overmij">Over mij</a>
             </li>

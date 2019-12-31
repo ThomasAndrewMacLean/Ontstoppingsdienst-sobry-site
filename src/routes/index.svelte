@@ -32,7 +32,6 @@
 </svelte:head>
 
 <Hero {labels} />
-<!-- <MovieHero /> -->
 <div class="dienstblok-wrapper">
     <DienstBlok
         {labels}
@@ -42,16 +41,23 @@
         text={labels.ontstoppentext} />
     <DienstBlok
         {labels}
+        link="cameradetectie"
+        title={labels.cameradetectie}
+        image="picture-drain.jpg"
+        text={labels.cameradetectietext} />
+    <DienstBlok
+        {labels}
         link="geurdetectie"
         title={labels.geurdetectie}
         image="picture-buizen.jpg"
         text={labels.geurdetectietext} />
     <DienstBlok
         {labels}
-        link="herstellingen"
-        title={labels.herstellingen}
-        image="picture-tap.jpg"
-        text={labels.herstellingentext} />
+        link="ontkalken"
+        title={labels.ontkalken}
+        image="picture-urinoirs.jpg"
+        text={labels.ontkalkentext}
+        last />
     <DienstBlok
         {labels}
         link="adviesaankoopwoning"
@@ -60,17 +66,11 @@
         text={labels.adviesaankoopwoningtext} />
     <DienstBlok
         {labels}
-        link="cameradetectie"
-        title={labels.cameradetectie}
-        image="picture-drain.jpg"
-        text={labels.cameradetectietext} />
-    <DienstBlok
-        {labels}
-        link="ontkalken"
-        title={labels.ontkalken}
-        image="picture-urinoirs.jpg"
-        text={labels.ontkalkentext}
-        last />
+        link="herstellingen"
+        title={labels.herstellingen}
+        image="picture-tap.jpg"
+        text={labels.herstellingentext} />
+
 </div>
 <Reviews />
 <FloatingAfspraak {labels} />
