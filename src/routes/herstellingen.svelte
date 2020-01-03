@@ -63,7 +63,7 @@
     title={labels.herstellingen}
     image="picture-tap.jpg"
     {text}
-    quote={'Een herstelling is meestal goedkoper dan een vernieuwing'} />
+    quote={'Een herstelling is goedkoper dan een vernieuwing'} />
 <Reviews />
 <FloatingAfspraak {labels} />
 
