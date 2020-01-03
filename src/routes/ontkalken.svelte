@@ -12,7 +12,8 @@
 
 </style>
 
-<DienstPagina {labels} title={labels.ontkalken} image="picture-urinoirs.jpg" {text} quote={"We zijn 24/7 beschikbaar"} />
+<DienstPagina {labels} title={labels.ontkalken} image="picture-urinoirs.jpg" {text} quote={"Na een ontkalking is je riolering zo goed als nieuw"} />
 
 <Reviews />
 <FloatingAfspraak {labels} />
+
