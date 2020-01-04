@@ -20,12 +20,13 @@
         padding: 0;
     }
 
-    .social-media-icon {
+    /* .social-media-icon {
         width: 40px;
         height: 40px;
         position: relative;
         z-index: 1;
     }
+
     .social-media-background {
         position: absolute;
         width: 35px;
@@ -34,8 +35,20 @@
         height: 35px;
         background: white;
         z-index: 0;
+    } */
+
+    .feather-linkedin {
+        background: #92a2c382;
+        border-radius: 25%;
+        padding: 3px;
+        transition: background-color 200ms ease-in;
+        cursor: pointer;
+        margin-top: 5px;
     }
 
+    .feather-linkedin:hover {
+        background: #2673b1;
+    }
     .privacylink {
         text-decoration: underline;
     }
@@ -103,7 +116,7 @@
             </ul>
         </div>
         <div class="social-media">
-            <a class="social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <!-- <a class="social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <img class="social-media-icon" src="facebook_footer.png" alt="" />
                 <span class="social-media-background" />
             </a>
@@ -111,9 +124,29 @@
                 <img class="social-media-icon" src="instagram_footer.png" alt="" />
                 <span class="social-media-background" />
             </a>
-            <a class="social-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+             -->
+            <!-- <a class="social-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
                 <img class="social-media-icon" src="youtube_footer.png" alt="" />
                 <span class="social-media-background" />
+            </a> -->
+            <a class="social-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+
+                <svg
+                    class="social-media-icon-linkedin feather feather-linkedin"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                </svg>
+                <span class="social-media-background-linkedin" />
             </a>
         </div>
     </div>
