@@ -65,6 +65,7 @@
     <Nav {segment} {labels} />
 </div>
 
+
 <main>
     <slot />
 </main>
