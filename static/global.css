@@ -1,17 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "GothicHeader";
+    src: url("./gothic.ttf");
+    src: url("./gothic.woff") format("woff"),
+        url("./gothic.woff2") format("woff2");
+}
+
 body {
     margin: 0;
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #333;
+    color: #666666;
+    color: var(--dark-text);
+    overflow-x: hidden;
+    background: #f8f8f8;
+    background: var(--white-background);
+}
+
+html {
+    background: var(--dark-background);
 }
 
 :root {
-    --dark-background: #374b5d;
-    --white-background: #ffffff;
+    /* --dark-background: #374b5d; */
+    --dark-background: #333333;
+    --white-background: #f8f8f8;
     --light-background: #e9eaec;
-
-    --dark-text: #374b5d;
+    --white-background-opaque: #F8F8F833;
+    --dark-text: #666666;
+    --darker-text: #333333;
     --white-text: #ffffff;
     --light-text: #e9eaec;
 
@@ -19,10 +40,20 @@ body {
     --accent-secondary: #344d9c;
 
     --border-radius: 0px;
+    --afspraak-height: 35vh;
+
 }
 
 h1 {
     font-size: 2em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: GothicHeader, 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 100;
 }
 
 a {
@@ -30,25 +61,74 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
+h1,
+h2 {
+    color: #333333;
+    color: var(--darker-text);
 }
 
+em,
+b {
+    color: #333333;
+    color: var(--darker-text);
+}
+
+b {
+    font-weight: 700;
+}
+
+ul {
+    list-style: disc;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex !important;
+}
+
+/* 
 .dienst-blok:nth-child(2n+1) {
     flex-direction: row-reverse;
 }
 
 .dienst-blok:nth-child(2n+1) .text-blok {
     padding-left: 0;
+} */
+
+
+
+.afspraakOnder {
+    z-index: 99;
 }
 
-code {
-    font-family: menlo, inconsolata, monospace;
-    font-size: calc(1em - 2px);
-    color: #555;
-    background-color: #f0f0f0;
-    padding: 0.2em 0.4em;
-    border-radius: 2px;
+
+.button-dark {
+    border: 2px solid #333333;
+    border: 2px solid var(--dark-background);
+    background: none;
+    color: #333333;
+    color: var(--darker-text);
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    transition: background-color 100ms ease-in, color 100ms ease-in;
+}
+
+.button-dark:hover {
+    background: #333333;
+    background: var(--dark-background);
+    color: #ffffff;
+    color: var(--white-text);
+    /* box-shadow: 0px 0px 2px 1px var(--accent-secondary); */
+}
+
+.wide-wrapper {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 @media (min-width: 400px) {

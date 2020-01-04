@@ -1,23 +1,77 @@
 <script>
+    import DienstBlok from '../components/DienstBlok.svelte';
+    import Reviews from '../components/Reviews.svelte';
+    import Hero from '../components/Hero.svelte';
+    import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
 
+    // import MovieHero from '../components/MovieHero.svelte';
+    import labels from '../labels.js';
 </script>
 
 <style>
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background: var(--light-background);
-    position: absolute;
-    left: 0;
-  }
+    .dienstblok-wrapper {
+        margin: 4rem 0;
+    }
+    @media (max-width: 1000px) {
+        .dienstblok-wrapper {
+            margin: 4rem 1rem;
+        }
+    }
+    /* TURN ON FOR 3 COLUMNS */
+    @media (min-width: 800px) {
+        .dienstblok-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
 </style>
 
 <svelte:head>
-  <title>Ontstoppingsdienst Sobry.</title>
+    <title>{labels.titel}</title>
 </svelte:head>
-<main>
-  <img src="logo.png" alt="logo ontstoppingsdienst sobry" />
-</main>
+
+<Hero {labels} />
+<div class="dienstblok-wrapper">
+    <DienstBlok
+        {labels}
+        link="ontstoppen"
+        title={labels.ontstoppen}
+        image="picture-ontstop.jpg"
+        text={labels.ontstoppentext} />
+    <DienstBlok
+        {labels}
+        link="cameradetectie"
+        title={labels.cameradetectie}
+        image="picture-drain.jpg"
+        text={labels.cameradetectietext} />
+    <DienstBlok
+        {labels}
+        link="geurdetectie"
+        title={labels.geurdetectie}
+        image="picture-buizen.jpg"
+        text={labels.geurdetectietext} />
+    <DienstBlok
+        {labels}
+        link="ontkalken"
+        title={labels.ontkalken}
+        image="picture-urinoirs.jpg"
+        text={labels.ontkalkentext}
+        last />
+    <DienstBlok
+        {labels}
+        link="adviesaankoopwoning"
+        title={labels.adviesaankoopwoning}
+        image="picture-toilet.jpg"
+        text={labels.adviesaankoopwoningtext} />
+    <DienstBlok
+        {labels}
+        link="herstellingen"
+        title={labels.herstellingen}
+        image="picture-tap.jpg"
+        text={labels.herstellingentext} />
+
+</div>
+<Reviews />
+<FloatingAfspraak {labels} />
+

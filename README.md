@@ -1,3 +1,7 @@
+https://www.grahamomaonaigh.com/gdpr-compliant-cookies-google-analytics/
+https://fireship.io/snippets/setup-google-maps-with-svelte/
+https://lacourt.dev/2019/06/16
+
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
@@ -107,3 +111,5 @@ npm install -D @sveltejs/svelte-virtual-list
 ## Bugs and feedback
 
 Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+
+
