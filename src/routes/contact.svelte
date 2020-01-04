@@ -5,6 +5,7 @@
 
     import labels from '../labels.js';
 
+    let verstuurd = false;
     let ready = false;
 
     let showOostVl = false;
@@ -23,6 +24,7 @@
     const submitForm = e => {
         e.preventDefault();
 
+        verstuurd = true;
         fetch(cloudFunctionUrl, {
             method: 'POST',
             headers: {
@@ -37,9 +39,7 @@
                 telephone: e.target.telephone.value,
                 message: e.target.message.value,
             }),
-        })
-            .then(x => x.json())
-            .then(y => console.log(y));
+        });
     };
 </script>
 
@@ -95,6 +95,10 @@
         display: block;
     }
 
+    h3 {
+        font-size: 3rem;
+        color: var(--accent-primary);
+    }
     input[type='submit'] {
         background: var(--accent-primary);
         color: white;
@@ -156,30 +160,35 @@
 
     <img src="logo-contact.png" alt="sobry logo" class="logo-img" />
 
-    <form on:submit={submitForm} action="">
-        <div class="double">
+    {#if verstuurd}
+        <h3>Bedankt voor u bericht!</h3>
+    {:else}
+        <form on:submit={submitForm} action="">
+            <div class="double">
 
-            <div class="form-item">
-                <label for="name">Naam</label>
-                <input name="name" id="name" type="text" required />
+                <div class="form-item">
+                    <label for="name">Naam</label>
+                    <input name="name" id="name" type="text" required />
+                </div>
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" required />
+                </div>
+                <div class="form-item">
+                    <label for="telephone">Telefoonnummer</label>
+                    <input name="telephone" id="telephone" type="tel" required />
+                </div>
             </div>
             <div class="form-item">
-                <label for="email">Email</label>
-                <input name="email" id="email" type="email" required />
+                <label for="message">Bericht</label>
+                <textarea name="message" id="message" type="text" required />
             </div>
             <div class="form-item">
-                <label for="telephone">Telefoonnummer</label>
-                <input name="telephone" id="telephone" type="tel" required />
+                <input class="button-dark" id="submit" type="submit" value="Verstuur" />
             </div>
-        </div>
-        <div class="form-item">
-            <label for="message">Bericht</label>
-            <textarea name="message" id="message" type="text" required />
-        </div>
-        <div class="form-item">
-            <input class="button-dark" id="submit" type="submit" value="Verstuur" />
-        </div>
-    </form>
+        </form>
+    {/if}
+
     <div class="werkgebied">
         <h2>Werkgebied</h2>
         <ul>
