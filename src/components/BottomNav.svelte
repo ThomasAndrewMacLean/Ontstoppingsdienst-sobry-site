@@ -129,7 +129,11 @@
                 <img class="social-media-icon" src="youtube_footer.png" alt="" />
                 <span class="social-media-background" />
             </a> -->
-            <a class="social-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <a
+                class="social-link"
+                href="www.linkedin.com/in/ontstoppingsdienst-sobry"
+                target="_blank"
+                rel="noopener noreferrer">
 
                 <svg
                     class="social-media-icon-linkedin feather feather-linkedin"
