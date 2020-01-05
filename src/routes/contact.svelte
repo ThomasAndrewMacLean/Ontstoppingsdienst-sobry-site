@@ -147,6 +147,12 @@
             background: #e9eaeb !important;
         }
     </style>
+
+
+    <title>Ontstoppingsdienst Sobry | Contact</title>
+    <meta name="description" content="Contacteer Onstoppingsdienst Sobry" />
+    <meta name="keywords" content="Ontstoppingsdienst Sobry, Contact, Werkgebied" />
+    
 </svelte:head>
 {#if ready}
     <Map />

@@ -39,6 +39,13 @@
     }
 </style>
 
+
+
+<svelte:head>
+    <title>Ontstoppingsdienst Sobry | Prijzen</title>
+    <meta name="description" content="Hoeveel kost een ontstoppingsdienst?" />
+    <meta name="keywords" content="Ontstoppingsdienst Sobry, Prijzen" />
+</svelte:head>
 <HeroImage image="picture-urinoirs.jpg" />
 <div class="page">
     <h1>Prijzen</h1>
