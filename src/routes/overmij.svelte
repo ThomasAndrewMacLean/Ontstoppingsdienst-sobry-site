@@ -49,8 +49,6 @@
     }
 </style>
 
-
-
 <svelte:head>
     <title>Ontstoppingsdienst Sobry | Over mij</title>
     <meta name="description" content="Over Onstoppingsdienst Sobry" />
@@ -61,40 +59,47 @@
     <h1>Over mij</h1>
 
     <h2>
-        Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis
-        velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque
-        lorem tortor.
+        Na jarenlang ervaring en diepgaande expertise bij verschillende
+        <em>ontstoppingsbedrijven</em>
+        , heb ik mezelf gespecialiseerd.
     </h2>
     <div class="text">
         <p>
             <b>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum vitae blanditiis est officiis
-                accusantium cupiditate error impedit minima doloremque consequuntur magnam dolorum, dolore asperiores
-                porro quaerat sunt eius reprehenderit.
+                Ik heb ervaring opgedaan met de beste technieken om verstoppingen op te lossen. Uit deze ervaring heb ik
+                een eigen aanpak opgesteld en zo ben ik gestart met ontstoppingsdienst Sobry, op die manier kan ik elke
+                verstopping verhelpen.
             </b>
         </p>
+
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deleniti distinctio eum fugiat incidunt
-            labore odio id nam ipsum. Minima fugiat quas delectus? Odio asperiores sint dicta molestias. Eligendi,
-            alias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio saepe recusandae deleniti,
-            perferendis cum a, ut quam eligendi possimus quidem vero natus quas tenetur laborum consequatur excepturi.
-            Nihil, facere obcaecati?
+            Ik sta de klant altijd bij zijn proces om zijn
+            <em>noodsituatie</em>
+            op te lossen. Bij aankomst
+            <em>annalyseer</em>
+            ik eerst het probleem in samenspraak om zo de
+            <em>beste technieken</em>
+            toe te passen.
+        </p>
+
+        <p>
+            Ontstoppingsdienst Sobry kijkt ook steeds verder, zodat toekomstige problemen te vermijden. De klant krijgt
+            een duidelijk plan. En
+            <em>een oplossing op uw maat</em>
+            .
+        </p>
+        <p>Alhoewel het soms vuil werk is, doe ik mijn job met veel passie en enthousiasme.</p>
+        <p>
+            Ontstoppingsdienst blijft ook steeds op de hoogte van de nieuwste technieken, opleidingen, en investeer in
+            het beste materiaal om de beste
+            <em>service</em>
+            aan te bieden?
         </p>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deleniti distinctio eum fugiat incidunt
-            labore odio id nam ipsum. Minima fugiat quas delectus? Odio asperiores sint dicta molestias. Eligendi,
-            alias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio saepe recusandae deleniti,
-            perferendis cum a, ut quam eligendi possimus quidem vero natus quas tenetur laborum consequatur excepturi.
-            Nihil, facere obcaecati?
+            Onstoppingsdienst staat voor flexibiliteit, zorgt ervoor dat de juiste vergunningen behaald worden, een
+            perfect uitgerust machinepark, duidelijke prijzen en offertes.
         </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deleniti distinctio eum fugiat incidunt
-            labore odio id nam ipsum.
-            <em>Minima fugiat quas delectus? Odio asperiores sint dicta molestias.</em>
-            Eligendi, alias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio saepe recusandae deleniti,
-            perferendis cum a, ut quam eligendi possimus quidem vero natus quas tenetur laborum consequatur excepturi.
-            Nihil, facere obcaecati?
-        </p>
+
     </div>
 </div>
 <FloatingAfspraak {labels} />
