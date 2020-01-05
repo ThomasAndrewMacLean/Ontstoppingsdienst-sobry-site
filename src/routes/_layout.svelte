@@ -5,6 +5,7 @@
     import TopNav from '../components/TopNav.svelte';
     import Logo from '../components/Logo.svelte';
     import BottomNav from '../components/BottomNav.svelte';
+    import CookieConsent from '../components/CookieConsent.svelte';
     import labels from '../labels.js';
     export let segment;
 </script>
@@ -65,9 +66,9 @@
     <Nav {segment} {labels} />
 </div>
 
-
 <main>
     <slot />
 </main>
 <Acties />
 <BottomNav {labels} {segment} />
+<CookieConsent />
