@@ -16,8 +16,10 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110018468-14"></script>
 
-    <meta name="description" content="Ontstoppingsdienst Sobry: Voor elke soort verstopping heb ik de juiste materialen en de nodige vakkennis.">
-    <meta name="keywords" content="Ontstoppingsdienst Sobry, Ontstoppingen, Advies aankoop woning, Herstellingen, Cameradetectie, Geurdetectie, Ontkalken">
+    <meta name="description"
+        content="Ontstoppingsdienst Sobry: Voor elke soort verstopping heb ik de juiste materialen en de nodige vakkennis.">
+    <meta name="keywords"
+        content="Ontstoppingsdienst Sobry, Ontstoppingen, Advies aankoop woning, Herstellingen, Cameradetectie, Geurdetectie, Ontkalken">
 
     <meta property="og:title" content="Ontstoppingsdienst Sobry" />
     <meta property="og:url" content="https://ontstoppingsdienst-sobry.be/" />
@@ -27,6 +29,17 @@
 
 
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+
+    <!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+    %sapper.styles%
+
+    <!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+    %sapper.head%
+
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -58,15 +71,6 @@
             gtag("config", "UA-110018468-14");
         }
     </script>
-
-    <!-- Sapper generates a <style> tag containing critical CSS
-	     for the current page. CSS for the rest of the app is
-	     lazily loaded when it precaches secondary pages -->
-    %sapper.styles%
-
-    <!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
-    %sapper.head%
 </head>
 
 <body>
