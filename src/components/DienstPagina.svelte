@@ -38,8 +38,6 @@
         padding-bottom: 2rem;
     }
 
-  
-
     @media (max-width: 1000px) {
         .text-blok {
             padding: 3rem;
@@ -59,6 +57,11 @@
     }
 </style>
 
+<svelte:head>
+    <title>Ontstoppingsdienst Sobry | {title}</title>
+    <meta name="description" content={quote} />
+    <meta name="keywords" content={(title, quote)} />
+</svelte:head>
 <HeroImage {image} />
 <div class="text-blok">
     <h1>{title}</h1>

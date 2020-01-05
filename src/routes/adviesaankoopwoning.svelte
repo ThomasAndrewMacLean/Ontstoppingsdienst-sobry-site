@@ -14,7 +14,6 @@ onaangename verassingen</b>.</p>
 <style>
 
 </style>
-
 <DienstPagina {labels} title={labels.adviesaankoopwoning} image="picture-toilet.jpg" {text} quote={"Doormiddel van camera onderzoek kijken we in welke staat uw riolering is"} />
 <Reviews />
 <FloatingAfspraak {labels} />
