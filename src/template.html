@@ -1,38 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="theme-color" content="#333333">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#333333" />
 
     %sapper.base%
 
-    <link rel="stylesheet" href="global.css">
-    <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="global.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="favicon.png" />
     <title>Ontstoppingsdienst Sobry | 0467/00.50.50</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display&display=swap" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110018468-14"></script>
 
     <meta name="description"
-        content="Ontstoppingsdienst Sobry: Voor elke soort verstopping heb ik de juiste materialen en de nodige vakkennis.">
+        content="Ontstoppingsdienst Sobry: Voor elke soort verstopping heb ik de juiste materialen en de nodige vakkennis." />
     <meta name="keywords"
-        content="Ontstoppingsdienst Sobry, Ontstoppingen, Advies aankoop woning, Herstellingen, Cameradetectie, Geurdetectie, Ontkalken">
+        content="Ontstoppingsdienst Sobry, Ontstoppingen, Advies aankoop woning, Herstellingen, Cameradetectie, Geurdetectie, Ontkalken" />
 
-    <meta property="og:site_name" content="Ontstoppingsdienst Sobry">
+    <meta property="og:site_name" content="Ontstoppingsdienst Sobry" />
     <meta property="og:type" content="website" />
 
     <meta property="og:title" content="Ontstoppingsdienst Sobry" />
     <meta property="og:url" content="https://ontstoppingsdienst-sobry.be/" />
     <meta property="og:description"
-        content="Voor elke soort verstopping heb ik de juiste materialen en de nodige vakkennis.">
-    <meta property="og:image" content="https://ontstoppingsdienst-sobry.be/sobry-og-logo.png">
+        content="Voor elke soort verstopping heb ik de juiste materialen en de nodige vakkennis." />
+    <meta property="og:image" content="https://ontstoppingsdienst-sobry.be/sobry-og-logo.png" />
 
-
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
     <!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
@@ -42,8 +40,6 @@
     <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
     %sapper.head%
-
-
 </head>
 
 <body>
@@ -65,33 +61,37 @@
 
     <!-- Google Tag Manager -->
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-58FH3KJ');
+        // GDPR
+        if (document.cookie.indexOf('stakoekjestoe=true') !== -1) {
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js',
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-58FH3KJ');
+        }
     </script>
     <!-- End Google Tag Manager -->
     <script>
-        if (window && window.location && window.location.host === "ontstoppingsdienst-sobry.be") {
+        if (window && window.location && window.location.host === 'ontstoppingsdienst-sobry.be') {
+            // GDPR
+            if (document.cookie.indexOf('stakoekjestoe=true') !== -1) {
+                window.dataLayer = window.dataLayer || [];
 
-            window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
 
-            function gtag() {
-                dataLayer.push(arguments);
+                gtag('config', 'UA-110018468-14');
             }
-            gtag("js", new Date());
-
-            gtag("config", "UA-110018468-14");
         }
     </script>
 </body>
