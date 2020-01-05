@@ -106,8 +106,14 @@
             <ul>
                 <li>Ontstoppingsdienst Sobry</li>
                 <!-- <li>Hillarestraat 175, 9160 Lokeren</li> -->
-                <li>{labels.telefoonnummer}</li>
-                <li>info@ontstoppingsdienst-sobry.be</li>
+                <li>
+                    <a href="tel:+32467005050">{labels.telefoonnummer}</a>
+                </li>
+                <li>
+                    <a href="mailto:info@ontstoppingsdienst-sobry.be?Subject=Ontstoppingsdienst%20Sobry" target="_top">
+                        info@ontstoppingsdienst-sobry.be
+                    </a>
+                </li>
                 <li>BTW:0630.666.383</li>
                 <li>
                     <a class="privacylink" rel="prefetch" href="privacybeleid">privacybeleid</a>
