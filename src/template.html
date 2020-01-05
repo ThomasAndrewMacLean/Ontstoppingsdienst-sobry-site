@@ -40,6 +40,26 @@
 	     the current page has one -->
     %sapper.head%
 
+
+</head>
+
+<body>
+    <!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+    <div id="sapper">%sapper.html%</div>
+
+    <!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+    %sapper.scripts%
+
+    <script>
+        window.addEventListener('beforeinstallprompt', function (e) {
+            e.preventDefault();
+            return false;
+        });
+    </script>
+
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -71,17 +91,6 @@
             gtag("config", "UA-110018468-14");
         }
     </script>
-</head>
-
-<body>
-    <!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
-    <div id="sapper">%sapper.html%</div>
-
-    <!-- Sapper creates a <script> tag containing `src/client.js`
-	     and anything else it needs to hydrate the app and
-	     initialise the router -->
-    %sapper.scripts%
 </body>
 
 </html>
