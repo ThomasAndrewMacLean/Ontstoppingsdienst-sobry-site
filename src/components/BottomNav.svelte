@@ -38,17 +38,18 @@
     } */
 
     .feather-linkedin {
-        background: #92a2c382;
+        background: #ec3837;
+        /* background: #92a2c382; */
         border-radius: 25%;
         padding: 3px;
         transition: background-color 200ms ease-in;
         cursor: pointer;
         margin-top: 5px;
     }
-
+    /* 
     .feather-linkedin:hover {
         background: #2673b1;
-    }
+    } */
     .privacylink {
         text-decoration: underline;
     }
