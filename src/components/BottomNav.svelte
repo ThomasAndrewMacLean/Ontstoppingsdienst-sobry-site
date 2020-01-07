@@ -137,7 +137,7 @@
             </a> -->
             <a
                 class="social-link"
-                href="www.linkedin.com/in/ontstoppingsdienst-sobry"
+                href="https://www.linkedin.com/in/ontstoppingsdienst-sobry"
                 target="_blank"
                 rel="noopener noreferrer">
 
