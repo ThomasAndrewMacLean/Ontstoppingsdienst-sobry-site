@@ -21,32 +21,25 @@
             //styles: mapStyles, // optional
         });
 
-        //LOKEREN
-        new google.maps.Marker({
-            position: { lat: 51.1128025, lng: 4.007561 },
-            map: map,
-            icon: 'https://ontstoppingsdienst-sobry.be/logo-small-filled.png',
-        });
+        // LOKEREN
+        // APEN
+        // BRUGGE
+        // GENT
+        // DENDERMONDE
+        const positions = [
+            { lat: 51.1128025, lng: 4.007561 },
+            { lat: 51.2223201, lng: 4.4194679 },
+            { lat: 51.0601364, lng: 3.7127616 },
+            { lat: 51.2043834, lng: 3.2130284 },
+            { lat: 51.0191541, lng: 4.1083724 },
+        ];
 
-        //APEN
-        new google.maps.Marker({
-            position: { lat: 51.2223201, lng: 4.4194679 },
-            map: map,
-            icon: 'https://ontstoppingsdienst-sobry.be/logo-small-filled.png',
-        });
-
-        //BRUGGE
-        new google.maps.Marker({
-            position: { lat: 51.0601364, lng: 3.7127616 },
-            map: map,
-            icon: 'https://ontstoppingsdienst-sobry.be/logo-small-filled.png',
-        });
-
-        //GENT
-        new google.maps.Marker({
-            position: { lat: 51.2043834, lng: 3.2130284 },
-            map: map,
-            icon: 'https://ontstoppingsdienst-sobry.be/logo-small-filled.png',
+        positions.forEach(position => {
+            new google.maps.Marker({
+                position,
+                map,
+                icon: 'https://ontstoppingsdienst-sobry.be/logo-small-filled.png',
+            });
         });
     });
 </script>
