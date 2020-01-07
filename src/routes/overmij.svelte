@@ -73,10 +73,10 @@
         </p>
 
         <p>
-            Ik sta de klant altijd bij zijn proces om zijn
+            Ik sta de klant altijd bij om zijn
             <em>noodsituatie</em>
             op te lossen. Bij aankomst
-            <em>annalyseer</em>
+            <em>analyseer</em>
             ik eerst het probleem in samenspraak om zo de
             <em>beste technieken</em>
             toe te passen.
