@@ -3,7 +3,7 @@
 
     let container;
     let map;
-    let zoom = 11;
+    let zoom = 9;
 
     let center = { lat: 51.0913579, lng: 3.9622289 };
 

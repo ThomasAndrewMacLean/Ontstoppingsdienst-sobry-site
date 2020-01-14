@@ -11,6 +11,8 @@
 
 <style>
     .acties {
+        font-family: GothicHeader, 'Playfair Display', serif;
+        font-size: 1.7rem;
         position: absolute;
         top: 55vh;
         left: -150px;
@@ -48,7 +50,7 @@
             left: 0 !important;
             height: 100px;
             width: 100px;
-            font-size: 0.8rem;
+            font-size: 1.3rem;
         }
     }
 </style>
