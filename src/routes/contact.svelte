@@ -167,7 +167,7 @@
     <img src="logo-contact.png" alt="sobry logo" class="logo-img" />
 
     {#if verstuurd}
-        <h3>Bedankt voor u bericht!</h3>
+        <h3>Bedankt voor uw bericht!</h3>
     {:else}
         <form on:submit={submitForm} action="">
             <div class="double">

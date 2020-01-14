@@ -31,7 +31,7 @@
         padding: 15px;
         display: inline-block;
         cursor: pointer;
-        position: absolute;
+        position: fixed;
         z-index: 999;
         background: var(--white-background);
         border-radius: 50%;

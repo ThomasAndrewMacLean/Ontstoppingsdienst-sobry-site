@@ -67,6 +67,11 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .logo-img {
+        transform: scale(1.5);
+        transform-origin: left;
+    }
 </style>
 
 <nav>

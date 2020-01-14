@@ -123,24 +123,20 @@
             </ul>
         </div>
         <div class="social-media">
-            <!-- <a class="social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <!-- <a class="social-link" href="https://facebook.com" target="_blank" >
                 <img class="social-media-icon" src="facebook_footer.png" alt="" />
                 <span class="social-media-background" />
             </a>
-            <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a class="social-link" href="https://instagram.com" target="_blank" >
                 <img class="social-media-icon" src="instagram_footer.png" alt="" />
                 <span class="social-media-background" />
             </a>
              -->
-            <!-- <a class="social-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <!-- <a class="social-link" href="https://youtube.com" target="_blank" >
                 <img class="social-media-icon" src="youtube_footer.png" alt="" />
                 <span class="social-media-background" />
             </a> -->
-            <a
-                class="social-link"
-                href="https://www.linkedin.com/in/ontstoppingsdienst-sobry"
-                target="_blank"
-                rel="noopener noreferrer">
+            <a class="social-link" href="https://www.linkedin.com/in/ontstoppingsdienst-sobry" target="_blank">
 
                 <svg
                     class="social-media-icon-linkedin feather feather-linkedin"
@@ -160,11 +156,27 @@
                 <span class="social-media-background-linkedin" />
             </a>
 
-            <a
-                class="social-link"
-                href="https://www.facebook.com/ontstoppingsdienstsobry/"
-                target="_blank"
-                rel="noopener noreferrer">
+            <a class="social-link" href="https://www.youtube.com/channel/UCSBVLFeVuLjvPQPPuQl9rWw" target="_blank">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="social-media-icon-linkedin feather feather-linkedin">
+                    <path
+                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29
+                        29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0
+                        8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                </svg>
+                <span class="social-media-background-linkedin" />
+            </a>
+            <a class="social-link" href="https://www.facebook.com/ontstoppingsdienstsobry/" target="_blank">
 
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

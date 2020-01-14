@@ -61,7 +61,7 @@
 
     <ul>
         <li>Betaal met bancontact of cash.</li>
-        <li>Verplaatsingskosten worden niet aangerekend.</li>
+        <li>Inclusief verplaatsing kosten.</li>
 
     </ul>
     <h2>Wat met extra onderzoeken om jouw verstopping te verhelpen?</h2>

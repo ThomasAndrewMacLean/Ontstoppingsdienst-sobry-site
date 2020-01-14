@@ -23,7 +23,7 @@
         background: var(--accent-secondary);
         bottom: 0rem;
         left: 0rem;
-        width: 100%;
+        width: 350px;
         display: none;
         color: var(--light-text);
         padding: 2rem;
