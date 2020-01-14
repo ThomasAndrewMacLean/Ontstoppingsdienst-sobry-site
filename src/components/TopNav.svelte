@@ -85,16 +85,16 @@
                 <a class={segment === undefined ? 'nav-item active' : 'nav-item'} href="/">Home</a>
             </li>
             <li>
-                <a class={segment === 'overmij' ? 'nav-item active' : 'nav-item'} href="/overmij">Over mij</a>
+                <a class={segment === 'overmij' ? 'nav-item active' : 'nav-item'} href="/overmij/">Over mij</a>
             </li>
             <li>
-                <a class={segment === 'prijzen' ? 'nav-item active' : 'nav-item'} href="/prijzen">Prijzen</a>
+                <a class={segment === 'prijzen' ? 'nav-item active' : 'nav-item'} href="/prijzen/">Prijzen</a>
             </li>
             <li>
-                <a class={segment === 'tips' ? 'nav-item active' : 'nav-item'} href="/tips">Tips</a>
+                <a class={segment === 'tips' ? 'nav-item active' : 'nav-item'} href="/tips/">Tips</a>
             </li>
             <li>
-                <a class={segment === 'contact' ? 'nav-item active' : 'nav-item'} href="/contact">Contact</a>
+                <a class={segment === 'contact' ? 'nav-item active' : 'nav-item'} href="/contact/">Contact</a>
             </li>
         </ul>
     </div>

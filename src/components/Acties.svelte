@@ -46,7 +46,7 @@
     @media (max-width: 800px) {
         .acties {
             position: absolute;
-            top: 50vh;
+            top: 15vh;
             left: 0 !important;
             height: 100px;
             width: 100px;

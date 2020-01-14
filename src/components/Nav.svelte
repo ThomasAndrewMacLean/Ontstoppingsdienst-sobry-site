@@ -40,22 +40,22 @@
     <div class="wide-wrapper">
         <ul>
             <li>
-                <NavItem name={labels.ontstoppen} {segment} link="ontstoppen" icon="ONTSTOPPEN.png" />
+                <NavItem name={labels.ontstoppen} {segment} link="ontstoppen/" icon="ONTSTOPPEN.png" />
             </li>
             <li>
-                <NavItem name={labels.cameradetectie} {segment} link="cameradetectie" icon="CAMERA.png" />
+                <NavItem name={labels.cameradetectie} {segment} link="cameradetectie/" icon="CAMERA.png" />
             </li>
             <li>
-                <NavItem name={labels.geurdetectie} {segment} link="geurdetectie" icon="GEUR.png" />
+                <NavItem name={labels.geurdetectie} {segment} link="geurdetectie/" icon="GEUR.png" />
             </li>
             <li>
-                <NavItem name={labels.ontkalken} {segment} link="ontkalken" icon="ONTKALKEN.png" />
+                <NavItem name={labels.ontkalken} {segment} link="ontkalken/" icon="ONTKALKEN.png" />
             </li>
             <li>
-                <NavItem name={labels.adviesaankoopwoning} {segment} link="adviesaankoopwoning" icon="HUIZEN.png" />
+                <NavItem name={labels.adviesaankoopwoning} {segment} link="adviesaankoopwoning/" icon="HUIZEN.png" />
             </li>
             <li>
-                <NavItem name={labels.herstellingen} {segment} link="herstellingen" icon="HERSTELLINGEN.png" />
+                <NavItem name={labels.herstellingen} {segment} link="herstellingen/" icon="HERSTELLINGEN.png" />
             </li>
         </ul>
     </div>

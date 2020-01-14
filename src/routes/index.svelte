@@ -12,9 +12,15 @@
     .dienstblok-wrapper {
         margin: 4rem 0;
     }
+    h3 {
+        margin: 0;
+    }
     @media (max-width: 1000px) {
         .dienstblok-wrapper {
             margin: 4rem 1rem;
+        }
+        h1 {
+            margin: 1rem;
         }
     }
     /* TURN ON FOR 3 COLUMNS */
@@ -32,6 +38,22 @@
 </svelte:head>
 
 <Hero {labels} />
+<h1>Ontstoppingsdienst Sobry</h1>
+<ul>
+    <li>
+        <h3>Snel ter plaatse</h3>
+    </li>
+    <li>
+        <h3>Persoonlijke service</h3>
+    </li>
+    <li>
+        <h3>Vakkundig en proper opgelost</h3>
+    </li>
+    <li>
+        <h3>Vaste prijzen</h3>
+    </li>
+
+</ul>
 <div class="dienstblok-wrapper">
     <DienstBlok
         {labels}
@@ -74,4 +96,3 @@
 </div>
 <Reviews />
 <FloatingAfspraak {labels} />
-
