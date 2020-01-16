@@ -58,6 +58,11 @@
             /* margin-top: 2em; */
         }
     }
+    @media (max-width: 600px) {
+        .acties {
+            height: 100px;
+        }
+    }
 </style>
 
 <MobileNav {segment} {labels} />
@@ -66,6 +71,7 @@
     <Nav {segment} {labels} />
 </div>
 
+<div class="acties" />
 <main>
     <slot />
 </main>

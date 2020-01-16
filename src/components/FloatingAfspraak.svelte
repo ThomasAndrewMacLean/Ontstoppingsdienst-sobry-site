@@ -25,6 +25,12 @@
     img {
         transform: translateX(10px);
     }
+
+    @media (max-width: 600px) {
+        .afspraakOnder {
+            bottom: 25vh;
+        }
+    }
 </style>
 
 <div class="afspraak afspraakOnder">

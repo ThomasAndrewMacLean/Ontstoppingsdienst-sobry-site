@@ -1,4 +1,6 @@
 <script>
+    import ShareSocialMedia from './ShareSocialMedia.svelte';
+
     let images = ['review1.jpg', 'review2.jpg', 'review3.png'];
 
     let text = [
@@ -111,6 +113,7 @@
     }
 </style>
 
+<ShareSocialMedia />
 <div id="reviews">
     <hr />
     <div class="review">
