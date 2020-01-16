@@ -89,7 +89,7 @@
     }
     .logo-img {
         margin-right: 2rem;
-        width: 90px;
+        /* width: 90px; */
         height: max-content;
     }
     @media (max-width: 800px) {
@@ -148,7 +148,7 @@
                 <img class="social-media-icon" src="youtube_footer.png" alt="" />
                 <span class="social-media-background" />
             </a> -->
-            <a class="social-link" href="https://www.linkedin.com/in/ontstoppingsdienst-sobry" target="_blank">
+            <a class="social-link" href="https://www.linkedin.com/in/ontstoppingsdienst-sobry" target="_blank"  rel="noopener noreferrer">
 
                 <svg
                     class="social-media-icon-linkedin feather feather-linkedin"
@@ -168,7 +168,7 @@
                 <span class="social-media-background-linkedin" />
             </a>
 
-            <a class="social-link" href="https://www.youtube.com/channel/UCSBVLFeVuLjvPQPPuQl9rWw" target="_blank">
+            <a class="social-link" href="https://www.youtube.com/channel/UCSBVLFeVuLjvPQPPuQl9rWw" target="_blank"  rel="noopener noreferrer">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -188,7 +188,7 @@
                 </svg>
                 <span class="social-media-background-linkedin" />
             </a>
-            <a class="social-link" href="https://www.facebook.com/ontstoppingsdienstsobry/" target="_blank">
+            <a class="social-link" href="https://www.facebook.com/ontstoppingsdienstsobry/" target="_blank"  rel="noopener noreferrer">
 
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
