@@ -33,10 +33,6 @@
     }
 </style>
 
-<svelte:head>
-    <title>{labels.titel}</title>
-</svelte:head>
-
 <Hero {labels} />
 <h1>Ontstoppingsdienst Sobry</h1>
 <ul>
