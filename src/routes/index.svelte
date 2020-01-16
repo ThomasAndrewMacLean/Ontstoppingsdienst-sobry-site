@@ -31,8 +31,6 @@
             justify-content: space-between;
         }
     }
-
-   
 </style>
 
 <Hero {labels} />
@@ -57,38 +55,38 @@
         {labels}
         link="ontstoppen"
         title={labels.ontstoppen}
-        image="picture-ontstop.jpg"
+        image="picture-ontstop-small.jpg"
         text={labels.ontstoppentext} />
     <DienstBlok
         {labels}
         link="cameradetectie"
         title={labels.cameradetectie}
-        image="picture-drain.jpg"
+        image="picture-drain-small.jpg"
         text={labels.cameradetectietext} />
     <DienstBlok
         {labels}
         link="geurdetectie"
         title={labels.geurdetectie}
-        image="picture-buizen.jpg"
+        image="picture-buizen-small.jpg"
         text={labels.geurdetectietext} />
     <DienstBlok
         {labels}
         link="ontkalken"
         title={labels.ontkalken}
-        image="picture-urinoirs.jpg"
+        image="picture-urinoirs-small.jpg"
         text={labels.ontkalkentext}
         last />
     <DienstBlok
         {labels}
         link="adviesaankoopwoning"
         title={labels.adviesaankoopwoning}
-        image="picture-toilet.jpg"
+        image="picture-toilet-small.jpg"
         text={labels.adviesaankoopwoningtext} />
     <DienstBlok
         {labels}
         link="herstellingen"
         title={labels.herstellingen}
-        image="picture-tap.jpg"
+        image="picture-tap-small.jpg"
         text={labels.herstellingentext} />
 
 </div>
