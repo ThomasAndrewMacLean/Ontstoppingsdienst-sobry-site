@@ -1,5 +1,5 @@
 <script>
-    let movieUrl = 'https://files.ontstoppingsdienst-sobry.be/file/ontstoppingsdienst-sobry/sobry-film.mp4';
+    let movieUrl = 'https://files.ontstoppingsdienst-sobry.be/file/ontstoppingsdienst-sobry/sobry-film-2.mp4';
 </script>
 
 <style>

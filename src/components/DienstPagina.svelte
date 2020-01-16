@@ -59,8 +59,6 @@
 
 <svelte:head>
     <title>Ontstoppingsdienst Sobry | {title}</title>
-    <meta name="description" content={quote} />
-    <meta name="keywords" content={(title, quote)} />
 </svelte:head>
 <HeroImage {image} />
 <div class="text-blok">
