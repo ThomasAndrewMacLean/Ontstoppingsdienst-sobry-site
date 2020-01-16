@@ -114,7 +114,7 @@
     <a href={link}>
 
         <div class="image-wrap">
-            <img alt={title} src={image} loading="lazy" />
+            <img alt={title} data-src={image} class="lazyload" loading="lazy" />
         </div>
         <div class={last ? 'last text-blok' : 'text-blok'}>
             <h2>{title}</h2>
