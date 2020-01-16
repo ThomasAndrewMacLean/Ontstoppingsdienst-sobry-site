@@ -90,12 +90,24 @@
     .logo-img {
         margin-right: 2rem;
         width: 90px;
+        height: max-content;
     }
     @media (max-width: 800px) {
         .wide-wrapper {
             flex-direction: column;
             width: 100%;
             padding-left: 3rem;
+        }
+        .social-media {
+            flex-direction: row;
+            width: 150px;
+            justify-content: space-between;
+            padding-top: 2rem;
+        }
+    }
+    @media (max-width: 400px) {
+        .wide-wrapper {
+            padding-left: 1rem;
         }
     }
 </style>

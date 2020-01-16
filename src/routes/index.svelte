@@ -31,6 +31,8 @@
             justify-content: space-between;
         }
     }
+
+   
 </style>
 
 <Hero {labels} />

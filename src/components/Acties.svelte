@@ -38,11 +38,6 @@
         }
     }
 
-    @media (max-width: 900px) {
-        .acties {
-            /* top: 333px; */
-        }
-    }
     @media (max-width: 800px) {
         .acties {
             position: absolute;
@@ -51,6 +46,14 @@
             height: 100px;
             width: 100px;
             font-size: 1.3rem;
+        }
+    }
+    @media (max-width: 600px) {
+        .acties {
+            position: fixed;
+            width: 100vw;
+            border-radius: 0;
+            top: 0;
         }
     }
 </style>
