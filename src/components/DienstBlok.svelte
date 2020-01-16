@@ -114,7 +114,11 @@
     <a href={link}>
 
         <div class="image-wrap">
-            <img alt={title} data-src={'https://files.ontstoppingsdienst-sobry.be/file/ontstoppingsdienst-sobry/' +image} class="lazyload" loading="lazy" />
+            <img
+                alt={title}
+                data-src={'https://files.ontstoppingsdienst-sobry.be/file/ontstoppingsdienst-sobry/' + image}
+                class="lazyload"
+                loading="lazy" />
         </div>
         <div class={last ? 'last text-blok' : 'text-blok'}>
             <h2>{title}</h2>
