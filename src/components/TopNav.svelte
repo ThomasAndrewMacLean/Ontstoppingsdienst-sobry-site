@@ -94,7 +94,10 @@
                 <a class={segment === 'tips' ? 'nav-item active' : 'nav-item'} href="/tips/">Tips</a>
             </li>
             <li>
-                <a class={segment === 'contact' ? 'nav-item active' : 'nav-item'} href="/contact/">Contact</a>
+                <a class={segment === 'contact' || segment === 'bedankt' ? 'nav-item active' : 'nav-item'} href="/contact/">Contact</a>
+            </li>
+             <li hidden>
+                <a href="/bedankt/">Bedankt</a>
             </li>
         </ul>
     </div>
