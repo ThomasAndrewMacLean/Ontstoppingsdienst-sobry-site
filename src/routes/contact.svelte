@@ -23,8 +23,8 @@
 
     const submitForm = e => {
         e.preventDefault();
-
         verstuurd = true;
+
         fetch(cloudFunctionUrl, {
             method: 'POST',
             headers: {
@@ -39,7 +39,9 @@
                 telephone: e.target.telephone.value,
                 message: e.target.message.value,
             }),
-        });
+        }).then(() => {
+            window.location.href = 'bedankt'
+        })
     };
 </script>
 
