@@ -82,19 +82,34 @@ Elewijt`;
 const test = `Sint-Margriete, Sint-Jan-In-Eremo, Waterland-Oudeman`;
 
 var fs = require('fs');
-fs.readFile('./templatefile.txt', 'utf8', function(err, data) {
-    if (err) {
-        return console.log(err);
-    }
+// fs.readFile('./templatefile.txt', 'utf8', function(err, data) {
+//     if (err) {
+//         return console.log(err);
+//     }
 
-    const cittt = cities.split(',');
+//     const cittt = cities.split(',');
 
-    cittt.forEach(c => {
-        console.log(c);
-        var result = data.replace(/CITY/g, c);
+//     cittt.forEach(c => {
+//         console.log(c);
+//         var result = data.replace(/CITY/g, c);
 
-        fs.writeFile('./src/routes/gemeenten/' + c.toLowerCase().trim() + '.svelte', result, 'utf8', function(err) {
-            if (err) return console.log(err);
-        });
-    });
+//         fs.writeFile('./src/routes/gemeenten/' + c.toLowerCase().trim() + '.svelte', result, 'utf8', function(err) {
+//             if (err) return console.log(err);
+//         });
+//     });
+// });
+
+const siteMap = ` <url>
+<loc>https://ontstoppingsdienst-sobry.be/gemeenten/CITY</loc>
+</url>`;
+
+const cittt = cities.split(',');
+let xxx = '';
+cittt.forEach(c => {
+    console.log(c);
+    var result = siteMap.replace(/CITY/g, c.toLowerCase().trim());
+    xxx += result;
+});
+fs.writeFile('./zzztest.txt', xxx, 'utf8', function(err) {
+    if (err) return console.log(err);
 });
