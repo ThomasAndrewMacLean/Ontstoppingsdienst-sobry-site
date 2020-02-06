@@ -33,6 +33,14 @@
     }
 </style>
 
+<svelte:head>
+    <title>Ontstoppingsdienst Sobry | 0467/00.50.50</title>
+    <meta
+        name="description"
+        content="Ontstoppingsdienst Sobry. Vakkundig en Proper opgelost! 24/7 bereikbaar. Jarenlange Ervaring.
+        Totaaloplossingen. Transparante prijs." />
+    <meta name="keywords" content="Ontstoppingsdienst Sobry, Over mij" />
+</svelte:head>
 <Hero {labels} />
 <h1>Ontstoppingsdienst Sobry</h1>
 <ul>

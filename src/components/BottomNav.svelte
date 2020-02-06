@@ -135,20 +135,7 @@
             </ul>
         </div>
         <div class="social-media">
-            <!-- <a class="social-link" href="https://facebook.com" target="_blank" >
-                <img class="social-media-icon" src="facebook_footer.png" alt="" />
-                <span class="social-media-background" />
-            </a>
-            <a class="social-link" href="https://instagram.com" target="_blank" >
-                <img class="social-media-icon" src="instagram_footer.png" alt="" />
-                <span class="social-media-background" />
-            </a>
-             -->
-            <!-- <a class="social-link" href="https://youtube.com" target="_blank" >
-                <img class="social-media-icon" src="youtube_footer.png" alt="" />
-                <span class="social-media-background" />
-            </a> -->
-            <a class="social-link" href="https://www.linkedin.com/in/ontstoppingsdienst-sobry" target="_blank"  rel="noopener noreferrer">
+            <a class="linkedin-link social-link" href="https://www.linkedin.com/in/ontstoppingsdienst-sobry" target="_blank"  rel="noopener noreferrer">
 
                 <svg
                     class="social-media-icon-linkedin feather feather-linkedin"
@@ -168,7 +155,7 @@
                 <span class="social-media-background-linkedin" />
             </a>
 
-            <a class="social-link" href="https://www.youtube.com/channel/UCSBVLFeVuLjvPQPPuQl9rWw" target="_blank"  rel="noopener noreferrer">
+            <a class="youtube-link social-link" href="https://www.youtube.com/channel/UCSBVLFeVuLjvPQPPuQl9rWw" target="_blank"  rel="noopener noreferrer">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -188,7 +175,7 @@
                 </svg>
                 <span class="social-media-background-linkedin" />
             </a>
-            <a class="social-link" href="https://www.facebook.com/ontstoppingsdienstsobry/" target="_blank"  rel="noopener noreferrer">
+            <a class="facebook-link social-link" href="https://www.facebook.com/ontstoppingsdienstsobry/" target="_blank"  rel="noopener noreferrer">
 
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

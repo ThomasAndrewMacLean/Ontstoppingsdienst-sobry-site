@@ -48,7 +48,7 @@
 <!-- markup (zero or more items) goes here -->
 <div>
     <a rel="prefetch" href={link}>
-        <img src={icon} alt={name} />
+        <img src={'https://files.ontstoppingsdienst-sobry.be/file/ontstoppingsdienst-sobry/' + icon} alt={name} />
         <h4 class={segment === link ? 'active-link' : ''}>{name}</h4>
     </a>
 </div>
