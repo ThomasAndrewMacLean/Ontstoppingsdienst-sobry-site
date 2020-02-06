@@ -101,5 +101,13 @@
         </p>
 
     </div>
+    
+    
+    <h4>Externe links</h4>
+        
+        <ul>
+            <li><a href="https://www.loodgieter-info.be" title="Loodgieter">www.loodgieter-info.be</a></li>
+    </ul>
+    
 </div>
 <FloatingAfspraak {labels} />
