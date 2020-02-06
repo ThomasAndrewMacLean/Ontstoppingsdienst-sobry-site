@@ -1,11 +1,11 @@
 <script>
-    import DienstBlok from '../components/DienstBlok.svelte';
-    import Reviews from '../components/Reviews.svelte';
-    import Hero from '../components/Hero.svelte';
-    import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
+    import DienstBlok from '../../components/DienstBlok.svelte';
+    import Reviews from '../../components/Reviews.svelte';
+    import Hero from '../../components/Hero.svelte';
+    import FloatingAfspraak from '../../components/FloatingAfspraak.svelte';
 
     // import MovieHero from '../components/MovieHero.svelte';
-    import labels from '../labels.js';
+    import labels from '../../labels.js';
 </script>
 
 <style>
@@ -34,15 +34,15 @@
 </style>
 
 <svelte:head>
-    <title>Ontstoppingsdienst Sobry | 0467/00.50.50</title>
+    <title>Ontstoppingsdienst Sobry | CITY | 0467/00.50.50</title>
     <meta
         name="description"
-        content="Ontstoppingsdienst Sobry. Vakkundig en Proper opgelost! 24/7 bereikbaar. Jarenlange Ervaring.
+        content="Ontstoppingsdienst Sobry. CITY Vakkundig en Proper opgelost! 24/7 bereikbaar. Jarenlange Ervaring.
         Totaaloplossingen. Transparante prijs." />
     <meta name="keywords" content="Ontstoppingsdienst Sobry, Over mij" />
 </svelte:head>
 <Hero {labels} />
-<h1>Ontstoppingsdienst Sobry</h1>
+<h1>Ontstopper nodig in CITY? Ontstoppingsdienst Sobry!</h1>
 <ul>
     <li>
         <h3>Snel ter plaatse</h3>
@@ -100,3 +100,4 @@
 </div>
 <Reviews />
 <FloatingAfspraak {labels} />
+
