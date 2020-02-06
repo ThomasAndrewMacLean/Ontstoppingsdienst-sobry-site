@@ -1,8 +1,7 @@
 const cities = `Gent, Mariakerke, Drongen, Wondelgem, Sint-amandsberg, Oostakker, Desteldonk, Mendonk,
 Sint-kruis-winkel, Ledeberg, Gentbrugge, Afsnee, Sint-denijs-westrem, Zwijnaarde, Zelzate,
 Destelbergen, Heusden, Zeveneken, Beervelde, Lochristi, Zaffelare, Gontrode, Melle,
-Nieuwkerken-Waas, Sint-Niklaas, Belsele, Sinaai-Waas, Melsele, Beveren-Waas, Kallo
-(Beveren-Waas), Vrasene, Haasdonk, Kieldrecht, Verrebroek, Kallo (Kieldrecht), Doel, Steendorp,
+Nieuwkerken-Waas, Sint-Niklaas, Belsele, Sinaai-Waas, Melsele, Beveren-Waas, Vrasene, Haasdonk, Kieldrecht, Verrebroek, Kallo, Doel, Steendorp,
 Elversele, Temse, Tielrode, Kruibeke, Bazel, Rupelmonde, Daknam, Eksaarde, Lokeren, De Klinge,
 Sint-Gillis-Waas, Meerdonk, Sint-pauwels, Moerbeke-waas, Wachtebeke, Stekene, Kemzeke, Oudegem,
 Baasrode, Schoonaarde, Sint-gillis-dendermonde, Appels, Grembergen, Dendermonde, Mespelare,
@@ -103,13 +102,15 @@ const siteMap = ` <url>
 <loc>https://ontstoppingsdienst-sobry.be/gemeenten/CITY</loc>
 </url>`;
 
+const link = ` <a href="gemeenten/CITY">CITY</a>`;
+
 const cittt = cities.split(',');
 let xxx = '';
 cittt.forEach(c => {
     console.log(c);
-    var result = siteMap.replace(/CITY/g, c.toLowerCase().trim());
+    var result = link.replace(/CITY/g, c.toLowerCase().trim());
     xxx += result;
 });
-fs.writeFile('./zzztest.txt', xxx, 'utf8', function(err) {
+fs.writeFile('./zzztlinks.txt', xxx, 'utf8', function(err) {
     if (err) return console.log(err);
 });
