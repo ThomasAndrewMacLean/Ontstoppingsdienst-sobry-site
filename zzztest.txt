@@ -57,8 +57,7 @@
 </url> <url>
 <loc>https://ontstoppingsdienst-sobry.be/gemeenten/beveren-waas</loc>
 </url> <url>
-<loc>https://ontstoppingsdienst-sobry.be/gemeenten/kallo
-(beveren-waas)</loc>
+<loc>https://ontstoppingsdienst-sobry.be/gemeenten/kallo</loc>
 </url> <url>
 <loc>https://ontstoppingsdienst-sobry.be/gemeenten/vrasene</loc>
 </url> <url>
@@ -67,8 +66,6 @@
 <loc>https://ontstoppingsdienst-sobry.be/gemeenten/kieldrecht</loc>
 </url> <url>
 <loc>https://ontstoppingsdienst-sobry.be/gemeenten/verrebroek</loc>
-</url> <url>
-<loc>https://ontstoppingsdienst-sobry.be/gemeenten/kallo (kieldrecht)</loc>
 </url> <url>
 <loc>https://ontstoppingsdienst-sobry.be/gemeenten/doel</loc>
 </url> <url>
