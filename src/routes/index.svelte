@@ -67,7 +67,7 @@
         text={labels.ontstoppentext} />
     <DienstBlok
         {labels}
-        link="cameradetectie"
+        link="camera-inspectie"
         title={labels.cameradetectie}
         image="picture-drain-small.jpg"
         text={labels.cameradetectietext} />
