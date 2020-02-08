@@ -4,7 +4,7 @@ const labels = {
     ontstoppen: 'Ontstoppen',
     ontstoppentext:
         'Ontstoppingen & Verstoppingen geven tal van ongemakken. Je dagelijks comfort in je huis of in je bedrijfspand wordt ernstig verstoord. Denk aan een verstopte WC of water dat niet wegstroomt in je bad, lavabo en/of gootsteen, … Dit kan tevens hinderlijke afvoergeuren.',
-    cameradetectie: 'Cameradetectie',
+    cameradetectie: 'Camera inspectie',
     cameradetectietext:
         'Uw rioolprobleem, putten en leidingen detecteren Een riolering kan om verschillende redenen aan herstelling toe zijn: verzakkingen, roest, ingegroeide boomwortels, of gewoon slijtage. Vermoed u dat er een probleem is in uw riool, maar kunt u de oorzaak niet vinden? Aan de hand van een cameradetectie kunt u het probleem detecteren.',
     geurdetectie: 'Geurdetectie',
