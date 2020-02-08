@@ -86,7 +86,9 @@
 
 <div class="image-wrap">
     {#if image && !showLargeImage}
-        <div class="full-width-picture" style="background-image:url({image})" />
+        <div
+            class="full-width-picture"
+            style="background-image:url({'https://files.ontstoppingsdienst-sobry.be/file/ontstoppingsdienst-sobry/' + image})" />
     {/if}
     {#if image2 && showLargeImage}
         <div class="full-width-picture" style="background-image:url({image2})" />

@@ -65,15 +65,16 @@
     }
 </style>
 
-
-
 <svelte:head>
     <title>Ontstoppingsdienst Sobry | Tips & Tricks</title>
     <meta name="description" content="Hoe kan je snel je WC ontstoppen?" />
     <meta name="keywords" content="Ontstoppingsdienst Sobry, Tips en Tricks, Hoe kan je snel je WC ontstoppen?" />
 </svelte:head>
 <div class="image-wrap">
-    <img class="full-width-picture" src="picture-buizen.jpg" alt="image of pipes" />
+    <img
+        class="full-width-picture"
+        src="https://files.ontstoppingsdienst-sobry.be/file/ontstoppingsdienst-sobry/picture-buizen.jpg"
+        alt="image of pipes" />
 
     <img class="logo" src="logo_transparant.png" alt="sobry logo overlay" />
 </div>
