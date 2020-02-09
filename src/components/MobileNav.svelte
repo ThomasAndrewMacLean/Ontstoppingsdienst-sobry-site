@@ -149,7 +149,7 @@
 
                 </li>
                 <li>
-                    <a on:click={toggleNav} href="/cameradetectie">{labels.cameradetectie}</a>
+                    <a on:click={toggleNav} href="/camera-inspectie">{labels.cameradetectie}</a>
                 </li>
                 <li>
                     <a on:click={toggleNav} href="/geurdetectie">{labels.geurdetectie}</a>
