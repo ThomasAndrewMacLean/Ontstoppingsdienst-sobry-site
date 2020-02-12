@@ -201,7 +201,7 @@
                 <a class="hoverball" rel="prefetch" href="ontstoppen/">{labels.ontstoppen}</a>
             </li>
             <li>
-                <a class="hoverball" rel="prefetch" href="cameradetectie/">{labels.cameradetectie}</a>
+                <a class="hoverball" rel="prefetch" href="camera-inspectie/">{labels.cameradetectie}</a>
             </li>
             <li>
                 <a class="hoverball" rel="prefetch" href="geurdetectie/">{labels.geurdetectie}</a>
