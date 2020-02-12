@@ -43,7 +43,7 @@
                 <NavItem name={labels.ontstoppen} {segment} link="ontstoppen/" icon="ONTSTOPPEN.png" />
             </li>
             <li>
-                <NavItem name={labels.cameradetectie} {segment} link="cameradetectie/" icon="CAMERA.png" />
+                <NavItem name={labels.cameradetectie} {segment} link="camera-inspectie/" icon="CAMERA.png" />
             </li>
             <li>
                 <NavItem name={labels.geurdetectie} {segment} link="geurdetectie/" icon="GEUR.png" />
