@@ -61,5 +61,5 @@
 <div bind:this={discount} class="acties hide">
     Winteractie!
     <br />
-    -10% Korting
+    140 EURO
 </div>

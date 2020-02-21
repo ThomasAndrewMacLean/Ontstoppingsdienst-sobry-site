@@ -22,7 +22,7 @@
     putjes, een septische put/beerput in de tuin of onder de oprit ligt. Vaak gaat het over een hoofd geziene put door
     de bouwheer of door de vorige eigenaars, die het niet esthetisch vonden om een zichtbaar deksel te hebben op de
     oprit. Met de camera zoekt ontstoppingsdienst Sobry de put op en doormiddel van een detectie systeem (sonar) kan
-    ontoppingsdienst Sobry de plaats lokaliseren.
+    ontstoppingsdienst Sobry de plaats lokaliseren.
 </p>
 
 <p>
@@ -32,7 +32,7 @@
     verzekeringsmaatschappij, gemeente, aanemer of verhuurder/huurder van een woning.
 </p>
 
-<h3>Enkele voorbeelden van een problematische riolering die voor een verstopping kunnen zoorgen:</h3>
+<h3>Enkele voorbeelden van een problematische riolering die voor een verstopping kunnen zorgen:</h3>
 <ul>
 
     <li>Kalkafzetting in een afvoerbuis of riool</li>
@@ -66,7 +66,7 @@
 </script>
 
 <style>
-    
+
 </style>
 
 <DienstPagina
