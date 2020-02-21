@@ -28,6 +28,7 @@
         justify-content: center;
         align-items: center;
         text-transform: uppercase;
+        text-align: center;
         transition: left 200ms ease-in;
         z-index: 1;
     }
