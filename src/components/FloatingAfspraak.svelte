@@ -23,7 +23,18 @@
         transition: bottom 200ms ease-in;
     }
     img {
-        transform: translateX(10px);
+        position: absolute;
+        left: -6px;
+        bottom: -6px;
+    }
+    a {
+        font-size: 2rem;
+        font-family: GothicHeader, 'Playfair Display', serif;
+        background: #344d9c;
+        background: var(--accent-secondary);
+        padding-left: 10px;
+        padding-right: 15px;
+        position: relative;
     }
 
     @media (max-width: 600px) {
@@ -35,6 +46,10 @@
 
 <div class="afspraak afspraakOnder">
     <a href="tel:0467005050">
-        <img src="telefoonnummer.png" alt="telefoonnummer" />
+        <span>0467</span>
+        <span>00</span>
+        <span>50</span>
+        <span>50</span>
+        <img src="telefoon_blauw.png" alt="telefoonnummer" />
     </a>
 </div>
