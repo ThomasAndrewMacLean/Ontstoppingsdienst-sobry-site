@@ -1,123 +1,134 @@
 <!DOCTYPE html>
 <html lang="nl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="theme-color" content="#333333" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Plumber",
+                "name": "Ontstoppingsdienst Sobry",
+                "image": "https://ontstoppingsdienst-sobry.be/sobry-og-logo.png",
+                "@id": "https://ontstoppingsdienst-sobry.be",
+                "url": "https://ontstoppingsdienst-sobry.be",
+                "telephone": "0032467005050",
+                "priceRange": "80-160€",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "hillarestraat 175",
+                    "addressLocality": "Lokeren",
+                    "postalCode": "9160",
+                    "addressCountry": "BE"
+                },
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                    "opens": "00:00",
+                    "closes": "23:59"
+                },
+                "sameAs": [
+                    "https://www.youtube.com/channel/UCSBVLFeVuLjvPQPPuQl9rWw",
+                    "https://www.linkedin.com/in/ontstoppingsdienst-sobry",
+                    "https://www.facebook.com/ontstoppingsdienstsobry/"
+                ]
+            }
+        </script>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta name="theme-color" content="#333333" />
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Plumber",
-            "name": "Ontstoppingsdienst Sobry",
-            "image": "https://ontstoppingsdienst-sobry.be/sobry-og-logo.png",
-            "@id": "https://ontstoppingsdienst-sobry.be",
-            "url": "https://ontstoppingsdienst-sobry.be",
-            "telephone": "0032467005050",
-            "priceRange": "80-160€",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "hillarestraat 175",
-                "addressLocality": "Lokeren",
-                "postalCode": "9160",
-                "addressCountry": "BE"
-            },
-            "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                ],
-                "opens": "00:00",
-                "closes": "23:59"
-            },
-            "sameAs": [
-                "https://www.youtube.com/channel/UCSBVLFeVuLjvPQPPuQl9rWw",
-                "https://www.linkedin.com/in/ontstoppingsdienst-sobry",
-                "https://www.facebook.com/ontstoppingsdienstsobry/"
-            ]
-        }
-    </script>
+        %sapper.base%
 
-    %sapper.base%
+        <link rel="stylesheet" href="global.css" />
+        <link rel="manifest" href="manifest.json" />
+        <link rel="canonical" href="https://ontstoppingsdienst-sobry.be" />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110018468-14"></script>
 
-    <link rel="stylesheet" href="global.css" />
-    <link rel="manifest" href="manifest.json" />
-    <link rel="canonical" href="https://ontstoppingsdienst-sobry.be" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display&display=swap" rel="stylesheet" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110018468-14"></script>
+        <meta
+            name="keywords"
+            content="Vakkundig en Proper opgelost! 24/7 bereikbaar. Jarenlange Ervaring. Totaaloplossingen. Transparante prijs. Services: Ontstoppingsdienst, Camera inspectie, geurdetectie."
+        />
 
-   <meta name="keywords"
-        content="Vakkundig en Proper opgelost! 24/7 bereikbaar. Jarenlange Ervaring. Totaaloplossingen. Transparante prijs. Services: Ontstoppingsdienst, Camera inspectie, geurdetectie." />
+        <meta property="og:site_name" content="Ontstoppingsdienst Sobry" />
+        <meta property="og:type" content="website" />
 
-    <meta property="og:site_name" content="Ontstoppingsdienst Sobry" />
-    <meta property="og:type" content="website" />
+        <meta property="og:title" content="Ontstoppingsdienst Sobry | 0467/00.50.50" />
+        <meta property="og:url" content="https://ontstoppingsdienst-sobry.be/" />
+        <meta
+            property="og:description"
+            content="Ontstoppingsdienst Sobry. Vakkundig en Proper opgelost! 24/7 bereikbaar. Jarenlange Ervaring. Totaaloplossingen. Transparante prijs."
+        />
+        <meta property="og:image" itemprop="image" content="https://ontstoppingsdienst-sobry.be/sobry-og-logo.png" />
+        <meta property="og:image:width" content="256" />
+        <meta property="og:image:height" content="256" />
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-    <meta property="og:title" content="Ontstoppingsdienst Sobry | 0467/00.50.50" />
-    <meta property="og:url" content="https://ontstoppingsdienst-sobry.be/" />
-    <meta property="og:description"
-        content="Ontstoppingsdienst Sobry. Vakkundig en Proper opgelost! 24/7 bereikbaar. Jarenlange Ervaring. Totaaloplossingen. Transparante prijs." />
-    <meta property="og:image" itemprop="image" content="https://ontstoppingsdienst-sobry.be/sobry-og-logo.png" />
-    <meta property="og:image:width" content="256">
-    <meta property="og:image:height" content="256">
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-
-    <!-- Sapper generates a <style> tag containing critical CSS
+        <!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
 	     lazily loaded when it precaches secondary pages -->
-    %sapper.styles%
+        %sapper.styles%
 
-    <!-- This contains the contents of the <svelte:head> component, if
+        <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
-    %sapper.head%
-</head>
+        %sapper.head%
 
-<body>
-    <!-- The application will be rendered inside this element,
+        <!-- Event snippet for Lead conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+            function gtag_report_conversion(url) {
+                var callback = function() {
+                    if (typeof url != 'undefined') {
+                        window.location = url;
+                    }
+                };
+                gtag('event', 'conversion', { send_to: 'AW-676554773/8kmsCLjPysgBEJXQzcIC', event_callback: callback });
+                return false;
+            }
+        </script>
+    </head>
+
+    <body>
+        <!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-    <div id="sapper">%sapper.html%</div>
+        <div id="sapper">%sapper.html%</div>
 
-    <!-- Sapper creates a <script> tag containing `src/client.js`
+        <!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
-    %sapper.scripts%
+        %sapper.scripts%
 
-    <script>
-        window.addEventListener('beforeinstallprompt', function (e) {
-            e.preventDefault();
-            return false;
-        });
-    </script>
+        <script>
+            window.addEventListener('beforeinstallprompt', function(e) {
+                e.preventDefault();
+                return false;
+            });
+        </script>
 
-    <!-- Google Tag Manager -->
-    <script>
-        // GDPR
-        if (document.cookie.indexOf('stakoekjestoe=true') !== -1) {
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js',
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-58FH3KJ');
-        }
-    </script>
-    <!-- End Google Tag Manager -->
-    <script>
-        if (window && window.location && window.location.host === 'ontstoppingsdienst-sobry.be') {
+        <!-- Google Tag Manager -->
+        <script>
+            // GDPR
+            if (document.cookie.indexOf('stakoekjestoe=true') !== -1) {
+                (function(w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({
+                        'gtm.start': new Date().getTime(),
+                        event: 'gtm.js',
+                    });
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-58FH3KJ');
+            }
+        </script>
+        <!-- End Google Tag Manager -->
+        <script>
+            // if (window && window.location && window.location.host === 'ontstoppingsdienst-sobry.be') {
             // GDPR
             if (document.cookie.indexOf('stakoekjestoe=true') !== -1) {
                 window.dataLayer = window.dataLayer || [];
@@ -126,13 +137,13 @@
                     dataLayer.push(arguments);
                 }
                 gtag('js', new Date());
+                gtag('config', 'AW-676554773');
 
                 gtag('config', 'UA-110018468-14');
             }
-        }
-    </script>
-      <script src="lazysizes.min.js" async></script>
-      <!-- Images End -->
-</body>
-
+            //  }
+        </script>
+        <script src="lazysizes.min.js" async></script>
+        <!-- Images End -->
+    </body>
 </html>

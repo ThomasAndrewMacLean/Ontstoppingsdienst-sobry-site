@@ -45,7 +45,7 @@
 </style>
 
 <div class="afspraak afspraakOnder">
-    <a href="tel:0467005050">
+    <a onclick="return gtag_report_conversion('tel:0467005050');" href="tel:0467005050">
         <span>0467</span>
         <span>00</span>
         <span>50</span>
