@@ -3,7 +3,7 @@
     import Reviews from '../components/Reviews.svelte';
     import Hero from '../components/Hero.svelte';
     import FloatingAfspraak from '../components/FloatingAfspraak.svelte';
-
+    import Partners from '../components/Partners.svelte';
     // import MovieHero from '../components/MovieHero.svelte';
     import labels from '../labels.js';
 </script>
@@ -21,6 +21,10 @@
         }
         h1 {
             margin: 1rem;
+        }
+        p {
+            margin: 1rem 1rem 2rem;
+            line-height: 1.7rem;
         }
     }
     /* TURN ON FOR 3 COLUMNS */
@@ -43,6 +47,13 @@
 </svelte:head>
 <Hero {labels} />
 <h1>Ontstoppingsdienst Sobry</h1>
+
+<p>
+    Voor alle riolering problemen(verstopte wc, lavabo, bad, gootsteen, leidingen, verzakking, breuk,….)kan u
+    Ontstoppingsdienst-Sobry contacteren? Ontstoppen, camera inspectie/cameraonderzoek riolering, geurdetectie voor elk
+    probleem is er een oplossing.Ik ben snel ter plaatse, geef je persoonlijke service, problemen worden vakkundig en
+    proper opgelost, en dit aan vaste prijzen.
+</p>
 <ul>
     <li>
         <h3>Snel ter plaatse</h3>
@@ -99,4 +110,5 @@
 
 </div>
 <Reviews />
+<Partners />
 <FloatingAfspraak {labels} />

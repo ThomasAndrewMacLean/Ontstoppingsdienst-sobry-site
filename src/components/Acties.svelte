@@ -41,9 +41,9 @@
 
     @media (max-width: 800px) {
         .acties {
-            position: absolute;
+            position: fixed;
             top: 15vh;
-            left: 0 !important;
+            left: 15px !important;
             height: 100px;
             width: 100px;
             font-size: 1.3rem;
@@ -55,6 +55,7 @@
             width: 100vw;
             border-radius: 0;
             top: 0;
+            left: 0 !important;
         }
     }
 </style>
