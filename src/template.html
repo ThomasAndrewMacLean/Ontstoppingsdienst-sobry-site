@@ -91,6 +91,15 @@
     </head>
 
     <body>
+        <script type="text/javascript">
+            var script = document.createElement('script');
+            script.async = true;
+            script.type = 'text/javascript';
+            var target = 'https://www.clickcease.com/monitor/stat.js';
+            script.src = target;
+            var elem = document.head;
+            elem.appendChild(script);
+        </script>
         <!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
         <div id="sapper">%sapper.html%</div>
